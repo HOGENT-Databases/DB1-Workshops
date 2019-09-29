@@ -117,7 +117,7 @@ Elke `locatie` heeft een `unieke naam`, een `adres`, `telefoonnummer` en een `ma
 
 Elk `concert` heeft een `unieke naam` (vb Polonaise festival). Er moet kunnen opgevraagd worden op welke `datum` het concert doorgaat, het `begin`- en `einduur`, de `locatie` waar het doorgaat, welke `artiesten` optreden en welke `prijscategorieën` er zijn.​ 
 
-Van elke `artiest` worden een `unieke code`, `naam`, `nationaliteit`, `prijs per uur` en een korte `omschrijving` bijgehouden 
+Van elke `artiest` wordt een `unieke code`, `naam`, `nationaliteit`, `prijs per uur` en een korte `omschrijving` bijgehouden 
 ### Voorbeeld Artiest
 | Code 	| Naam        	| Nationaliteit 	| Prijs Per Uur 	| Omschrijving                                                                                         	|
 |------	|-------------	|---------------	|---------------	|------------------------------------------------------------------------------------------------------	|
