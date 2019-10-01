@@ -1,4 +1,4 @@
-## Oefening 7 - Couckenbak
+## Oefening 7 - Voorraadbeheer
 ## Oplossing
 
 <img src="./exercise-7.svg">

@@ -1,4 +1,4 @@
-# Oefening 4 - Personeel Uitbreiding
+# Oefening 4 - Bedrijf : Afdelingshoofd
 Merk op dat:
 - `Telefoonnummer` komt er simpelweg bij, de **kandidaatsleutel** wijzigt niet.
 - Er geen extra **entiteitstypes** zijn.

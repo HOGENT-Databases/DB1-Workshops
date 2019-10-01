@@ -1,4 +1,4 @@
-# Oefening 1 - Personeel
+# Oefening 1 - Bedrijf : Personeel
 
 ## Oplossing
 1. Welke **entiteitstypes** zijn er ?

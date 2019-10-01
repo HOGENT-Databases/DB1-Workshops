@@ -1,6 +1,6 @@
 # 02 - Workshop Conceptueel Model
 
-## Oefening 1 - Personeel
+## Oefening 1 - Bedrijf : Personeel
 Een bedrijf wil een databank laten ontwerpen om de gegevens over de personeelsleden in op te slaan. Het moet mogelijk zijn om een lijst af te drukken met de personeelsleden per afdeling.
 
 ### Voorbeeld van de lijst
@@ -31,7 +31,7 @@ Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-1.m
 
 ---
 
-## Oefening 2 - Personeel : ERD
+## Oefening 2 - Bedrijf : ERD
 Maak het ERD op basis van de [verworven kennis](solutions/exercise-1.md) uit de vorige oefening.
 
 ### Opdracht
@@ -45,7 +45,7 @@ Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-2.m
 
 ---
 
-## Oefening 3 - Personeel : Loonbarema
+## Oefening 3 - Bedrijf : Loonbarema
 > Deze oefening werkt verder op oefening 2.
 
 Het moet ook mogelijk zijn om een lijst af te drukken met de `personeelsleden` per `loonbarema`. Een `loonbarema` bepaalt het bruto `maandloon` dat het `personeelslid` verdient. Per 5 jaar dienst krijgt het personeelslid ook 10% anciënniteitspremie.​
@@ -81,7 +81,7 @@ Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-3.m
 
 ---
 
-## Oefening 4 - Personeel : Afdelingshoofd
+## Oefening 4 - Bedrijf : Afdelingshoofd
 > Deze oefening werkt verder op oefening 3.
 
 Elke `afdeling` heeft één `afdelingshoofd`. Elke `afdeling` heeft één (uniek) telefoonnummer.​ Het `personeelslid` dat hoofd is van een `afdeling`, kan maar hoofd zijn van één afdeling.
@@ -108,7 +108,6 @@ Graag hadden we de volgende lijst afgedrukt:
 Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-4.md)
 
 ---
-
 
 ## Oefening 5 - Concerten
 Teleticket Service NV verkoopt tickets voor allerlei `concert`en. Bvb.  voor  het sportpaleis in Antwerpen, de AB in Brussel, de concertwei Werchter, Flanders expo in Gent, … . 
@@ -168,7 +167,7 @@ Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-6.m
 
 ---
 
-## Oefening 7 - Couckenbak
+## Oefening 7 - Voorraadbeheer
 Een koekjesfabrikant wil zijn voorraadbeheer automatiseren en heeft daarvoor informatie nodig over zijn `producten`, `grondstoffen`, `leveranciers` . . . ​
 
 In de databank wil de fabrikant gegevens opslaan over zijn `leveranciers`.​

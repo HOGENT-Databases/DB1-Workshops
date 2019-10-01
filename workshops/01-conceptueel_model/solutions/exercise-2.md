@@ -1,4 +1,4 @@
-# Oefening 2 - Personeel
+# Oefening 2 - Bedrijf : ERD
 Merk op dat:
 - `Leeftijd` geen attribuut is, dit kan berekend worden door de `geboortedatum`
 - `Naam` en `Voornaam` afzonderlijk worden opgeslagen.
