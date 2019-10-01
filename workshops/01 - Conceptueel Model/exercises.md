@@ -115,7 +115,7 @@ Teleticket Service NV verkoopt tickets voor allerlei `concert`en. Bvb.  voor  he
 
 Elke `locatie` heeft een `unieke naam`, een `adres`, `telefoonnummer` en een `maximumcapaciteit`.​ Ontwerp een databank om de geplande `concerten` bij te houden. Eens een `concert` afgelopen is, wordt het verwijderd uit de databank.​ 
 
-Elk `concert` heeft een `unieke naam` (vb Polonaise festival). Er moet kunnen opgevraagd worden op welke `datum` het concert doorgaat, het `begin`- en `einduur`, de `locatie` waar het doorgaat, welke `artiesten` optreden en welke `prijscategorieën` er zijn.​ Een locatie kan gebruikt worden voor meerdere concerten, denk maar aan Torhout Werchter en TW Classic.
+Elk `concert` heeft een `unieke naam` (vb Polonaise festival). Er moet kunnen opgevraagd worden op welke `datum` het concert doorgaat, het `begin`- en `einduur`, de `locatie` waar het doorgaat, welke `artiesten` optreden en welke `prijscategorieën` er zijn.​
 
 Van elke `artiest` wordt een `unieke code`, `naam`, `nationaliteit`, `prijs per uur` en een korte `omschrijving` bijgehouden 
 ### Voorbeeld Artiest
@@ -124,7 +124,6 @@ Van elke `artiest` wordt een `unieke code`, `naam`, `nationaliteit`, `prijs per 
 | 1002 	| Frans Bauer 	| Nederlander   	| 50            	| Bekroonde zanger van het Nederlandstalig levenslied                                                  	|
 | 1003 	| Slayer      	| Amerikaans    	| 200           	| Een Amerikaanse thrashmetalband die in 1981 opgericht is door gitaristen Jeff Hanneman en Kerry King.	|
 | ...  	| ...         	| ...           	| ...           	|                                                                                                      	|
-
 
 Elke `prijscategorie` heeft zijn eigen `code`, `naam` en `prijs`, elk concert heeft minstens 1 prijscategorie. ​
 ### Voorbeeld Prijscategorie
