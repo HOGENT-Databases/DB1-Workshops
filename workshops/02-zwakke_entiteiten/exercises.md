@@ -20,7 +20,7 @@ Teken het ERD schema op basis van de volgende gegevens.
 ### Opdracht
 1. Teken de **entiteitstypes**
 2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
-3. Teken de **relatiestypes** in beide richtingen
+3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutel** voor `Hotel`
 5. Teken de **kandidaatsleutel** voor `Kamer`
     - Merk op dat een `KamerNr` niet uniek is, waarom?
@@ -40,7 +40,7 @@ Een school heeft een naam, unieke code, daarnaast heeft een school meerdere gebo
 ### Opdracht
 1. Teken de **entiteitstypes**
 2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
-3. Teken de **relatiestypes** in beide richtingen
+3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 5. Teken de **zwakke entiteiten** op de correcte manier (stippelijn)
 
@@ -69,7 +69,7 @@ Elke `klant` heeft een uniek klantnummer, een naam, adres, telefoon en steeds ee
 ### Opdracht
 1. Breid het ERD schema uit.
 2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
-3. Teken de **relatiestypes** in beide richtingen
+3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 
 ### Oplossing
@@ -98,7 +98,7 @@ Telkens een klant een wijn koopt moet die verkooptransactie bewaard worden in de
 1. Vertrek van het ERD schema uit de vorige oefening (3)
 2. Teken de **entiteitstypes**
 3. Vul de **attribuuttypes** voor de `entiteitstypes` aan
-4. Teken de **relatiestypes** in beide richtingen
+4. Teken de **relaties** in beide richtingen
 5. Teken de **kandidaatsleutels**
 6. Duid de **zwakke entiteitstypes** op de correcte manier aan
 
@@ -117,7 +117,7 @@ Teleticket Service NV verkoopt niet enkel tickets voor éénmalige concerten, ma
 ### Opdracht
 1. Breid het ERD schema uit.
 2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
-3. Teken de **relatiestypes** in beide richtingen
+3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 
 ### Oplossing
