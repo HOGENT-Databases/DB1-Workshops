@@ -70,6 +70,12 @@ Een voorbeeld van zo'n lijst kan er als volgt uitzien:
 | Vereecken Jos 	| 39       	| 3           	| 0                   	| 2000            	|
 | ...           	| ...      	| ...         	| ...                 	|                 	|
 
+
+#### Barema : C 1.000 Euro
+| Naam          	| Leeftijd 	| Dienstjaren 	| Anciënniteitspremie 	| Bruto Maandloon 	|
+|---------------	|----------	|-------------	|---------------------	|-----------------	|
+| ...           	| ...      	| ...         	| ...                 	|                 	|
+
 ### Opdracht
 1. Vertrek van het ERD schema dat je in oefening 2 reeds tekende.
 2. Breid het ERD schema uit zodat de bovenstaande lijst kan afgedrukt worden.

@@ -5,6 +5,10 @@ Merk op dat:
 - `Barema` geen attribuut meer is, maar een **entiteitstype** geworden is.
 - `Anciënniteitspremie` en `maandloon` zijn procesgegevens
     - Op voorwaarde dat elk personeelslid juist 1 `barema` heeft.
+- De `code` van `Barema` kan bijvoorbeeld slaan op het functie niveau van het `Personeelslid`.
+    - A. Management
+    - B. Bedienden
+    - C. ...
 
 ## Oplossing
 
