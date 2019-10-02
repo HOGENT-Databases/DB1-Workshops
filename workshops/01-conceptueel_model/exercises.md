@@ -6,7 +6,7 @@ Een bedrijf wil een databank laten ontwerpen om de gegevens over de personeelsle
 ### Voorbeeld van de lijst
 Een voorbeeld van zo'n lijst kan er als volgt uitzien:
 
-#### Afdeling : 01 - Verkoop
+#### Afdeling : VKP - Verkoop
 | Naam           	| Leeftijd 	| Barema 	| Woonplaats 	|
 |----------------	|----------	|--------	|------------	|
 | Janssens Karel 	| 42       	| A      	| Gent       	|
@@ -14,7 +14,7 @@ Een voorbeeld van zo'n lijst kan er als volgt uitzien:
 | Vereecken Jos  	| 39       	| B      	| Lochristi  	|
 | ...            	| ...      	| ...    	| ...        	|
 
-#### Afdeling : 02 - Productie
+#### Afdeling : PROD - Productie
 | Naam             	| Leeftijd 	| Barema 	| Woonplaats 	|
 |------------------	|----------	|--------	|------------	|
 | Avermaet Filip   	| 42       	| C      	| Gent       	|
@@ -24,7 +24,10 @@ Een voorbeeld van zo'n lijst kan er als volgt uitzien:
 
 ### Opdracht
 1. Welke **entiteitstypes** zijn er ?
-2. Niet alles is duidelijk uit dit voorbeeld dus welke vragen ga je stellen om tot een eenduidig schema te komen?
+2. Niet alles is duidelijk uit dit voorbeeld dus welke vragen ga je stellen om tot een eenduidig schema te komen, bijvoorbeeld:
+    - Hoe wordt een `personeelslid` uniek geïdentificeerd?
+        - Elk `personeelslid` heeft een uniek `personeelsnummer`.
+    - ...
 
 ### Oplossing
 Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-1.md)
@@ -138,6 +141,7 @@ Elke `prijscategorie` heeft zijn eigen `code`, `naam` en `prijs`, elk concert he
 1. Teken de **entiteitstypes**
 2. Lijst alle **attribuuttypes** per **entiteitstype** op
 3. Teken de relaties
+    1. Ga na of alle relaties wel duidelijk genoeg zijn, zorg ervoor dat er geen veronderstellingen zijn. Indien dit wel zo is, duid je de **minimum- en maximum cardinaliteit** aan als volgt: `?..?`.
 4. Bepaalde de **minimum** en **maximum** **cardinaliteit**
 
 ### Oplossing
