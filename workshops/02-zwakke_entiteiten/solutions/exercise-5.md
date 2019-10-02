@@ -10,5 +10,5 @@
 - Voor eenmalige `concerten` wordt 1 `ConcertDag` aangemaakt
     - Een concert heeft minstens 1 `concertdag`.
 
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

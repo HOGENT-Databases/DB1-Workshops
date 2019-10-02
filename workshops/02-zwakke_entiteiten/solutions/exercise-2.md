@@ -2,5 +2,5 @@
 ## Oplossing
 <img src="./exercise-2.svg">
 
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

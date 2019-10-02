@@ -1,13 +1,13 @@
 # Oefening 4 - Bedrijf : Afdelingshoofd
-Merk op dat:
+## Oplossing
+
+<img src="./exercise-4.svg">
+
+## Opmerkingen
 - `Telefoonnummer` komt er simpelweg bij, de **kandidaatsleutel** wijzigt niet.
 - Er geen extra **entiteitstypes** zijn.
     - Er wordt een relatie toegevoegd
     - De bestaande relatie `Afdeling` => `Heeft => PersoneelsLid` is niet meer **optioneel** aangezien een `afdeling` steeds een `afdelingshoofd` moet hebben.
 
-## Oplossing
-
-<img src="./exercise-4.svg">
-
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

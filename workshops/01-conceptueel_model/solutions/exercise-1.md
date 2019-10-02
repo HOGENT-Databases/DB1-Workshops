@@ -15,5 +15,5 @@
     - Moet een `afdeling` `personeelsleden` hebben?
         - Neen, sommige `afdelingen` hebben zelfs geen `personeelsleden`.
         
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

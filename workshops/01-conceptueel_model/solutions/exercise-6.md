@@ -5,5 +5,5 @@ Merk op dat:
 
 <img src="./exercise-6.svg">
 
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

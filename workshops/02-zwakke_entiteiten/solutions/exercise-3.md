@@ -8,5 +8,5 @@
 - Enkel `personeelsleden` van de `afdeling` Verkoop zijn `contactpersonen` 
     - minimum cardinaliteit = 0
 
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

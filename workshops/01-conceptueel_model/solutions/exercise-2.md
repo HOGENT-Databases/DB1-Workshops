@@ -11,6 +11,6 @@ Merk op dat:
 - `Code` voor de entiteit `Afdeling` komt voort uit de lijst
     - VKP
     - PROD
-    
-## Oefenigen
+
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
