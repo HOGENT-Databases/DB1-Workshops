@@ -35,7 +35,7 @@ Een mogelijke oplossing voor deze oefening vind je [hier](solutions/exercise-1.m
 ---
 
 ## Oefening 2 - Scholen
-Een school heeft een naam, unieke code, daarnaast heeft een school meerdere gebouwen. Een gebouw is verplicht gelinked aan 1 school. Een gebouw heeft een unieke code en een naam. Tot slot heeft een gebouw meerdere lokalen, een lokaal is bestaansafhankelijk van een gebouw. Lokalen hebben steeds een nummer en een aantal plaatsen, uiteraard is het mogelijk dat loklaen in bepaalde gebouwen dezelfde nummer hebben. Denk maar aan de gebouwen op campus Schoonmeersen.
+Een school heeft een naam, unieke code, daarnaast heeft een school meerdere gebouwen. Een gebouw is verplicht gelinked aan 1 school. Een gebouw heeft een unieke code en een naam. Tot slot heeft een gebouw meerdere lokalen, een lokaal is bestaansafhankelijk van een gebouw. Lokalen hebben steeds een nummer en een aantal plaatsen, uiteraard is het mogelijk dat lokalen in bepaalde gebouwen dezelfde nummer hebben. Denk maar aan de gebouwen op campus Schoonmeersen.
 
 ### Opdracht
 1. Teken de **entiteitstypes**
