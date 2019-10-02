@@ -9,5 +9,5 @@
 - **Entiteitstype** `Product` kon ook `Wijn` worden genoemd, maar is minder uitbreidbaar naar de toekomst.
 - `Korting`/`aantal` kunnen ook worden voorgesteld als een relatie-attribuut tussen `Klant` en `VerkoopTransactie`.
 
-## Oefenigen
+## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
