@@ -2,7 +2,7 @@
 ## Oefening 5 - Concerten
 Teleticket Service NV verkoopt tickets voor allerlei `concert`en. Bvb.  voor  het sportpaleis in Antwerpen, de AB in Brussel, de concertwei Werchter, Flanders expo in Gent, … . 
 
-Elke `locatie` heeft een `unieke naam`, een `adres`, `telefoonnummer` en een `maximumcapaciteit`.​ Ontwerp een databank om de geplande `concerten` bij te houden. Eens een `concert` afgelopen is, wordt het verwijderd uit de databank.​ 
+Elke `locatie` heeft een `unieke naam`, een `adres`, `telefoonnummer` en een `maximumcapaciteit`.​ Ontwerp een databank om de geplande `concerten` bij te houden. Eens een `concert` afgelopen is, wordt het verwijderd uit de databank. Uiteraard worden de `locaties`, `artiesten` en `prijzen` niet verwijderd als een `concert` afgelopen is.
 
 Elk `concert` heeft een `unieke naam` (vb Polonaise festival). Er moet kunnen opgevraagd worden op welke `datum` het concert doorgaat, het `begin`- en `einduur`, de `locatie` waar het doorgaat, welke `artiesten` optreden en welke `prijscategorieën` er zijn.​
 
@@ -14,7 +14,7 @@ Van elke `artiest` wordt een `unieke code`, `naam`, `nationaliteit`, `prijs per 
 | 1003 	| Slayer      	| Amerikaans    	| 200           	| Een Amerikaanse thrashmetalband die in 1981 opgericht is door gitaristen Jeff Hanneman en Kerry King.	|
 | ...  	| ...         	| ...           	| ...           	|                                                                                                      	|
 
-Elke `prijscategorie` heeft zijn eigen `code`, `naam` en `prijs`, elk concert heeft minstens 1 prijscategorie. ​
+Elke `prijscategorie` heeft zijn eigen unieke `code`, `naam` en `prijs`, elk concert heeft minstens 1 prijscategorie. ​
 ### Voorbeeld Prijscategorie
 | Code 	| Naam              	| Prijs 	|
 |------	|-------------------	|-------	|
