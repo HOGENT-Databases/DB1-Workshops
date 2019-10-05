@@ -5,7 +5,7 @@ Een koekjesfabrikant wil zijn voorraadbeheer automatiseren en heeft daarvoor inf
 In de databank wil de fabrikant gegevens opslaan over zijn `leveranciers`.​
 Hiervan worden de `naam`, de `stad` en de `leveringsvoorwaarden` bijgehouden. Er kunnen alleen 2 leveranciers zijn met dezelfde `naam` als die in **verschillende** `steden` gelegen zijn. ​
 
-Een leverancier levert `grondstoffen` aan. Ook leveranciers die nog maar alleen offertes hebben ingediend en nog geen grondstoffen effectief hebben geleverd, worden in het systeem opgenomen. De informatie van de offertes wordt niet opgeslagen. Binnen het bedrijf wordt de politiek gevolgd om voor elke `grondstof` een backup-leverancier te hebben. Alle `grondstoffen` worden via geregistreerde `leveranciers` aangeleverd.​
+Een leverancier levert `grondstoffen` aan. Ook leveranciers die nog maar alleen offertes hebben ingediend en nog geen grondstoffen effectief hebben geleverd, worden in het systeem opgenomen. De informatie van de offertes wordt niet opgeslagen.  Alle `grondstoffen` worden via geregistreerde `leveranciers` aangeleverd.​
 
 Elke `grondstof` heeft een `unieke code`, een `naam`, `eenheidsprijs` en `aankoopeenheid` (liter, kilogram, ton, …).
 
@@ -21,7 +21,7 @@ Verpakkingsmaterialen hebben een `code` die bestaat uit recycleerbaar of niet, c
 
 Binnen het systeem wordt geen onderscheid gemaakt tussen een `leverancier` van een `grondstof` en een `leverancier` van een soort `verpakking`. Dezelfde regels zijn geldig. ​
 
-De verschillende `leveringen` die door de `leveranciers` gebeuren worden wel bijgehouden in het systeem. We weten hiervan de `besteldatum`, ons `bestelbonnummer` en de aanduiding of die `levering` reeds is `betaald` of niet. De leveringen krijgen een `uniek oplopend leveringsnummer`.
+De verschillende `leveringen` die door de `leveranciers` gebeuren worden wel bijgehouden in het systeem. We weten hiervan de `besteldatum`, ons `bestelbonnummer` en de aanduiding of die `levering` reeds is `betaald` of niet. De leveringen krijgen een `uniek oplopend leveringsnummer`. Welk `verpakkingsmateriaal` of `grondstof` juist geleverd werd, wordt niet bijgehouden in het systeem.
 
 ### Opdracht
 1. Teken de **entiteitstypes**
