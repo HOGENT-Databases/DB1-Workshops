@@ -22,4 +22,4 @@ Gegevensvereisten:​
 5. Teken de **specificaties/generalisaties** op de correcte manier
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-2.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-1.md)
