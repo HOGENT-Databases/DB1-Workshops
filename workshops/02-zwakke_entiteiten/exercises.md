@@ -9,3 +9,4 @@
 | [05 - Concerten : Combi](exercises/exercise-5.md) | Combinatie oefening. |
 | [06 - Concerten : Bestellingen](exercises/exercise-6.md) | Combinatie oefening. |
 | [07 - Voorraadbeheer : Eenheidsprijs](exercises/exercise-7.md) | Work in Progress. |
+| [08 - Luchthaven](exercises/exercise-8.md) | Combinatie oefening. |
