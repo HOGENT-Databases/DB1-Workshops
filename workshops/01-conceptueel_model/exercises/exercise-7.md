@@ -17,7 +17,7 @@ Sommige `(eind)producten` kunnen gebruikt worden als onderdeel van andere eindpr
 
 Daarnaast heeft men ook nog de `verpakkingsmaterialen`. Elk (eind)product kan meerdere `verpakkingsmaterialen` gebruiken: papier, plastiekfolie, metalen doos. Om hygiënische redenen kunnen onverpakte (eind)producten niet voorkomen. ​
 
-Verpakkingsmaterialen hebben een `code` die bestaat uit recycleerbaar of niet, composteerbaar of niet en een `volgnummer`. Daarnaast wordt ook hun `naam` opgeslagen.​
+Verpakkingsmaterialen hebben een `code` die bestaat uit recycleerbaar of niet, composteerbaar of niet en een uniek `volgnummer`. Daarnaast wordt ook hun `naam` opgeslagen.​
 
 Binnen het systeem wordt geen onderscheid gemaakt tussen een `leverancier` van een `grondstof` en een `leverancier` van een soort `verpakking`. Dezelfde regels zijn geldig. ​
 
