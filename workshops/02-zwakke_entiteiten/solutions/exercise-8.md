@@ -1,4 +1,4 @@
-# Oefening 6 - Concerten : Bestellingen
+# Oefening 8 - Luchthaven
 ## Oplossing
 <img src="./exercise-8.svg">
 
