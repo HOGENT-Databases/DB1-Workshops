@@ -1,4 +1,4 @@
-# Oefening 6 - Concerten : Bestelleingen
+# Oefening 6 - Concerten : Bestellingen
 ## Oplossing
 <img src="./exercise-6.svg">
 
