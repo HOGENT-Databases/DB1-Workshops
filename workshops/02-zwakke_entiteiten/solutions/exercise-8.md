@@ -1,6 +1,6 @@
 # Oefening 6 - Concerten : Bestellingen
 ## Oplossing
-<img src="./exercise-6.svg">
+<img src="./exercise-8.svg">
 
 ## Opmerkingen
 - De kandidaatsleutel van `Bestelling` is de combinatie van:
