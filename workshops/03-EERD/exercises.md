@@ -1,4 +1,4 @@
-# 02 - Workshop Zwakke Entiteiten
+# 03 - Workshop Enhanced Entity Relationship Diagram
 
 | Oefening | Onderwerp |
 | ----- | ---- |
