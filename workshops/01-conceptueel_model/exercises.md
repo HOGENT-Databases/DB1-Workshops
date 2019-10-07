@@ -1,4 +1,8 @@
 # 02 - Workshop Conceptueel Model
+Het **Conceptuele Model** is de abstractie van de data en de verbanden er tussen.​ Het moet voldoende formeel en ondubbelzinig zijn voor de databank ontwerper, het steunt op de **functionele vereisten** van de business partij.
+Hierdoor heeft het model doorgaans een grafische respresentatie die communicatie en discussie toelaat tussen de gebruiker van het bedrijfsproces en de databank ontwerper.​ 
+
+Een kern idee van het conceptueel model is dat het **onafhankelijk is van enig databankmodel**. Anders wordt de databank al in dit vroege ontwerpstadium te sterk gekoppeld aan een bepaald databankmodel of een bepaalde applicatie.
 
 | Oefening | Onderwerp |
 | ----- | ---- |
