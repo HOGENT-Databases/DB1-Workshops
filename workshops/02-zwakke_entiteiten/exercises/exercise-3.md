@@ -7,7 +7,7 @@
 <img src="../../01-conceptueel_model/solutions/exercise-4.svg">
 
 Het bedrijf wil naast gegevens over zijn personeel ook informatie over zijn `klanten` bijhouden. ​
-Elke `klant` heeft een uniek klantnummer, een naam, adres, telefoon en steeds een contactpersoon van de afdeling verkoop in het bedrijf, het is personeelslid is daarnaast verantwoordelijk voor meerdere klanten.
+Elke `klant` heeft een uniek klantnummer, een naam, adres, telefoon en steeds een contactpersoon in het bedrijf (een personeelslid van de afdeling Verkoop die verantwoordelijk is voor deze klant).
 
 ### Voorbeeld
 | KlantNr 	| Naam         	| Woonplaats   	| Telefoon     	| Verantwoordelijke 	|
