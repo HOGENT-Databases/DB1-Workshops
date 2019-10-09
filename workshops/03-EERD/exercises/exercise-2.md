@@ -1,10 +1,10 @@
 # 03 - Workshop EERD
 
 ## Oefening 2 - Luchthaven : Priority
-> Deze oefening werkt verder op de oefening 8 van de workshop [02 - Conceptueel Model](../../02-zwakke_entiteiten/exercises/exercise-8.md)
+> Deze oefening werkt verder op de oefening 7 van de workshop [02 - Conceptueel Model](../../02-zwakke_entiteiten/exercises/exercise-7.md)
 
 ### Vorige keer eindigden we met het volgende schema
-<img src="../../02-zwakke_entiteiten/solutions/exercise-8.svg">
+<img src="../../02-zwakke_entiteiten/solutions/exercise-7.svg">
 
 Een passagier kan een ‘prioritaire’ passagier zijn. Van deze prioritaire passagiers wordt de reden opgeslagen waarom deze passagier kan gebruik maken van de extra faciliteiten. Een passagier kan ook reizen als ‘business guest’. Dan moet de naam van het bedrijf en de functie van de passagier binnen dit bedrijf opgegeven worden.​
 
