@@ -1,6 +1,6 @@
 # Oefening 8 - Luchthaven
 ## Oplossing
-<img src="./exercise-8.svg">
+<img src="./exercise-7.svg">
 
 ## Opmerkingen
 
