@@ -1,4 +1,4 @@
-# Oefening 8 - Luchthaven
+# Oefening 7 - Luchthaven
 ## Oplossing
 <img src="./exercise-7.svg">
 
