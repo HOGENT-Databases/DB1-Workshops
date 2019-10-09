@@ -1,7 +1,7 @@
 # 03 - Workshop EERD
 
 ## Oefening 1 - Huizen & Co.
-Huizen & Co is een vastgoedkantoor met filialen wereldwijd. Van elk filiaal moet men het uniek filiaalnummer weten, plus het adres. Elk filiaal heeft een aantal medewerkers waaronder één manager.  Een manager is (niet verplicht) verbonden met maximum één filiaal. Sommige medewerkers zijn supervisor. Deze geven leiding aan maximaal 10 andere medewerkers, assistent genoemd.  Het kan voorvallen dat een supervisor op een bepaald moment geen assistenten heeft. Er kunnen medewerkers zijn die geen manager, supervisor of assistent zijn.  Men kan binnen het bedrijf geen functies combineren (manager + supervisor, …). Van een assistent houden we zijn/haar adres bij. Elke assistent moet een supervisor hebben. Van een supervisor moet zijn telefoonnummer geweten zijn en van een manager zijn leeftijd. 
+Huizen & Co is een vastgoedkantoor met filialen wereldwijd. Van elk filiaal moet men het uniek filiaalnummer weten, plus het adres. Elk filiaal heeft een aantal medewerkers waaronder één manager, elke medewerker werkt exact op 1 filiaal. Een manager is (niet verplicht) verbonden met maximum één filiaal. Sommige medewerkers zijn supervisor. Deze geven leiding aan maximaal 10 andere medewerkers, assistent genoemd.  Het kan voorvallen dat een supervisor op een bepaald moment geen assistenten heeft. Er kunnen medewerkers zijn die geen manager, supervisor of assistent zijn.  Men kan binnen het bedrijf geen functies combineren (manager + supervisor, …). Van een assistent houden we zijn/haar adres bij. Elke assistent heeft exact 1 supervisor. Van een supervisor moet zijn telefoonnummer geweten zijn en van een manager zijn leeftijd. 
 
 Gegevensvereisten:​
 - Filiaal: 
