@@ -3,12 +3,12 @@
 ## Oefening 1 - Hotel
 Teken het ERD schema op basis van de volgende gegevens.
 ### Gegeven
-#### Enteitstype `Hotel`
+#### Enteittype `Hotel`
 - Heeft een uniek attribuut `HotelNr`
     - Bv. 1
 - Heeft een attribuut `Naam`
     - Bv. IBIS Hotel
-#### Enteitstype `Kamer`
+#### Enteittype `Kamer`
 - Heeft een attribuut `KamerNr`
     - Bv. 205
 - Heeft een attribuut `Aantalbedden`
