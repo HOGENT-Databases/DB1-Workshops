@@ -7,10 +7,10 @@ Alle concepten uit het **ERD** blijven behouden, namelijk **entiteittypes**, **a
 - **specialisatie/generalisatie​**
 - **aggregatie**
 
-| Oefening | Onderwerp |
-| ----- | ---- |
-| [01 - Huizen & Co](exercises/exercise-1.md) | Een eerste supertype. |
-| [03 - Ziekenhuis](exercises/exercise-3.md) | Subtypes kunnen ook zwakke entiteiten zijn. |
-| [04 - Tijdschrift](exercises/exercise-4.md) | Combinatie oefening. |
-| [05 - Rally](exercises/exercise-5.md) | Combinatie oefening. |
-| [06 - Luchthaven : Priority](exercises/exercise-6.md) | Een zelfgelinkt subtype, combinatie oefening. |
+| Oefening | Onderwerp | Moeilijkheidsgraad |
+| ----- | ---- | ---- |
+| [01 - Huizen & Co](exercises/exercise-1.md) | Een eerste supertype. | Introductie |
+| [03 - Ziekenhuis](exercises/exercise-3.md) | Subtypes kunnen ook zwakke entiteiten zijn. | Standaard |
+| [04 - Tijdschrift](exercises/exercise-4.md) | Combinatie oefening. | Standaard |
+| [05 - Rally](exercises/exercise-5.md) | Combinatie oefening. | Standaard |
+| [06 - Luchthaven : Priority](exercises/exercise-6.md) | Een zelfgelinkt subtype, combinatie oefening. | Complex |
