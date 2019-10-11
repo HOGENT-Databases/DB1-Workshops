@@ -14,7 +14,7 @@ Teken het ERD schema op basis van de volgende gegevens.
 - Heeft een attribuut `Aantalbedden`
     - Bv. 3
 #### Relaties `Hotel` - `Kamer`
-- Een `hotel` heeft geen of meerdere `kamer`s.
+- Een `hotel` heeft geen of meerdere `kamers`.
 - Een `kamer` heeft steeds een `hotel` waar het toebehoort, daarnaast kan een `kamer` niet zonder een `hotel` bestaan.
 
 ### Opdracht
