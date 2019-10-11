@@ -1,6 +1,6 @@
 # 02 - Workshop Zwakke Entiteiten
 
-Een zwakke entiteit of **Weak Entity** is een entiteit dat zichzelf niet kan identificeren. Het steunt op de **kandidaatsleutel** van een ander **entiteitstype** waarmee het een **relatie** vormt. Vaak is een zwak entiteit **bestaansafhankelijk** van de entiteit waarop het steunt, dit is echter niet altijd het geval. 
+Een **zwak entiteittype** of **weak entity** kan zichzelf niet kan identificeren, het steunt op de **kandidaatsleutel** van een ander **entiteittype** waarmee het een **relatie** heeft. Daarnaast is een **zwak entiteittype** **bestaansafhankelijk** van 1 of meerdere **entiteittypes**. 
 
 | Oefening | Onderwerp |
 | ----- | ---- |
