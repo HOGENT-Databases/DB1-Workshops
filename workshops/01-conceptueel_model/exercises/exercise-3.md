@@ -30,8 +30,8 @@ Een voorbeeld van zo'n lijst kan er als volgt uitzien:
 ### Opdracht
 1. Vertrek van het ERD schema dat je in oefening 2 reeds tekende.
 2. Breid het ERD schema uit zodat de bovenstaande lijst kan afgedrukt worden.
-3. Teken het nieuwe **entiteitstype**
-4. Lijst alle **attribuuttypes** per **entiteitstype** op
+3. Teken het nieuwe **entiteittype**
+4. Lijst alle **attribuuttypes** per **entiteittype** op
     - Er kunnen **attibuuttypes** toegevoegd/verwijderd worden.
 5. Teken de relaties
 6. Bepaalde de **minimum** en **maximum** **cardinaliteit**

@@ -11,8 +11,8 @@ Een passagier kan een ‘prioritaire’ passagier zijn. Van deze prioritaire pas
 Als een passagier als individuele passagier in een groep reist, dan wordt die persoon gelinkt aan de reisleider. De reisleider is steeds een ‘individuele’ passagier. Van een individuele passagier wordt het telefoonnummer van een te verwittigen persoon opgeslagen. Als een passagier tot geen van de vermelde categorieën behoort, dan reist hij als individu. Een passagier kan nooit tot meerdere categorieën behoren.
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+1. Teken de **entiteittypes**
+2. Vul de **attribuuttypes** voor de `entiteittypes` aan
 3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 5. Teken de **specificaties/generalisaties** op de correcte manier

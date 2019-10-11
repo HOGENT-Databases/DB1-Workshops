@@ -8,8 +8,8 @@ Een ploeg moet wedstrijdgeld betalen voor een wedstrijd. Dit kan verschillen per
 Elke technieker heeft een uniek rekeningnummer, een naam ​ en een loon per uur. ​ Er is een technieker aangesteld als hoofd van alle techniekers binnen eenzelfde team. Voor een piloot die deelneemt aan een wedstrijd wordt per rit zijn resultaat (positie) genoteerd. Men wil ook een klassement per ploeg kunnen tonen waarbij de eerste 10 renners punten krijgen. De eerste renner krijgt 10 punten, de tweede 9, …. De tiende renner krijgt nog 1 punt.​
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+1. Teken de **entiteittypes**
+2. Vul de **attribuuttypes** voor de `entiteittypes` aan
 3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 5. Teken de **specificaties/generalisaties** op de correcte manier

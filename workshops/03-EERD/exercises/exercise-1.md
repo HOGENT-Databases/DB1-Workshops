@@ -15,8 +15,8 @@ Gegevensvereisten:​
     - aan welk filiaal ze verbonden zijn (elke medewerker ​werkt in juist één filiaal).
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+1. Teken de **entiteittypes**
+2. Vul de **attribuuttypes** voor de `entiteittypes` aan
 3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 5. Teken de **specificaties/generalisaties** op de correcte manier

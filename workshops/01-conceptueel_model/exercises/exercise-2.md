@@ -4,8 +4,8 @@
 Maak het ERD op basis van de [verworven kennis](../solutions/exercise-1.md) uit de vorige oefening.
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Lijst alle **attribuuttypes** per **entiteitstype** op
+1. Teken de **entiteittypes**
+2. Lijst alle **attribuuttypes** per **entiteittype** op
 3. Teken de relaties
 4. Bepaalde de **minimum** en **maximum** **cardinaliteit**
 

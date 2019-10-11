@@ -25,8 +25,8 @@ Elke `prijscategorie` heeft zijn eigen unieke `code`, `naam` en `prijs`, elk con
 | ...  	| ...               	| ...   	|
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Lijst alle **attribuuttypes** per **entiteitstype** op
+1. Teken de **entiteittypes**
+2. Lijst alle **attribuuttypes** per **entiteittype** op
 3. Teken de relaties
     1. Ga na of alle relaties wel duidelijk genoeg zijn, zorg ervoor dat er geen veronderstellingen zijn. Indien dit wel zo is, duid je de **minimum- en maximum cardinaliteit** aan als volgt: `?..?`.
 4. Bepaalde de **minimum** en **maximum** **cardinaliteit**

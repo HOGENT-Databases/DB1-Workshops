@@ -11,8 +11,8 @@ Een `team` bestaat uit een aantal `spelers`. Een `speler` kan in meerdere teams 
 Voor onreglementair gedrag krijgt een `speler` een `boete`. Naast het `bedrag` worden ook de `betaaldatum` en de `soort` onregelmatigheid bijgehouden. Elke `boete` heeft een `uniek nummer`.
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Lijst alle **attribuuttypes** per **entiteitstype** op
+1. Teken de **entiteittypes**
+2. Lijst alle **attribuuttypes** per **entiteittype** op
 3. Teken de relaties
 4. Bepaalde de **minimum** en **maximum** **cardinaliteit**
 

@@ -1,7 +1,7 @@
 # Oefening 1 - Bedrijf : Personeel
 
 ## Oplossing
-1. Welke **entiteitstypes** zijn er ?
+1. Welke **entiteittypes** zijn er ?
     - `Personeelslid` en `Afdeling`
 2. Niet alles is duidelijk uit dit voorbeeld dus welke vragen ga je stellen om tot een eenduidig schema te komen?
     - Hoe wordt een `personeelslid` uniek geïdentificeerd?

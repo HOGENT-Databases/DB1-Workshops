@@ -23,7 +23,7 @@ Een voorbeeld van zo'n lijst kan er als volgt uitzien:
 | ...              	| ...      	| ...    	| ...        	|
 
 ### Opdracht
-1. Welke **entiteitstypes** zijn er ?
+1. Welke **entiteittypes** zijn er ?
 2. Niet alles is duidelijk uit dit voorbeeld dus welke vragen ga je stellen om tot een eenduidig schema te komen, bijvoorbeeld:
     - Hoe wordt een `personeelslid` uniek geïdentificeerd?
         - Elk `personeelslid` heeft een uniek `personeelsnummer`.

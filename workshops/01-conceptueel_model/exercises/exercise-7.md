@@ -24,8 +24,8 @@ Binnen het systeem wordt geen onderscheid gemaakt tussen een `leverancier` van e
 De verschillende `leveringen` die door de `leveranciers` gebeuren worden wel bijgehouden in het systeem. We weten hiervan de `besteldatum`, ons `bestelbonnummer` en de aanduiding of die `levering` reeds is `betaald` of niet. De leveringen krijgen een `uniek oplopend leveringsnummer`. Welk `verpakkingsmateriaal` of `grondstof` juist geleverd werd, wordt niet bijgehouden in het systeem.
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Lijst alle **attribuuttypes** per **entiteitstype** op
+1. Teken de **entiteittypes**
+2. Lijst alle **attribuuttypes** per **entiteittype** op
 3. Teken de relaties
 4. Bepaalde de **minimum** en **maximum** **cardinaliteit**
 

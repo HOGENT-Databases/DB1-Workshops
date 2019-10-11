@@ -19,11 +19,11 @@ Telkens een klant een wijn koopt moet die verkooptransactie bewaard worden in de
 
 ### Opdracht
 1. Vertrek van het ERD schema uit de vorige oefening (3)
-2. Teken de **entiteitstypes**
-3. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+2. Teken de **entiteittypes**
+3. Vul de **attribuuttypes** voor de `entiteittypes` aan
 4. Teken de **relaties** in beide richtingen
 5. Teken de **kandidaatsleutels**
-6. Duid de **zwakke entiteitstypes** op de correcte manier aan
+6. Duid de **zwakke entiteittypes** op de correcte manier aan
 
 ### Oplossing
 Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-4.md)

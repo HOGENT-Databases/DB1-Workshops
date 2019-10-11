@@ -19,7 +19,7 @@ Elke `klant` heeft een uniek klantnummer, een naam, adres, telefoon en steeds ee
 
 ### Opdracht
 1. Breid het ERD schema uit.
-2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+2. Vul de **attribuuttypes** voor de `entiteittypes` aan
 3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 

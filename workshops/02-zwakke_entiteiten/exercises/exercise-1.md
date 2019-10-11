@@ -18,14 +18,14 @@ Teken het ERD schema op basis van de volgende gegevens.
 - Een `kamer` heeft steeds een `hotel` waar het toebehoort, daarnaast kan een `kamer` niet zonder een `hotel` bestaan.
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+1. Teken de **entiteittypes**
+2. Vul de **attribuuttypes** voor de `entiteittypes` aan
 3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutel** voor `Hotel`
 5. Teken de **kandidaatsleutel** voor `Kamer`
     - Merk op dat een `KamerNr` niet uniek is, waarom?
-6. Is `Hotel` een sterk of zwak `entiteitstype`?
-7. Is `Kamer` een sterk of zwak `entiteitstype`?
+6. Is `Hotel` een sterk of zwak `entiteittype`?
+7. Is `Kamer` een sterk of zwak `entiteittype`?
 8. Is `Hotel` bestaansafhankelijk van `Kamer`?
 8. Is `Kamer` bestaansafhankelijk van `Hotel`?
 

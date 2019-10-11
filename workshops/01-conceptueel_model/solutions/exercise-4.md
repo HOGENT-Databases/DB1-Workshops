@@ -5,7 +5,7 @@
 
 ## Opmerkingen
 - `Telefoonnummer` komt er simpelweg bij, de **kandidaatsleutel** wijzigt niet.
-- Er geen extra **entiteitstypes** zijn.
+- Er geen extra **entiteittypes** zijn.
     - Er wordt een relatie toegevoegd
     - De bestaande relatie `Afdeling` => `Heeft => PersoneelsLid` is niet meer **optioneel** aangezien een `afdeling` steeds een `afdelingshoofd` moet hebben.
 

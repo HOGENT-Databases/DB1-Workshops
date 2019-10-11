@@ -20,8 +20,8 @@ Elk bezoek is voor één bepaalde dokter. Van elke dokter houden we bij: naam, s
 Bij elk bezoek is het ook mogelijk dat er één of meerdere verplegers moeten komen helpen. Er moet dus bijgehouden worden welke verplegers bij welk bezoek hebben geholpen. Van de verplegers zelf houden we hun naam en uniek nr bij.
 
 ### Opdracht
-1. Teken de **entiteitstypes**
-2. Vul de **attribuuttypes** voor de `entiteitstypes` aan
+1. Teken de **entiteittypes**
+2. Vul de **attribuuttypes** voor de `entiteittypes` aan
 3. Teken de **relaties** in beide richtingen
 4. Teken de **kandidaatsleutels**
 5. Teken de **specificaties/generalisaties** op de correcte manier
