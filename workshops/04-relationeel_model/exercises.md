@@ -31,6 +31,6 @@ Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vre
 
 | Oefening | Onderwerp | Moeilijkheidsgraad |
 | -------------------------------------------    | ------------------------------------------  | ----------- |
-| [01 - 1 op N](exercises/exercise-1.md)         | Een eerste supertype.                       | Introductie |
-| [02 - N op N](exercises/exercise-2.md)         | Een subtype als supertype.                  | Introductie |
+| [01 - 1 op N](exercises/exercise-1.md)         | Een eerste mapping.                         | Introductie |
+| [02 - N op N](exercises/exercise-2.md)         | Cardinaliteiten hebben grote gevolgen.      | Introductie |
 
