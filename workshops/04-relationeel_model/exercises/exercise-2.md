@@ -1,12 +1,15 @@
 # 04 - Workshop Mapping
 
-## Oefening 1 - 1 op N
+## Oefening 1 - N op N
 
-In het onderstaande Entity Relationship Diagram (ERD), is te zien dat een `Leverancier` meerdere `Grondstoffen` levert, een `Grondstof` wordt steeds geleverd door 1 `Leverancier`.
+> Opgelet, deze oefingen lijkt hetzelfde als de vorige oefening maar er is een groot verschil bij de cardinaliteiten, daarnaast is het attribuuttype `eenheidsprijs` een **relatieattributttype** geworden.
 
-<img src="./exercise-1.svg">
+In het onderstaande Entity Relationship Diagram (ERD), is te zien dat een `Leverancier` meerdere `Grondstoffen` levert, een `Grondstof` wordt geleverd door geen of **meerdere** `Leverancier`.
+
+<img src="./exercise-2.svg">
 
 ### Opdracht
+
 Doorloop het volgende stappenplan om van een conceptueel model over te gaan naar een relationeel model.
 
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
@@ -19,4 +22,4 @@ Doorloop het volgende stappenplan om van een conceptueel model over te gaan naar
 
 ### Oplossing
 
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-1.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-2.md)
