@@ -2,7 +2,13 @@
 
 ## Introductie
 
-In deze repository zijn alle workshops van Databanken I opgenomen, volg de onderstaande links om een workshop te starten.
+In deze repository zijn alle workshops van Databanken I opgenomen, volg de onderstaande links om een workshop te starten. Elke workshops heeft een reeks oefening die zijn onderverdeeld in 3 moeilijksheidsgraden:
+ - Introductie
+    - Vaak kleinere oefeningen die zich focussen op de essentie van de workshop.
+ - Standaard
+    - Oefeningen van gemiddelde omvang, ze maken gebruik van de nieuwe concepten in combinatie met reeds geziene leerstof uit andere workshops.
+ - Complex
+    - Voor deze oefeningen is iets meer denkwerk nodig of zijn groter in omvang.
 
 ## Workshops
 
