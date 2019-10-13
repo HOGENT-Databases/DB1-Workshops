@@ -1,4 +1,4 @@
-# Oefening 1 - N op N
+# Oefening 2 - N op N
 
 ## Oplossing
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
