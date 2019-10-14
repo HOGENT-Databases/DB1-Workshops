@@ -1,8 +1,5 @@
 ## Oefening 6 - Bedrijf - Firmawagens
 
-## Opmerkingen
-- **VS** staat voor **Vreemde Sleutel** of **Foreign Key**
-
 ## Oplossing
 - Klant(<ins>klantNr</ins>, voornaam, achternaam, cpVoornaam, cpAchternaam)
 - Medewerker(<ins>medewerkerNr</ins>, datumInDienst, loon, voornaam, achternaam)

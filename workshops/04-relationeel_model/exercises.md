@@ -45,5 +45,6 @@ Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vre
 | [04 - The Office](exercises/exercise-4.md)              | Een realiteitoefening                       | Standaard   |
 | [05 - Studentenresultaten](exercises/exercise-5.md)     | Zwakke Entiteiten                           | Standaard   |
 | [06 - Bedrijf](exercises/exercise-6.md)                 | Specialisatie/Generalisatie                 | Standaard   |
-| [07 - Theoretisch](exercises/exercise-7.md)             | Theoretische benadering                     | Complex     |
+| [07 - Theoretisch](exercises/exercise-7.md)             | Theoretische benadering                     | Standaard   |
+| [08 - Boeken](exercises/exercise-8.md)                  | Combinatie Oefening                         | Standaard   |
 

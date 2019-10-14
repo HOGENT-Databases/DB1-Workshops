@@ -1,8 +1,8 @@
 # 04 - Workshop Mapping
 
-## Oefening 7 - Theoretische benadering
+## Oefening 8 - Music
 
-<img src="./exercise-7.svg">
+<img src="./exercise-8.svg">
 
 ### Opdracht
 
@@ -18,4 +18,4 @@ Doorloop het volgende stappenplan om van een conceptueel model over te gaan naar
 
 ### Oplossing
 
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-7.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-8.md)
