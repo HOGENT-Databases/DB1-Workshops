@@ -1,8 +1,10 @@
 # 04 - Workshop Mapping
 
-## Oefening 6 - Bedrijf - Firmawagens
+## Oefening 7 - Theoretische benadering
 
-<img src="./exercise-6.svg">
+Map het onderstaande ERD schema naar een relationeel model.
+
+<img src="./exercise-7.svg">
 
 ### Opdracht
 
@@ -18,4 +20,4 @@ Doorloop het volgende stappenplan om van een conceptueel model over te gaan naar
 
 ### Oplossing
 
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-3.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-7.md)

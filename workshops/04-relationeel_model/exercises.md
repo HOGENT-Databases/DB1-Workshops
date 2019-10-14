@@ -30,7 +30,12 @@ Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vre
 - dit bepaal je aan de hand van de minimumcardinaliteit​ of de vreemde sleutel uniek is (bij 1 op 1)​
 
 | Oefening | Onderwerp | Moeilijkheidsgraad |
-| -------------------------------------------    | ------------------------------------------  | ----------- |
-| [01 - 1 op N](exercises/exercise-1.md)         | Een eerste mapping.                         | Introductie |
-| [02 - N op N](exercises/exercise-2.md)         | Cardinaliteiten hebben grote gevolgen.      | Introductie |
+| ------------------------------------------------------- | ------------------------------------------  | ----------- |
+| [01 - 1 op N](exercises/exercise-1.md)                  | Een eerste mapping.                         | Introductie |
+| [02 - N op N](exercises/exercise-2.md)                  | Cardinaliteiten hebben grote gevolgen.      | Introductie |
+| [03 - 1 op 1](exercises/exercise-3.md)                  | Keuze bij 1 op 1 relaties.                  | Introductie |
+| [04 - The Office](exercises/exercise-4.md)              | Een realiteitoefening                       | Standaard   |
+| [05 - Studentenresultaten](exercises/exercise-5.md)     | Zwakke Entiteiten                           | Standaard   |
+| [06 - Bedrijf](exercises/exercise-6.md)                 | Specialisatie/Generalisatie                 | Standaard   |
+| [07 - Theoretisch](exercises/exercise-7.md)             | Theoretische benadering                     | Complex     |
 
