@@ -1,6 +1,11 @@
 # Oefening 1 - 1 op N
 
 ## Oplossing
+- Leverancier(<ins>leverancierNr</ins>, naam, straat, gemeente, land)
+- Grondstof(<ins>code</ins>, naam, eenheidsprijs, leverancierNr)
+    - IR: leverancierNr verwijst naar de verzameling `Leverancier` en is **verplicht**
+
+## Stappenplan
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
     - Leverancier()
     - Grondstof()

@@ -1,6 +1,11 @@
 # Oefening 3 - 1 op 1
 
 ## Oplossing
+- Persoon(<ins>rijksregisterNr</ins>, voornaam, achternaam, paspoortNr)
+    - IR: paspoortNr verwijst naar de verzameling `Paspoort` en is **verplicht**
+- Paspoort(<ins>paspoortNr</ins>, geldigTot)
+
+## Stappenplan
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
     - Persoon()
     - Paspoort()

@@ -1,6 +1,21 @@
 # Oefening 4 - The office
 
 ## Oplossing
+- Office(<ins>officeId</ins>, phoneNumber, size)
+- SalesPerson(<ins>salesPersonId</ins>, firstname, lastname, comissionPercentage, yearOfHire, officeId)
+    - IR: officeId verwijst naar de verzameling `Office` en is **verplicht**
+- Customer(<ins>customerId</ins>, firstname, lastname, city, salesPersonId)
+    - IR: salesPersonId verwijst naar de verzameling `SalesPerson` en is **optioneel**
+- Product_SalesPerson(<ins>productId, salespersonId</ins>, quantity)
+    - IR: salesPersonId verwijst naar de verzameling `SalesPerson` en is **verplicht**
+    - IR: productId verwijst naar de verzameling `Product` en is **verplicht**
+- Gift(<ins>giftId</ins>, description, price, customerId, giftTypeId)
+    - IR: customerId verwijst naar de verzameling `Customer` en is **verplicht**
+    - IR: giftTypeId verwijst naar de verzameling `GiftType` en is **verplicht**
+- GiftType(<ins>giftTypeId</ins>, description)
+- Product(<ins>productId</ins>, name, unitPrice)
+
+## Stappenplan
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
     - Office()
     - SalesPerson()
@@ -60,7 +75,6 @@
 
 ## Schematisch Alternatief
 <img src="./exercise-4.svg">
-
 
 ## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.

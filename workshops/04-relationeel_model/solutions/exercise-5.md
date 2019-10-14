@@ -1,4 +1,18 @@
 # Oefening 5 - Studentenresultaten
+- Student(<ins>stamNr</ins>, email, voornaam, achternaam, code, volgletter, jaar)
+    - IR: `code, volgletter en jaar` verwijzen naar de verzameling `Klas` en is **verplicht**
+- Vak(<ins>vakCode</ins>, studiepunten, omschrijving)
+- Student_Vak(<ins>stamNr, vakCode</ins>, resultaat)
+    - IR: `stamNr` verwijst naar de verzameling `Student` en is **verplicht**
+    - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
+- Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
+- Klas(<ins>volgLetter, jaar, code</ins>, titularis)
+    - IR: `titularis` verwijst naar het attribuuttype `stamBoekNr` in de verzameling `Leerkracht` en is **verplicht/uniek**
+- Leerkract_Klas(<ins>vakCode, stamboekNr</ins>)
+    - IR: `stamboekNr` verwijst naar de verzameling `Leerkracht` en is **verplicht**
+    - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
+- Richting(<ins>code</ins>, naam)
+
 
 ## Oplossing
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
@@ -44,7 +58,7 @@
     - Student(<ins>stamNr</ins>, email, voornaam, achternaam, code, volgletter, jaar)
         - IR: `code, volgletter en jaar` verwijzen naar de verzameling `Klas` en is **verplicht**
     - Vak(<ins>vakCode</ins>, studiepunten, omschrijving)
-    - Resultaat / Student_Vak(<ins>stamNr, vakCode</ins>, resultaat)
+    - Student_Vak(<ins>stamNr, vakCode</ins>, resultaat)
         - IR: `stamNr` verwijst naar de verzameling `Student` en is **verplicht**
         - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
     - Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
@@ -54,7 +68,6 @@
         - IR: `stamboekNr` verwijst naar de verzameling `Leerkracht` en is **verplicht**
         - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
     - Richting(<ins>code</ins>, naam)
-
 
 ## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
