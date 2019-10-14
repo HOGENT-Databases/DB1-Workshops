@@ -18,4 +18,4 @@ Doorloop het volgende stappenplan om van een conceptueel model over te gaan naar
 
 ### Oplossing
 
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-3.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-4.md)
