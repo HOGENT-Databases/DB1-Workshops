@@ -29,6 +29,14 @@ Verbanden tussen verzamelingen worden gelegd aan de hand van **vreemde sleutels 
 Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vreemde sleutel verplicht of optioneel is: ​
 - dit bepaal je aan de hand van de minimumcardinaliteit​ of de vreemde sleutel uniek is (bij 1 op 1)​
 
+### Specialisatie / Generalisatie
+| Participatie  constraint 	| Disjoint  constraint 	| Mapping                                                                                             	|
+|--------------------------	|----------------------	|-----------------------------------------------------------------------------------------------------	|
+| Mandatory                	| AND                  	| 1 tabel met hierin  booleans  om de subtypes te onderscheiden                                       	|
+| Optional                 	| AND                  	| 2 tabellen: 1 voor het supertype, 1 voor de subtypes met  booleans  om de subtypes te onderscheiden 	|
+| Mandatory                	| OR                   	| 1 aparte tabel per subtype                                                                          	|
+| Optional                 	| OR                   	| voor elk type een tabel                                                                             	|
+
 | Oefening | Onderwerp | Moeilijkheidsgraad |
 | ------------------------------------------------------- | ------------------------------------------  | ----------- |
 | [01 - 1 op N](exercises/exercise-1.md)                  | Een eerste mapping.                         | Introductie |
