@@ -17,7 +17,7 @@ Verbanden tussen verzamelingen worden gelegd aan de hand van **vreemde sleutels 
 
 ### Binair verband:​
 - 1 op N: vreemde sleutel aan N-zijde​
-- 1 op 1: vreemde sleutel aan 1 zijde (zelf te kiezen)​
+- 1 op 1: vreemde sleutel aan 1 zijde (zelf te kiezen)
 - N op N: aparte verzameling met 2 vreemde sleutels​
 
 ### Unair verband: ​
