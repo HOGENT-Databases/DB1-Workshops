@@ -4,7 +4,7 @@
 <img src="./exercise-4.svg">
 
 ## Opmerkingen
-- `Telefoonnummer` komt er simpelweg bij, de **kandidaatsleutel** wijzigt niet.
+- `Telefoonnummer`, is ook een **kandidaatsleutelattribuuttype**.
 - Er geen extra **entiteittypes** zijn.
     - Er wordt een relatie toegevoegd
     - De bestaande relatie `Afdeling` => `Heeft => PersoneelsLid` is niet meer **optioneel** aangezien een `afdeling` steeds een `afdelingshoofd` moet hebben.
