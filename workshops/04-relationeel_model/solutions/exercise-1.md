@@ -24,7 +24,7 @@
 7. Integriteitregels bepalen van elke vreemde sleutel.​
     - Leverancier(<ins>leverancierNr</ins>, naam, straat, gemeente, land)
     - Grondstof(<ins>code</ins>, naam, eenheidsprijs, leverancierNr)
-        - IR: leverancierNr verwijst naar de verzamling `Leverancier` en is **verplicht**
+        - IR: leverancierNr verwijst naar de verzameling `Leverancier` en is **verplicht**
             - Verplicht vanwege de minimumcardinaliteit.
 
 ## Schematisch Alternatief

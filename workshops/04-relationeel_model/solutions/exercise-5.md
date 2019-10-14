@@ -42,17 +42,17 @@
     - Richting(<ins>code</ins>, naam)
 7. Integriteitregels bepalen van elke vreemde sleutel.​
     - Student(<ins>stamNr</ins>, email, voornaam, achternaam, code, volgletter, jaar)
-        - IR: `code, volgletter en jaar` verwijzen naar de verzamling `Klas` en is **verplicht**
+        - IR: `code, volgletter en jaar` verwijzen naar de verzameling `Klas` en is **verplicht**
     - Vak(<ins>vakCode</ins>, studiepunten, omschrijving)
     - Resultaat / Student_Vak(<ins>stamNr, vakCode</ins>, resultaat)
-        - IR: `stamNr` verwijst naar de verzamling `Student` en is **verplicht**
-        - IR: `vakCode` verwijst naar de verzamling `Vak` en is **verplicht**
+        - IR: `stamNr` verwijst naar de verzameling `Student` en is **verplicht**
+        - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
     - Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
     - Klas(<ins>volgLetter, jaar, code</ins>, titularis)
-        - IR: `titularis` verwijst naar het attribuuttype `stamBoekNr` in de verzamling `Leerkracht` en is **verplicht/uniek**
+        - IR: `titularis` verwijst naar het attribuuttype `stamBoekNr` in de verzameling `Leerkracht` en is **verplicht/uniek**
     - Leerkract_Klas(<ins>vakCode, stamboekNr</ins>)
-        - IR: `stamboekNr` verwijst naar de verzamling `Leerkracht` en is **verplicht**
-        - IR: `vakCode` verwijst naar de verzamling `Vak` en is **verplicht**
+        - IR: `stamboekNr` verwijst naar de verzameling `Leerkracht` en is **verplicht**
+        - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
     - Richting(<ins>code</ins>, naam)
 
 

@@ -26,9 +26,9 @@
         - Regel: - N op N: aparte verzameling met 2 vreemde sleutels​
 7. Integriteitregels bepalen van elke vreemde sleutel.​
     - Leverancier_Grondstof(<ins>leverancierNr, code</ins>, eenheidsprijs)
-        - IR: leverancierNr verwijst naar de verzamling `Leverancier` en is **verplicht**
+        - IR: leverancierNr verwijst naar de verzameling `Leverancier` en is **verplicht**
             - Verplicht aangezien het deel uit maakt van de primaire sleutel.
-        - IR: code verwijst naar de verzamling `Grondstof` en is **verplicht**
+        - IR: code verwijst naar de verzameling `Grondstof` en is **verplicht**
             - Verplicht aangezien het deel uit maakt van de primaire sleutel.
 
 ## Schematisch Alternatief
