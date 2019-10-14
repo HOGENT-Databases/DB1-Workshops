@@ -6,6 +6,7 @@
     - Grondstof()
 2. Enkelvoudige attribuuttypes overnemen.​
     - Leverancier(leverancierNr, naam)
+        - De `naam` van de `Leverancier` nemen we over, in dit geval is het de naam van het bedrijf en splitsen we dit niet op.
     - Grondstof(code, naam, eenheidsprijs)
 3. Samengestelde attribuuttypes opsplitsen in enkelvoudige attribuuttypes.​
     - Leverancier(leverancierNr, naam, straat, gemeente, land)
