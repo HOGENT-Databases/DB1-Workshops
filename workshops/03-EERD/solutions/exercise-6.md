@@ -1,4 +1,4 @@
-# Oefening 2 - Luchthaven : Priority
+# Oefening 6 - Luchthaven : Priority
 
 ## Oplossing
 <img src="./exercise-6.svg">
