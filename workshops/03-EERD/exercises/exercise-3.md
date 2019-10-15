@@ -15,7 +15,7 @@ Bij een opname:
 
 Een bed hoort steeds bij een kamer en heeft een nummer dat uniek is binnen deze kamer. (bv. kamer 14, bed 3). Het kan voorkomen dat er in bepaalde kamers van het ziekenhuis geen bedden staan. Van een kamer houden we de verdieping en het kamernummer bij. Deze samen identificeren een kamer.
 
-Elk bezoek is voor één bepaalde dokter. Van elke dokter houden we bij: naam, specialisatie,  riziv-nr, een riziv-nr is een uniek nummer per doktor.
+Elk bezoek is voor één bepaalde dokter. Van elke dokter houden we bij: naam, specialisatie,  riziv-nr, een riziv-nr is een uniek nummer per dokter.
 
 Bij elk bezoek is het ook mogelijk dat er één of meerdere verplegers moeten komen helpen. Er moet dus bijgehouden worden welke verplegers bij welk bezoek hebben geholpen. Van de verplegers zelf houden we hun naam en uniek nr bij.
 
