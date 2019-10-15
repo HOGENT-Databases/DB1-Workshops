@@ -1,19 +1,19 @@
 ## Oefening 9 - Sportclub
 
 ## Oplossing
-- Club(stamnummer, naam, kleuren, voorzitter, bloknummer)​
-- Scheidrechter(aansluitingsnummer, naam, adres, stamnummer)​
+- Club(<ins>stamnummer</ins>, naam, kleuren, voorzitter, bloknummer)​
+- Scheidrechter(<ins>aansluitingsnummer</ins>, naam, adres, stamnummer)​
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
-- Wedstrijd(datum, naam, aansluitingsnummer)​
+- Wedstrijd(<ins>datum, naam</ins>, aansluitingsnummer)​
     - IR: `aansluitingsnummer` verwijst naar de verzameling `Scheidsrechter` en is **verplicht​**
-- Team(stamnummer, categorie, afgevaardigde, trainer)​
+- Team(<ins>stamnummer, categorie</ins>, afgevaardigde, trainer)​
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
-- Speler-amateur(aansluitingsnr, naam, adres, kostenvergoeding)​
-- Speler-prof(aansluitingsnr, naam, adres, licentienummer, wedde)​
-- Speler-amateur/club(aansluitingsnr, stamnummer, periodeVan, periodeTot)​
+- Speler-amateur(<ins>aansluitingsnr</ins>, naam, adres, kostenvergoeding)​
+- Speler-prof(<ins>aansluitingsnr</ins>, naam, adres, licentienummer, wedde)​
+- Speler-amateur_club(<ins>aansluitingsnr, stamnummer</ins>, periodeVan, periodeTot)​
     - IR: `aansluitingsnummer` verwijst naar de verzameling `Speler-amateur` en is **verplicht​**
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
-- Speler-prof/club(aansluitingsnr, stamnummer, periodeVan, periodeTot)​
+- Speler-prof_club(<ins>aansluitingsnr, stamnummer</ins>, periodeVan, periodeTot)​
     - IR: `aansluitingsnummer` verwijst naar de verzameling `Speler-prof` en is **verplicht​**
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
 

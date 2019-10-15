@@ -47,4 +47,6 @@ Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vre
 | [06 - Bedrijf](exercises/exercise-6.md)                 | Specialisatie/Generalisatie                 | Standaard   |
 | [07 - Theoretisch](exercises/exercise-7.md)             | Theoretische benadering                     | Standaard   |
 | [08 - Boeken](exercises/exercise-8.md)                  | Combinatie Oefening                         | Standaard   |
+| [09 - Sportclub](exercises/exercise-9.md)               | Combinatie Oefening                         | Standaard   |
+| [10 - Lokalen](exercises/exercise-10.md)                | Combinatie Oefening                         | Standaard   |
 
