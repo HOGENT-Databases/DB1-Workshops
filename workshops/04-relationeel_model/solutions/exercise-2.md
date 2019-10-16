@@ -2,7 +2,7 @@
 
 ## Oplossing
 - Leverancier(<ins>leverancierNr</ins>, naam, straat, gemeente, land)
-- Grondstof(<ins>code</ins>, naam, eenheidsprijs)
+- Grondstof(<ins>code</ins>, naam)
 - Leverancier_Grondstof(<ins>leverancierNr, code</ins>, eenheidsprijs)
     - IR: leverancierNr verwijst naar de verzameling `Leverancier` en is **verplicht**
     - IR: code verwijst naar de verzameling `Grondstof` en is **verplicht**
@@ -27,7 +27,7 @@
 6. Voor elke relatie (verband) tussen entiteittypes de vreemde sleutel(s) bepalen.​
     - Leverancier(<ins>leverancierNr</ins>, naam, straat, gemeente, land)
         - niet van toepassing, veel op veel relatie
-    - Grondstof(<ins>code</ins>, naam, eenheidsprijs)
+    - Grondstof(<ins>code</ins>, naam)
         - niet van toepassing, veel op veel relatie
     - Leverancier_Grondstof(<ins>leverancierNr, code</ins>, eenheidsprijs)
         - Regel: - N op N: aparte verzameling met 2 vreemde sleutels​
