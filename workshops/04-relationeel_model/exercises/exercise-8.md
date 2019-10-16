@@ -1,6 +1,6 @@
 # 04 - Workshop Mapping
 
-## Oefening 8 - Music
+## Oefening 8 - Boeken
 
 <img src="./exercise-8.svg">
 
