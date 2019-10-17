@@ -26,8 +26,9 @@ Verbanden tussen verzamelingen worden gelegd aan de hand van **vreemde sleutels 
 - N op N: nieuwe verzameling met 2 vreemde sleutels (rolnamen gebruiken!)
 
 ### Integriteitsregels vreemde sleutel:​
-Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vreemde sleutel verplicht of optioneel is: ​
-- dit bepaal je aan de hand van de minimumcardinaliteit​ of de vreemde sleutel uniek is (bij 1 op 1)​
+- Geef weer naar welke primaire sleutel deze vreemde sleutel verwijst​ of de vreemde sleutel verplicht of optioneel is: ​
+    - Bepaal je aan de hand van de minimumcardinaliteit​ 
+- Geef weer of de vreemde sleutel uniek is (bij 1 op 1)​
 
 ### Specialisatie / Generalisatie
 | Participatie  constraint 	| Disjoint  constraint 	| Mapping                                                                                             	|
