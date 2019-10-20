@@ -18,6 +18,7 @@ In deze repository zijn alle workshops van Databanken I opgenomen, volg de onder
 | [02 - Zwakke Entiteiten](../workshops/02-zwakke_entiteiten/exercises.md) | Leer zwakke enteiten te modelleren in een ERD. | 3.2.5  |
 | [03 - EERD](../workshops/03-EERD/exercises.md) | Leer een ERD uit te breiden met andere modelleringstechnieken. | 3.3 |
 | [04 - Relationeel Model](../workshops/04-relationeel_model/exercises.md) | Leer een conceptueel model over te zetten naar een relationeel model | - |
+| [05 - Normalisatie](../workshops/05-normalisatie/exercises.md) | Leer non-redundante data op te slaan. | - |
 
 ## Draw.io
 Voor het opstellen van de oplossingen werd het programma [draw.io](https://draw.io) gebruikt, er wordt aangeraden om de eerste workshops met pen en papier te tekenen. Nadien, is het *mogelijk* om over te stappen naar het programma.
