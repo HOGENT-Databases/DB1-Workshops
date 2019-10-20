@@ -1,4 +1,5 @@
-# 02 - Workshop Conceptueel Model
+# 01 - Workshop Conceptueel Model
+
 ## Oefening 4 - Bedrijf : Afdelingshoofd
 > Deze oefening werkt verder op oefening 3.
 

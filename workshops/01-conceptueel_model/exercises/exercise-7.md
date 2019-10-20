@@ -1,4 +1,5 @@
-# 02 - Workshop Conceptueel Model
+# 01 - Workshop Conceptueel Model
+
 ## Oefening 7 - Voorraadbeheer
 Een koekjesfabrikant wil zijn voorraadbeheer automatiseren en heeft daarvoor informatie nodig over zijn `producten`, `grondstoffen`, `leveranciers` . . . ​
 

@@ -1,4 +1,4 @@
-# 02 - Workshop Conceptueel Model
+# 01 - Workshop Conceptueel Model
 
 ## Oefening 1 - Bedrijf : Personeel
 Een bedrijf wil een databank laten ontwerpen om de gegevens over de personeelsleden in op te slaan. Het moet mogelijk zijn om een lijst af te drukken met de personeelsleden per afdeling.

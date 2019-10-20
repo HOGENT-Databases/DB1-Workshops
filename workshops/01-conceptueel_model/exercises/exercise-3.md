@@ -1,4 +1,5 @@
-# 02 - Workshop Conceptueel Model
+# 01 - Workshop Conceptueel Model
+
 ## Oefening 3 - Bedrijf : Loonbarema
 > Deze oefening werkt verder op oefening 2.
 

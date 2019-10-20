@@ -1,4 +1,4 @@
-# 02 - Workshop Conceptueel Model
+# 01 - Workshop Conceptueel Model
 
 ## Oefening 2 - Bedrijf : ERD
 Maak het ERD op basis van de [verworven kennis](../solutions/exercise-1.md) uit de vorige oefening.

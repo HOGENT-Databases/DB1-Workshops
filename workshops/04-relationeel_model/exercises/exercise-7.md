@@ -1,4 +1,4 @@
-# 04 - Workshop Mapping
+# 04 - Workshop Relationeel Model
 
 ## Oefening 7 - Theoretische benadering
 

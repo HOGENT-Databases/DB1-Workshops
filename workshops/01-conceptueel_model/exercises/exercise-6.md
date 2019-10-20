@@ -1,4 +1,5 @@
-# 02 - Workshop Conceptueel Model
+# 01 - Workshop Conceptueel Model
+
 ## Oefening 6 - Tennis
 De tennisvereniging Okapi HOGENT is opgericht in 1970 en houdt in een databank gegevens over zijn `spelers` en `wedstrijden` bij.​
 
