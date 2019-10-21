@@ -1,4 +1,6 @@
 # Oefening 5 - Studentenresultaten
+
+## Oplossing
 - Student(<ins>stamNr</ins>, email, voornaam, achternaam, code, volgletter, jaar)
     - IR: `code, volgletter en jaar` verwijzen naar de verzameling `Klas` en is **verplicht**
 - Vak(<ins>vakCode</ins>, studiepunten, omschrijving)
@@ -14,7 +16,7 @@
 - Richting(<ins>code</ins>, naam)
 
 
-## Oplossing
+## Stappenplan
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
     - Student()
     - Vak()
