@@ -10,7 +10,7 @@
 - Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
 - Klas(<ins>volgLetter, jaar, code</ins>, titularis)
     - IR: `titularis` verwijst naar het attribuuttype `stamBoekNr` in de verzameling `Leerkracht` en is **verplicht/uniek**
-- Leerkract_Klas(<ins>vakCode, stamboekNr</ins>)
+- Leerkracht_Vak(<ins>vakCode, stamboekNr</ins>)
     - IR: `stamboekNr` verwijst naar de verzameling `Leerkracht` en is **verplicht**
     - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
 - Richting(<ins>code</ins>, naam)
@@ -53,7 +53,7 @@
     - Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
     - Klas(<ins>volgLetter, jaar, code</ins>, titularis)
         - Regel: 1 op 1: vreemde sleutel aan 1 zijde, kant van `Klas` omdat er minder NULL waarden zouden zijn.
-    - Leerkract_Klas(<ins>vakCode, stamboekNr</ins>)
+    - Leerkracht_Vak(<ins>vakCode, stamboekNr</ins>)
         - Regel: N op N: aparte verzameling met 2 vreemde sleutels​
     - Richting(<ins>code</ins>, naam)
 7. Integriteitregels bepalen van elke vreemde sleutel.​
@@ -66,7 +66,7 @@
     - Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
     - Klas(<ins>volgLetter, jaar, code</ins>, titularis)
         - IR: `titularis` verwijst naar het attribuuttype `stamBoekNr` in de verzameling `Leerkracht` en is **verplicht/uniek**
-    - Leerkract_Klas(<ins>vakCode, stamboekNr</ins>)
+    - Leerkracht_Vak(<ins>vakCode, stamboekNr</ins>)
         - IR: `stamboekNr` verwijst naar de verzameling `Leerkracht` en is **verplicht**
         - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
     - Richting(<ins>code</ins>, naam)
