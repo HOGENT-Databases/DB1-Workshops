@@ -2,19 +2,20 @@
 
 ## Oefening 1 - Medewerkers
 
-### 0NV
-| MedewerkerNr 	| ProjectNr 	| ProjectNaam 	| AantalUur 	|
-|-------------	|-----------	|-------------	|----------:	|
-| 100         	| 1000      	| Hadoop      	|        50 	|
-| 200         	| 1200      	| CRM         	|       100 	|
-| 300         	| 1000      	| Hadoop      	|        40 	|
-| 400         	| 1500      	| Java        	|       100 	|
-| 500         	| 1000      	| Hadoop      	|       120 	|
-| 500         	| 1500      	| Java         	|       100 	|
+### Gegeven
+| MedewerkerNr | MedewerkersNaam | ProjectNr 	| ProjectNaam 	| AantalUur 	|
+|-------------	| ------------- |-----------	|-------------	|----------:	|
+| 100         	| Kevin         | 1000      	| Hadoop      	|        50 	|
+| 200         	| Els           | 1200      	| CRM         	|       100 	|
+| 300         	| Annelies      | 1000      	| Hadoop      	|        40 	|
+| 400         	| Martijn       | 1500      	| Java        	|       100 	|
+| 500         	| Hugo          | 1000      	| Hadoop      	|       120 	|
+|            	|               | 1500      	| Java         	|       100 	|
 
 ### Functionele Afhankelijkheden:​
 - projectNr → projectNaam​
-- medewerkerNr, projectNr → projectNaam, aantalUur
+- medewerkerNr, projectNr → projectNaam, medewekerNaam, aantalUur
+- medewerkerNr → medewekerNaam
 
 ### Opdracht
 Normaliseer tot een relationeelmodel

@@ -31,8 +31,7 @@ Normaliseer tot een relationeelmodel via volgende stappen:
 
 | Oefening | Onderwerp | Moeilijkheidsgraad |
 | ----- | ---- | ---- |
-| [01 - Medwwekers](exercises/exercise-1.md) | Een eerste normalisatie. | Introductie |
-| [02 - Medewekers 2](exercises/exercise-2.md) | Een uitbreiding. | Introductie |
+| [01 - Medewerkers](exercises/exercise-1.md) | Een eerste normalisatie. | Introductie |
 | [03 - Theoretisch](exercises/exercise-3.md) | Een theretische aanpak. | Standaard |
 | [04 - Leveranciers](exercises/exercise-4.md) | Dubbele herhaling. | Standaard |
 
