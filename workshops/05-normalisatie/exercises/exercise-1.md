@@ -14,8 +14,8 @@
 
 ### Functionele Afhankelijkheden:​
 - projectNr → projectNaam​
-- medewerkerNr, projectNr → projectNaam, medewekerNaam, aantalUur
-- medewerkerNr → medewekerNaam
+- medewerkerNr, projectNr → projectNaam, MedewerkerNaam, aantalUur
+- medewerkerNr → MedewerkerNaam
 
 ### Opdracht
 Normaliseer tot een relationeelmodel
