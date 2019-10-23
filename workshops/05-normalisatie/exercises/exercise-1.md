@@ -39,7 +39,7 @@ Normaliseer tot een relationeelmodel
         
 - 3 NV
     - Wegwerken transitieve afhankelijkheden op basis van functionele afhankelijkheden
-        - (`A` → `B`) en (`B` → `C`) en niet (`B` → `C`)
+        - (`A` → `B`) en (`B` → `C`) en niet (`B` → `A`)
             - Met andere woorden, `C` is afhankelijk van `B` en niet van `A`
 - Relationeel model
     - Benoemen van verzamelingen en integriteitsregels bepalen
