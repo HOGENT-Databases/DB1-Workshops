@@ -4,15 +4,15 @@
 - Klant(<ins>klantNr</ins>, voornaam, achternaam, cpVoornaam, cpAchternaam)
 - Medewerker(<ins>medewerkerNr</ins>, datumInDienst, loon, voornaam, achternaam)
 - Arbeider(<ins>medewerkerNr</ins>, ploeg)​
-    - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+    - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
 - Bediende(<ins>medewerkerNr</ins>, maaltijdCheques)
-    - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+    - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
 - Verkoper(<ins>medewerkerNr</ins>, comissiePercentage, nummerplaat)
-    - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+    - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
     - IR: `nummerplaat` verwijst naar de verzameling `Firmawagen` en is **verplicht, uniek**
 - Klant/Verkoper(<ins>klantNr, medewerkerNr</ins>, omzet)​
     - IR: `klantNr` verwijst naar de verzameling `Klant` en is **verplicht**
-    - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+    - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
 - Firmawagen(<ins>nummerplaat</ins>, merk)
 
 ## Stappenplan
@@ -83,15 +83,15 @@
     - Klant(<ins>klantNr</ins>, voornaam, achternaam, cpVoornaam, cpAchternaam)
     - Medewerker(<ins>medewerkerNr</ins>, datumInDienst, loon, voornaam, achternaam)
     - Arbeider(<ins>medewerkerNr</ins>, ploeg)​
-        - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+        - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
     - Bediende(<ins>medewerkerNr</ins>, maaltijdCheques)
-        - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+        - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
     - Verkoper(<ins>medewerkerNr</ins>, comissiePercentage, nummerplaat)
-        - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+        - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
         - IR: `nummerplaat` verwijst naar de verzameling `Firmawagen` en is **verplicht, uniek**
     - Klant/Verkoper(<ins>klantNr, medewerkerNr</ins>, omzet)​
         - IR: `klantNr` verwijst naar de verzameling `Klant` en is **verplicht**
-        - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
+        - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
     - Firmawagen(<ins>nummerplaat</ins>, merk)
 
 ## Oefeningen
