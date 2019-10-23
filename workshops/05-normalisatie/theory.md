@@ -91,7 +91,7 @@ Stel : `A` → `B`
 `B` is **volledig afhankelijk** van `A` als geldt dat er met 1 waarde van `A`, hoogstens 1 waarde van `B` gevonden kan worden en er zijn **geen partiele- en geen transitieve afhankelijkheden** meer zijn. Met andere woorden, hebben we elk attribuut van `A` nodig om `B` te bepalen.
 
 
-# Stappenplan voor nornalisatie
+# Stappenplan voor normalisatie
 Normaliseer niet relationele data vanuit documenten en dergelijke tot een relationeelmodel via volgende stappen:
 ##  0 NV en FA
 1. Lijst alle mogelijke gegevens op.
@@ -153,11 +153,11 @@ bevat dien je stappen 2 en 3 te herhalen totdat er geen herhalende gegevens meer
 
 ## 2<sup>e</sup> Normaalvorm (2NV)
 1. Zoek in de bekomen verzamelingen van de eerste normaalvorm niet-sleutelattribuuttypesdie partieel afhankelijk zijn van de primaire sleutel.
-    - R<sub>21</sub>(<ins>a<sub>1</sub></ins>, a<sub>21</sub> ,a<sub>22</sub>, a<sub>3</sub>)
+    - R<sub>11</sub>(<ins>a<sub>1</sub></ins>, a<sub>21</sub> ,a<sub>22</sub>, a<sub>3</sub>)
         - Kan **nooit** partieel afhankelijk zijn, aangezien het geen samengestelde sleutels bevat
-    - R<sub>21</sub>(**<ins>a<sub>1</sub>, a<sub>4</sub></ins>**, a<sub>5</sub>, a<sub>6</sub>)
+    - R<sub>12</sub>(**<ins>a<sub>1</sub>, a<sub>4</sub></ins>**, a<sub>5</sub>, a<sub>6</sub>)
         - Kan **wel** partieel afhankelijk zijn, aangezien het samengestelde sleutels bevat, stel dat a<sub>5</sub> partieel afhankelijk is van de primaire sleutel van R<sub>12</sub>.
-3. Verwijder de partieel afhankelijke attribuuttypes uit de oorspronkelijke verzameling.Door dit toe te passen op de verzameling R1.2 bekomen we:
+3. Verwijder de partieel afhankelijke attribuuttypes uit de oorspronkelijke verzameling.Door dit toe te passen op de verzameling R<sub>12</sub> bekomen we:
     - R<sub>22</sub>(**<ins>a<sub>1</sub>, a<sub>4</sub></ins>**, a<sub>6</sub>)
 3. Vorm een nieuwe verzameling bestaande uit het afhankelijke sleuteldeel + de niet-volledig afhankelijke attribuut-types. Het afhankelijke sleuteldeel vormt steeds de sleutel van de nieuwe verzameling.
     - R<sub>23</sub>(**a<sub>4</sub></ins>**, a<sub>5</sub>)
