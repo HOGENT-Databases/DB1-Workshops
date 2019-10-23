@@ -7,13 +7,13 @@
     - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
 - Bediende(<ins>medewerkerNr</ins>, maaltijdCheques)
     - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
-- Verkoper(<ins>medewerkerNr</ins>, comissiePercentage, nummerplaat)
+- Verkoper(<ins>medewerkerNr</ins>, comissiePercentage)
     - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
-    - IR: `nummerplaat` verwijst naar de verzameling `Firmawagen` en is **verplicht, uniek**
 - Klant/Verkoper(<ins>klantNr, medewerkerNr</ins>, omzet)​
     - IR: `klantNr` verwijst naar de verzameling `Klant` en is **verplicht**
     - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
-- Firmawagen(<ins>nummerplaat</ins>, merk)
+- Firmawagen(<ins>nummerplaat</ins>, merk, verkoper)
+    - IR: `verkoper` verwijst naar de verzameling `Verkoper` en is **verplicht, uniek**
 
 ## Stappenplan
 1. Elk entiteittype wordt een tupel verzameling of tabel ​
@@ -73,12 +73,12 @@
         - Regel: Optional, OR: verwijzen naar supertype
     - Bediende(<ins>medewerkerNr</ins>, maaltijdCheques)
         - Regel: Optional, OR: verwijzen naar supertype
-    - Verkoper(<ins>medewerkerNr</ins>, comissiePercentage, nummerplaat)
+    - Verkoper(<ins>medewerkerNr</ins>, comissiePercentage)
         - Regel: Optional, OR: verwijzen naar supertype
-        - Regel: 1 op 1: vreemde sleutel aan 1 zijde, kant van `Verkoper` omdat er minder NULL waarden zouden zijn.
     - Klant/Verkoper(<ins>klantNr, medewerkerNr</ins>, omzet)​
         - Regel: N op N: aparte verzameling met 2 vreemde sleutels​
-    - Firmawagen(<ins>nummerplaat</ins>, merk)
+    - Firmawagen(<ins>nummerplaat</ins>, merk, verkoper)
+        - Regel: 1 op 1: vreemde sleutel aan 1 zijde, kant van `Firmawagen` omdat er minder firmawagens zijn dan medewerkers, minder NULL waarden.
 7. Integriteitregels bepalen van elke vreemde sleutel.​
     - Klant(<ins>klantNr</ins>, voornaam, achternaam, cpVoornaam, cpAchternaam)
     - Medewerker(<ins>medewerkerNr</ins>, datumInDienst, loon, voornaam, achternaam)
@@ -86,13 +86,13 @@
         - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
     - Bediende(<ins>medewerkerNr</ins>, maaltijdCheques)
         - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
-    - Verkoper(<ins>medewerkerNr</ins>, comissiePercentage, nummerplaat)
+    - Verkoper(<ins>medewerkerNr</ins>, comissiePercentage)
         - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
-        - IR: `nummerplaat` verwijst naar de verzameling `Firmawagen` en is **verplicht, uniek**
     - Klant/Verkoper(<ins>klantNr, medewerkerNr</ins>, omzet)​
         - IR: `klantNr` verwijst naar de verzameling `Klant` en is **verplicht**
         - IR: `medewerkerNr` verwijst naar de verzameling `Medeweker` en is **verplicht**
-    - Firmawagen(<ins>nummerplaat</ins>, merk)
+    - Firmawagen(<ins>nummerplaat</ins>, merk, verkoper)
+        - IR: `verkoper` verwijst naar de verzameling `Verkoper` en is **verplicht, uniek**
 
 ## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
