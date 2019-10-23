@@ -3,46 +3,73 @@
 ## Oefening 1 - Medewerkers
 
 ### Gegeven
-| MedewerkerNr | MedewerkersNaam | ProjectNr 	| ProjectNaam 	| AantalUur 	|
-|-------------	| ------------- |-----------	|-------------	|----------:	|
-| 100         	| Kevin         | 1000      	| Hadoop      	|        50 	|
-| 200         	| Els           | 1200      	| CRM         	|       100 	|
-| 300         	| Annelies      | 1000      	| Hadoop      	|        40 	|
-| 400         	| Martijn       | 1500      	| Java        	|       100 	|
-| 500         	| Hugo          | 1000      	| Hadoop      	|       120 	|
-|            	|               | 1500      	| Java         	|       100 	|
-
-### Functionele Afhankelijkheden:​
-- projectNr → projectNaam​
-- medewerkerNr, projectNr → projectNaam, MedewerkerNaam, aantalUur
-- medewerkerNr → MedewerkerNaam
+<table>
+    <thead>
+        <tr>
+            <th>MedewerkerNr</th>
+            <th>MedewerkersNaam</th>
+            <th>ProjectNr</th>
+            <th>ProjectNaam</th>
+            <th align="right">AantalUur</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>100</td>
+            <td>Kevin</td>
+            <td>1000</td>
+            <td>Hadoop</td>
+            <td align="right">50</td>
+        </tr>
+        <tr>
+            <td>200</td>
+            <td>Els</td>
+            <td>1200</td>
+            <td>CRM</td>
+            <td align="right">100</td>
+        </tr>
+        <tr>
+                <tr valign="top">
+            <td>300</td>
+            <td>Annelies</td>
+            <td>1000<br>
+                1200
+            </td>
+            <td>Hadoop<br>
+                CRM</td>
+            <td align="right">40<br>
+                              85                
+            </td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>Martijn</td>
+            <td>1500</td>
+            <td>Java</td>
+            <td align="right">100</td>
+        </tr>
+        <tr valign="top">
+            <td>500</td>
+            <td>Hugo</td>
+            <td>1000<br>
+                1500
+            </td>
+            <td>Hadoop<br>
+                Java</td>
+            <td align="right">120<br>
+                              100                
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ### Opdracht
-Normaliseer tot een relationeelmodel
-- 0 NV
-    - Welke gegevens komen 1 keer voor?
-    - Welke gegevens herhalen zich?
-    - Wat zijn procesgegevens of niet-relevante gegevens
-    - Heeft het document een identificatie?
-- 1 NV
-    - Weglaten van procesgegevens
-    - Wegwerken samengestelde attributen
-    - Wegwerken herhaling
-        - Herhalende gegevens in nieuwe verzameling(tabel) 
-        - Sleutel oorspronkelijke verzameling mee overnemen
-        - Bepalen sleutel nieuwe verzameling
-- 2 NV
-    - Wegwerken partiele afhankelijkheden
-        - **Enkel** voor samengestelde sleutels
-        - `A`, `B` → `C` : Als we `C` kunnen verkrijgen door enkel `A` **OF** `B`
-            - Wordt `C` meegenomen in een een nieuwe verzameling met `A` of `B` als sleutel
-        
-- 3 NV
-    - Wegwerken transitieve afhankelijkheden op basis van functionele afhankelijkheden
-        - (`A` → `B`) en (`B` → `C`) en niet (`B` → `A`)
-            - Met andere woorden, `C` is afhankelijk van `B` en niet van `A`
-- Relationeel model
-    - Benoemen van verzamelingen en integriteitsregels bepalen
+Normaliseer tot een relationeelmodel, bepaal:
+- 0NV + functionele afhankelijkheden
+- 1NV
+- 2NV
+- 3NV
+- Relationeel Model
 
 ### Oplossing
 Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-1.md)
