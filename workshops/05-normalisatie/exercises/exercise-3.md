@@ -25,4 +25,4 @@ Normaliseer tot een relationeelmodel
     - Benoemen van verzamelingen en integriteitsregels bepalen
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-2.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-3.md)
