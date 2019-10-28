@@ -1,6 +1,6 @@
 # 05 - Workshop Normalisatie
 
-## Oefening 2 - Theoretisch
+## Oefening 3 - Theoretisch
 
 ### 0NV
 - R0 (<ins>a,b</ins>,c,(d,e,f)*)

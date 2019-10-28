@@ -1,4 +1,4 @@
-# Oefening 2 - Theoretisch
+# Oefening 3 - Theoretisch
 
 ## Oplossing
 - AB(<ins>a,b</ins>,c)
