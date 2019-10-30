@@ -179,7 +179,7 @@ In 3 NV bekomen we uiteindelijk:
 - R<sub>31</sub>(<ins>a<sub>1</sub></ins>, a<sub>21</sub> ,a<sub>22</sub>)
 - R<sub>32</sub>(<ins>a<sub>22</sub></ins>, a<sub>3</sub>)
 - R<sub>33</sub>(**<ins>a<sub>1</sub>, a<sub>4</sub></ins>**, a<sub>6</sub>)
-- R<sub>33</sub>(**a<sub>4</sub></ins>**, a<sub>5</sub>)
+- R<sub>34</sub>(**a<sub>4</sub></ins>**, a<sub>5</sub>)
 
 ## Relationeel model 
 Benoemen van verzamelingen en integriteitsregels bepalen, weet dat de optionaliteit/verplichtheid niet altijd evident is en vaak wordt bepaald door de opdrachtgever in een apart document. Echter kan je er altijd zeker van zijn dat een vreemde sleutels steeds verplicht is, als hij deeluitmaakt van de primaire sleutel.
