@@ -1,6 +1,6 @@
 # 05 - Workshop Normalisatie
 
-## Oefening 3 - Theoretisch
+## Oefening 2 - Theoretisch
 
 ### 0NV
 - R0 (<ins>a,b</ins>,c,(d,e,f)*)
@@ -25,4 +25,4 @@ Normaliseer tot een relationeelmodel
     - Benoemen van verzamelingen en integriteitsregels bepalen
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-3.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-2.md)

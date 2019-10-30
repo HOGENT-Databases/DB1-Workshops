@@ -3,7 +3,7 @@
 ## Oplossing
 ### Functionele Afhankelijkheden:​
 - projectNr → projectNaam​
-- medewerkerNr, projectNr → projectNaam, MedewerkerNaam, aantalUur
+- medewerkerNr, projectNr → projectNaam, medewerkerNaam, aantalUur
 - medewerkerNr → MedewerkerNaam
 
 ### Relationeel Model

@@ -7,4 +7,5 @@
 | [01 - Medewerkers](exercises/exercise-1.md) | Een eerste normalisatie. | Introductie |
 | [02 - Theoretisch](exercises/exercise-2.md) | Een theretische aanpak. | Standaard |
 | [03 - Leveranciers](exercises/exercise-3.md) | Dubbele herhaling. | Standaard |
+| [04 - Verhuurkantoor](exercises/exercise-4.md) | Begin bij 1NV. | Standaard |
 
