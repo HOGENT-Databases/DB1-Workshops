@@ -1,16 +1,18 @@
 # 05 - Workshop Normalisatie
 
-## Oefening 3 - Theoretisch
+## Oefening 3 - Leveranciers
 
 ### 0NV
-- R0 (<ins>a,b</ins>,c,(d,e,f)*)
-    - `f` is samengesteld uit `f1` en `f2`
+- R0 (<ins>lnr</ins>, naam, adres, (onderdeelnr, beschrijving, (klantID, klnaam, kladres, hoeveelheid)*)*)
+    - `naam` en `klnaam` zijn samengesteld uit `voornaam` en `familienaam`
+    - `adres` en `kladres` zijn samengesteld uit `straat`, `huisnr`, `postcode`, `woonplaats`
 
 ### Functionele Afhankelijkheden:​
-- a, b → c​
-- a, b, d → e, f​
-- d → e, f​
-- e → f
+
+- lnr → naam, adres
+- lnr, onderdeelnr → beschrijving
+- lnr, onderdeelnr, klantID → klnaam, kladres, hoeveelheid
+- klantID → klnaam, kladres
 
 ### Opdracht
 Normaliseer tot een relationeelmodel

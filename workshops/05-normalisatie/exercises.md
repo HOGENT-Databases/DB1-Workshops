@@ -5,6 +5,6 @@
 | Oefening | Onderwerp | Moeilijkheidsgraad |
 | ----- | ---- | ---- |
 | [01 - Medewerkers](exercises/exercise-1.md) | Een eerste normalisatie. | Introductie |
-| [03 - Theoretisch](exercises/exercise-3.md) | Een theretische aanpak. | Standaard |
-| [04 - Leveranciers](exercises/exercise-4.md) | Dubbele herhaling. | Standaard |
+| [02 - Theoretisch](exercises/exercise-2.md) | Een theretische aanpak. | Standaard |
+| [03 - Leveranciers](exercises/exercise-3.md) | Dubbele herhaling. | Standaard |
 
