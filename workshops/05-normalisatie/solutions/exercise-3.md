@@ -13,7 +13,7 @@
 ### 1NV
 - R<sub>11</sub>(<ins>lnr</ins>, familienaam, voornaam, straat, huisnr, postcode, woonpl)
 - R<sub>12</sub>(<ins>lnr, onderdeelnr</ins>, beschrijving)
-- R<sub>13</sub>(<ins>lnr, onderdeelnr, klantID</ins>, klnaam, klvoornaam, , straat, hnr, postcode, woonpl, hoeveelheid)
+- R<sub>13</sub>(<ins>lnr, onderdeelnr, klantID</ins>, klnaam, klvoornaam, straat, hnr, postcode, woonpl, hoeveelheid)
 
 
 ### 2NV
