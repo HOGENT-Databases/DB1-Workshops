@@ -6,6 +6,8 @@ Structured Query Language of kortweg SQL is een ANSI/ISO-standaardtaal voor een 
 1. Installeer MySQL en MySQL Workbench via de installatie instructies op Chamillo.
 2. Zorg ervoor dat de databank Planten aanwezig is(staat in het installatie bestand).
 
+## Slides
+De slides voor deze workshop wind je [hier](https://hogent-databases.github.io/DB1-Slides/#1)
 
 ## Structuur Planten
 Plantencentrum De Schop maakt gebruik van de databank `Planten`. De databankbevat o.a. gegevens over de planten, leveranciers en bestellingen die ze bij de leveranciers plaatsen. De databankbevat volgende tabellen:
