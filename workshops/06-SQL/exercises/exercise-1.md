@@ -1,5 +1,9 @@
 # 06 - Workshop SQL
 
+## Diagram
+<img src="../exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
+
+
 ## Oefening 1 - Raadplegen
 
 1. Toon een alfabetische adreslijst van alle leveranciers (naam, leverancierscode, adres en
@@ -29,4 +33,4 @@ binnen de 14 dagen werden geleverd
 hoog zijn. Naast de hoogte moet de tekst cm worden weergegeven.
 
 ### Oplossing
-Oplossingen zijn nog niet beschikbaar.
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-1.md)
