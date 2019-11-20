@@ -11,7 +11,7 @@ woonplaats). Sorteer op woonplaats in dalende volgorde. Bij gelijke woonplaats k
 namen van de leveranciers in alfabetische volgorde.
 2. Toon de unieke leverancierscode van de leveranciers waarbij bestellingen zijn geplaatst.
 3. Geef een alfabetisch lijst van alle planten (naam) waarvan de naam eindigt op bloem.
-4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Aalsmeer of Lisse.
+4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Antwerpen, Heusden of Leuven 
 5. Toon de naam, artikelcode en prijs van de planten waarvan de bloei begint in april.
 6. Geef een overzicht van alle planten waarvan de bloeiperiode begin en/of bloeiperiode einde niet
 is ingevuld. Toon de naam van de planten en een aanduiding 
