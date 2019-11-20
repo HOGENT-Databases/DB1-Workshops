@@ -62,7 +62,7 @@ is ingevuld. Toon de naam van de planten en een aanduiding
     ```sql
     SELECT naam, woonplaats 
     FROM leveranciers 
-    WHERE NOT woonplaats='Heusden' 
+    WHERE NOT woonplaats='Lisse' 
     ```
 9. Toon naam van de planten waarvan de bloeiperiode begint tussen juni en oktober 
     ```sql
