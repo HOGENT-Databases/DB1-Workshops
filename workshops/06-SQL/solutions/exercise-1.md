@@ -65,7 +65,7 @@ namen van de leveranciers in alfabetische volgorde.
     ```
 9. Toon naam van de planten waarvan de bloeiperiode begint tussen juni en oktober 
     ```sql
-    SELECT naam, bl_b, bl_e 
+    SELECT naam
     FROM planten 
     WHERE bl_b  BETWEEN 6 AND 10 
     ```
