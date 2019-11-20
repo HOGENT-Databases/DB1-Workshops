@@ -8,5 +8,5 @@
 | [02 - Theoretisch](exercises/exercise-2.md) | Een theoretische aanpak. | Standaard |
 | [03 - Leveranciers](exercises/exercise-3.md) | Dubbele herhaling. | Standaard |
 | [04 - Verhuurkantoor](exercises/exercise-4.md) | Begin bij 1NV. | Standaard |
-| [05 - Biowinkel](exercises/exercise-5.md) | Op basis van documenten. | Standaard |
-
+| [05 - Biowinkel](exercises/exercise-5.md) | Integratie op basis van documenten | Standaard |
+| [06 - Productiehuizen](exercises/exercise-6.md) | Combinatie oefening. | Standaard |
