@@ -54,8 +54,9 @@ is ingevuld. Toon de naam van de planten en een aanduiding
     ```sql
     SELECT naam  
     FROM planten 
-    WHERE naam LIKE '%boom%' OR naam LIKE '_____' 
-                            OR LENGTH(naam)=5 
+    WHERE naam LIKE '%boom%' 
+       OR naam LIKE '_____' 
+    -- OF OR LENGTH(naam)=5 
     ```
 8. Toon naam en woonplaats van de leveranciers die niet in Heusden wonen. 
     ```sql
