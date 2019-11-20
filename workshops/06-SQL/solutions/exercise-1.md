@@ -24,7 +24,7 @@ namen van de leveranciers in alfabetische volgorde.
     ```sql 
     SELECT * 
     FROM leveranciers  
-    WHERE woonplaats IN ('Antwerpen', 'Heusden', 'Leuven') 
+    WHERE woonplaats IN ('Aalsmeer', 'Lisse') 
     ```
 5. Toon de naam, artikelcode en prijs van de planten waarvan de bloei begint in april. 
     ```sql
