@@ -14,10 +14,11 @@ namen van de leveranciers in alfabetische volgorde.
 4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Antwerpen, Heusden of Leuven 
 5. Toon de naam, artikelcode en prijs van de planten waarvan de bloei begint in april.
 6. Geef een overzicht van alle planten waarvan de bloeiperiode begin en/of bloeiperiode einde niet
-is ingevuld. Toon de naam van de planten en een aanduiding 
-    -  Beginperiode niet opgegeven: indien enkel bl_b niet is ingevuld
+is ingevuld. Toon de naam van de planten en een aanduiding, gebruik hiervoor een case expressie en noem de kolom "bloeiperiode", de volgende aanduidingen zijn mogelijk:
+    - Beginperiode niet opgegeven: indien enkel bl_b niet is ingevuld
     - Eindperiode niet opgegeven: indien enkel bl_e niet is ingevuld
-    -  Periodes niet opgegeven: indien beide niet ingevuld
+    - Periodes niet opgegeven: indien beide niet ingevuld
+
 7. Geef de namen van de planten waarin het woordje boom voorkomt of waarvan de naam bestaat
 uit 5 posities
 8. Toon naam en woonplaats van de leveranciers die niet in Lisse wonen.

@@ -32,9 +32,8 @@ namen van de leveranciers in alfabetische volgorde.
     FROM planten 
     WHERE bl_b=4 
     ```
-6. Geef een overzicht van alle planten waarvan de bloeiperiode begin en/of bloeiperiode einde niet
-is ingevuld. Toon de naam van de planten en een aanduiding 
-    -  Beginperiode niet opgegeven: indien enkel bl_b niet is ingevuld
+6. Geef een overzicht van alle planten waarvan de bloeiperiode begin en/of bloeiperiode einde niet is ingevuld. Toon de naam van de planten en een aanduiding, gebruik hiervoor een case expressie en noem de kolom "bloeiperiode", de volgende aanduidingen zijn mogelijk:
+    - Beginperiode niet opgegeven: indien enkel bl_b niet is ingevuld
     - Eindperiode niet opgegeven: indien enkel bl_e niet is ingevuld
     - Periodes niet opgegeven: indien beide niet ingevuld
 
