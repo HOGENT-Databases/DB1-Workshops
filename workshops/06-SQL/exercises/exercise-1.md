@@ -1,8 +1,10 @@
 # 06 - Workshop SQL
 
+## Slides
+De slides voor deze workshop vind je [hier](https://hogent-databases.github.io/DB1-Slides/#1)
+
 ## Diagram
 <img src="../exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
-
 
 ## Oefening 1 - Raadplegen
 
