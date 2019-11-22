@@ -303,5 +303,5 @@ Plantencentrum De Schop maakt gebruik van de databank `Planten`. De databankbeva
 | [01 - Raadplegen](exercises/exercise-1.md)  | Select, Where, Order By  | Standaard |
 | [02 - Aggregeren](exercises/exercise-2.md)  | Statistische functies    | Standaard |
 | [03 - Combineren](exercises/exercise-3.md)  | Join functies            | Standaard |
-| [04 - Manipuleren](exercises/exercise-4.md) | DDL en DML               | Standaard |
+| [04 - Manipuleren en Definiëren](exercises/exercise-4.md) | DDL en DML | Standaard |
 

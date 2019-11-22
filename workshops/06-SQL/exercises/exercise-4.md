@@ -1,6 +1,9 @@
 # 06 - Workshop SQL
 
-## Oefening 4 - Manipuleren
+## Diagram
+<img src="../exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
+
+## Oefening 4 - Manipuleren en Definiëren
 
 1. Creëer de tabellen planten en soorten en kleuren. Leg een constraint op de hoogte nl moet positief zijn. Definieer constraint op de bloeimaanden. Moeten gelegen zijn tussen 1 en 12. Definieer ook de sleutel – vreemde sleutel relaties.
 2. Voeg als kleuren rood en blauw toe.
@@ -14,4 +17,4 @@
 10. Verwijder alle planten.
 
 ### Oplossing
-Oplossingen zijn nog niet beschikbaar.
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-4.md)
