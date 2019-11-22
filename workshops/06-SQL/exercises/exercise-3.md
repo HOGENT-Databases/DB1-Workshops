@@ -1,5 +1,8 @@
 # 06 - Workshop SQL
 
+## Diagram
+<img src="../exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
+
 ## Oefening 3 - Combineren
 
 1. Geef een overzicht (naam, soortnaam en hoogte) van alle waterplanten, gesorteerd op hoogte.
@@ -19,4 +22,4 @@
 15. Toon een lijst met bestelnummers, leverancierscode en besteldatum en zorg ervoor dat de de lijst ook de leveranciers bevat waarvoor nog geen bestelling geplaatst werd.
 
 ### Oplossing
-Oplossingen zijn nog niet beschikbaar.
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-3.md)
