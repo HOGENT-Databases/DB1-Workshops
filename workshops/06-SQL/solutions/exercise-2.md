@@ -18,6 +18,7 @@
     ```sql
     SELECT COUNT(DISTINCT kleurID) as Aantal 
     FROM planten 
+    WHERE bl_b IS NOT NULL AND bl_e IS NOT NULL
     ```
 
 4. Bij hoeveel leveranciers werd er reeds een bestelling geplaatst? 
