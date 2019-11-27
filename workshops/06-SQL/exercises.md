@@ -294,15 +294,6 @@ Plantencentrum De Schop maakt gebruik van de databank `Planten`. De databankbeva
 
 ### Diagram
 <img src="exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
-
-
-
-
-
-
-
-
-
 | Oefening | Onderwerp | Moeilijkheidsgraad |
 | ----- | ---- | ---- |
 | [01 - Raadplegen](exercises/exercise-1.md)  | Select, Where, Order By  | Standaard |
