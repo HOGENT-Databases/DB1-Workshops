@@ -1,6 +1,6 @@
 # 06 - Workshop SQL
 
-## Oplossingen 2 - Aggregeren
+## Oefening 3 - Combineren
 1. Geef een overzicht (naam, soortnaam en hoogte) van alle waterplanten, gesorteerd op hoogte 
     ```sql
     SELECT naam, soort, hoogte 
