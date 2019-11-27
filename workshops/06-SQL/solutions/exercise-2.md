@@ -12,13 +12,13 @@
     ```sql
     SELECT COUNT(kleurID) AS Aantal 
     FROM planten 
+    WHERE bl_b IS NOT NULL AND bl_e IS NOT NULL
     ```
 
 3. Hoeveel verschillende bloeikleuren komen er in het assortiment voor? 
     ```sql
     SELECT COUNT(DISTINCT kleurID) as Aantal 
     FROM planten 
-    WHERE bl_b IS NOT NULL AND bl_e IS NOT NULL
     ```
 
 4. Bij hoeveel leveranciers werd er reeds een bestelling geplaatst? 
