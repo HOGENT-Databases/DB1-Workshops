@@ -17,25 +17,25 @@
 
 3. Hoeveel verschillende bloeikleuren komen er in het assortiment voor? 
     ```sql
-    SELECT COUNT(DISTINCT kleurID) as Aantal 
+    SELECT COUNT(DISTINCT kleurID) AS Aantal 
     FROM planten 
     ```
 
 4. Bij hoeveel leveranciers werd er reeds een bestelling geplaatst? 
     ```sql
-    SELECT COUNT(DISTINCT levCode) as 'aantal leveranciers' 
+    SELECT COUNT(DISTINCT levCode) AS 'aantal leveranciers' 
     FROM bestellingen 
     ```
 
 5. Hoeveel verschillende artikelen zijn er reeds besteld geweest. 
     ```sql
-    SELECT COUNT(DISTINCT artcodeLev) as Aantal 
+    SELECT COUNT(DISTINCT artcodeLev) AS Aantal 
     FROM bestellijnen 
     ```
 
 6. Geef een overzicht van het aantal leveranciers per woonplaats.  
     ```sql 
-    SELECT woonplaats, COUNT(*) as Aantal 
+    SELECT woonplaats, COUNT(*) AS Aantal 
     FROM leveranciers 
     GROUP BY woonplaats 
     ```
@@ -67,7 +67,7 @@
 
 10. Wat is de laagste offerteprijs voor de plant met artikelcode 123. 
     ```sql
-    SELECT MIN(offerteprijs) as 'laagste offerteprijs' 
+    SELECT MIN(offerteprijs) AS 'laagste offerteprijs' 
     FROM offertes 
     WHERE artcode='123' 
     ```
@@ -108,5 +108,5 @@
     ORDER BY woonplaats 
     ```
 
-### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-2.md)
+## Oefeningen
+Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
