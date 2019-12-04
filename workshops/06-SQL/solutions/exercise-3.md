@@ -24,7 +24,7 @@
     ```sql
     SELECT soort, MIN(prijs) 
     FROM planten JOIN soorten ON soorten.soortid = planten.soortid 
-    WHERE (bl_b<=6 AND bl_e>=5)  
+    WHERE (bl_b<=5 AND bl_e>=6)  
     GROUP BY soort 
     ```
 
