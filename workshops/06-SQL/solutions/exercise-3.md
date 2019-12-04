@@ -20,7 +20,7 @@
     ORDER BY  soort, naam 
     ```
 
-3. Welke is de laagste prijs per plantensoort van de planten die o.a. in mei of juni bloeien? 
+3. Welke is de laagste prijs per plantensoort van de planten die de volledige periode van mei tot en met juni bloeien. De bloei mag beginnnen voor mei en eindigen na juni.
     ```sql
     SELECT soort, MIN(prijs) 
     FROM planten JOIN soorten ON soorten.soortid = planten.soortid 
