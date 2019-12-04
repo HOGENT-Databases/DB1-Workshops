@@ -26,10 +26,10 @@
         CONSTRAINT kleurID_fk FOREIGN KEY(kleurID) REFERENCES Kleuren(KleurID)) 
     ```
 
-2. Voeg als kleuren rood en blauw toe. 
+2. Voeg als kleuren appelblauwzeegroen en zwart toe.
     ```sql
-    INSERT INTO kleuren(kleur) VALUES(‘rood’) 
-    INSERT INTO kleuren(kleur) VALUES (‘blauw’) 
+    INSERT INTO kleuren(kleur) VALUES(‘appelblauwzeegroen’) 
+    INSERT INTO kleuren(kleur) VALUES (‘zwart’) 
     ```
 
 3. Voeg als soorten bol en boom toe 
