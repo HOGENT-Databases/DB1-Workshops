@@ -4,18 +4,18 @@
 1. Creëer de tabellen planten en soorten en kleuren. Leg een constraint op de hoogte nl moet positief zijn. Definieer constraint op de bloeimaanden. Moeten gelegen zijn tussen 1 en 12. Definieer ook de sleutel – vreemde sleutel relaties. 
     ```sql
     CREATE TABLE Kleuren ( 
-    kleurID int IDENTITY (1, 1) NOT NULL PRIMARY KEY , 
-    kleur nvarchar (50) NOT NULL   
+    kleurID int  NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+    kleur varchar (50) NOT NULL   
     )  
 
     CREATE TABLE Soorten ( 
-    soortID int IDENTITY (1, 1) NOT NULL PRIMARY KEY , 
-    soort nvarchar (50) NOT NULL  
+    soortID int  NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+    soort varchar (50) NOT NULL  
     )  
 
     CREATE TABLE Planten ( 
     artCode varchar (3) NOT NULL PRIMARY KEY, 
-    naam nvarchar (16) NOT NULL , 
+    naam varchar (16) NOT NULL , 
     soortID int NOT NULL , 
     kleurID int NULL , 
             hoogte int NULL CHECK (hoogte > 0), 
