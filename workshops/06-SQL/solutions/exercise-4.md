@@ -32,10 +32,12 @@
     INSERT INTO kleuren(kleur) VALUES ('zwart') 
     ```
 
-3. Voeg als soorten bol en boom toe 
+3. Voeg als soorten 'vet' en 'naald' toe 
     ```sql
-    INSERT INTO soorten(soort) VALUES('bol') 
-    INSERT INTO soorten(soort) VALUES('boom') 
+    INSERT INTO soorten(soort) VALUES('vet') 
+    INSERT INTO soorten(soort) VALUES('naald') 
+    -- OF:
+    INSERT INTO soorten(soort) VALUES('vet'),('naald') 
     ```
 
 4. Voeg een spar toe aan de tabel planten. (artcode : 362, hoogte 3000, prijs : 12.5, soortID : 2, andere gegevens onbekend) 
