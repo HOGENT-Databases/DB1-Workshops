@@ -2,7 +2,7 @@
 
 ## Oplossingen 2 - Aggregeren
 
-1. Hoeveel planten telt het assortiment? Geef de kolom de naam ‘aantal planten’. 
+1. Hoeveel planten telt het assortiment? Geef de kolom de naam 'aantal planten'. 
     ```sql
     SELECT COUNT(*) AS 'aantal planten' 
     FROM planten 

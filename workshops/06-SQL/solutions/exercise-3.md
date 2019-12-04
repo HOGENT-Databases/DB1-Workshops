@@ -49,7 +49,7 @@
      - Opm: indien in resultaat ook aantal 0 bij soort/kleur combinaties waarbij er geen planten zijn… 
 
     ```sql
-    SELECT soort, kleur, count(artCode) as ‘aantal planten’ 
+    SELECT soort, kleur, count(artCode) as 'aantal planten' 
     FROM soorten s cross join kleuren k  
         LEFT JOIN planten p on p.kleurId = k.kleurId and p.soortID = s.soortID 
     GROUP BY soort, kleur 
@@ -81,7 +81,7 @@
     GROUP BY leverdatum, B.bestelnr, naam 
     ```
 
-8. Selecteer de verschillende woonplaatsen van de leveranciers die een offerte gemaakt hebben voor ‘vaste’ planten 
+8. Selecteer de verschillende woonplaatsen van de leveranciers die een offerte gemaakt hebben voor 'vaste' planten 
     ```sql
     SELECT DISTINCT woonplaats 
     FROM planten P  
@@ -100,7 +100,7 @@
     ORDER BY  naam 
     ```
 
-10. Geef een overzicht van alle bestellingen : bestelnr, leverdatum in het formaat dd/mm/yyyy, bedrag. Voeg een laatste kolom ‘opmerking’ toe. Indien de besteldatum > 5 maart 2003 dan moet in de laatste kolom de opmerking ‘te laat’ komen, anders komt in de laatste kolom geen opmerking  
+10. Geef een overzicht van alle bestellingen : bestelnr, leverdatum in het formaat dd/mm/yyyy, bedrag. Voeg een laatste kolom 'opmerking' toe. Indien de besteldatum > 5 maart 2003 dan moet in de laatste kolom de opmerking 'te laat' komen, anders komt in de laatste kolom geen opmerking  
     - met Union: 
     ```sql
     SELECT bestelnr, DATE_FORMAT(leverdatum, '%d-%m-%Y'), bedrag, DATE_FORMAT(besteldatum, '%d/%m/%Y'), 'te laat' AS opmerking 
@@ -134,7 +134,7 @@
     ```
     - Indien aantal 0 ook in resultaat moet komen: 
     ```sql
-    SELECT l.naam, count(distinct s.soortId) as ‘aantal verschillende soorten planten’ 
+    SELECT l.naam, count(distinct s.soortId) as 'aantal verschillende soorten planten' 
     FROM leveranciers l left join offertes o on l.levCode = o.levCode  
     LEFT JOIN planten p on o.artCode = p.artCode 
     LEFT JOIN soorten s on s.soortId = p.soortId 

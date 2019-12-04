@@ -28,24 +28,24 @@
 
 2. Voeg als kleuren appelblauwzeegroen en zwart toe.
     ```sql
-    INSERT INTO kleuren(kleur) VALUES(‘appelblauwzeegroen’) 
-    INSERT INTO kleuren(kleur) VALUES (‘zwart’) 
+    INSERT INTO kleuren(kleur) VALUES('appelblauwzeegroen') 
+    INSERT INTO kleuren(kleur) VALUES ('zwart') 
     ```
 
 3. Voeg als soorten bol en boom toe 
     ```sql
-    INSERT INTO soorten(soort) VALUES(‘bol’) 
-    INSERT INTO soorten(soort) VALUES(‘boom’) 
+    INSERT INTO soorten(soort) VALUES('bol') 
+    INSERT INTO soorten(soort) VALUES('boom') 
     ```
 
 4. Voeg een spar toe aan de tabel planten. (artcode : 362, hoogte 3000, prijs : 12.5, soortID : 2, andere gegevens onbekend) 
     ```sql
-    INSERT INTO planten(artcode, naam,hoogte,prijs, soortID) VALUES(362,’spar’,3000,12.5,2)  (in values mag je geen selects gebruiken) 
+    INSERT INTO planten(artcode, naam,hoogte,prijs, soortID) VALUES(362,'spar',3000,12.5,2)  (in values mag je geen selects gebruiken) 
     ```
 
 5. Voeg een sierui toe aan de tabel planten (artcode : 162, hoogte : 75, bl_e :8; bl_b : 6,prijs :3 , soort : bol, kleur : blauw) 
     ```sql
-    INSERT INTO planten(artcode, naam,hoogte,prijs, bl_b, bl_e, soortID, kleurID)  VALUES(162,’sierui’,75,3,6,8, 1,2) 
+    INSERT INTO planten(artcode, naam,hoogte,prijs, bl_b, bl_e, soortID, kleurID)  VALUES(162,'sierui',75,3,6,8, 1,2) 
     ```
 
 6. Verhoog de prijs van alle planten met 5 procent 
@@ -55,19 +55,19 @@
 
 7. Verwijder kleur blauw. Werkt dit? 
     ```sql
-    DELETE kleuren WHERE naam=’blauw’ 
+    DELETE kleuren WHERE naam='blauw' 
     ```
 
 8. Voeg als soort bloem toe.  
     ```sql
-    INSERT INTO soorten(soort) VALUES(‘bloem’) 
+    INSERT INTO soorten(soort) VALUES('bloem') 
     ```
 
 9. Pas de tabel planten aan. Vervang soort bol door soort bloem 
 UPDATE planten  
 ```sql
 SET soortID=(select max(soortid) from soorten where soort='bloem')  
-    WHERE soortID=(select soortid from soorten WHERE soort=bol’) 
+    WHERE soortID=(select soortid from soorten WHERE soort=bol') 
 ```
 
 10. Verwijder alle planten 
