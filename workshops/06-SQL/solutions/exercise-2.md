@@ -97,6 +97,11 @@
     ```sql
     SELECT MIN(naam) 
     FROM planten 
+    -- OF
+    SELECT naam 
+    FROM planten
+    ORDER BY naam 
+    LIMIT 1
     ```
 
 15. Toon de lijst van de woonplaatsen waar 2 of meer leveranciers wonen. Sorteer alfabetisch. 
