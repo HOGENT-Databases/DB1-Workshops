@@ -63,9 +63,9 @@
     INSERT INTO soorten(soort) VALUES(‘bloem’) 
     ```
 
-9. Pas de tabel planten aan. Vervang soort bol door soort bloem 
-UPDATE planten  
+9. Pas de tabel planten aan. Vervang soort bol door soort bloem   
 ```sql
+UPDATE planten
 SET soortID=(select max(soortid) from soorten where soort='bloem')  
     WHERE soortID=(select soortid from soorten WHERE soort=bol’) 
 ```
