@@ -28,7 +28,7 @@
     GROUP BY soort 
     ```
 
-4. Toon de verschillende plantsoorten waarvoor roodbloeiende planten beschikbaar zijn 
+4. Toon de verschillende plantsoorten waarvoor rode planten beschikbaar zijn.
     ```sql
     SELECT soort 
     FROM soorten 
