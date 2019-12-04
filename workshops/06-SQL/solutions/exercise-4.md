@@ -67,7 +67,7 @@
 ```sql
 UPDATE planten
 SET soortID=(select max(soortid) from soorten where soort='bloem')  
-    WHERE soortID=(select soortid from soorten WHERE soort=bol’) 
+    WHERE soortID=(select soortid from soorten WHERE soort='bol') 
 ```
 
 10. Verwijder alle planten 
