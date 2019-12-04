@@ -71,8 +71,8 @@ SET soortID=(select max(soortid) from soorten where soort='bloem')
 ```
 
 10. Verwijder alle planten 
-```sql
-TRUNCATE TABLE planten
+```sql TRUNCATE TABLE lukt niet met foreign key gedefinieerd op kolom kleurID
+delete from planten
 ``` 
 
 ## Oefeningen
