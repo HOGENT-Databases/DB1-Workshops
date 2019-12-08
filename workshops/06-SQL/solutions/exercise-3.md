@@ -103,20 +103,20 @@
 10. Geef een overzicht van alle bestellingen : bestelnr, leverdatum in het formaat dd/mm/yyyy, bedrag. Voeg een laatste kolom 'opmerking' toe. Indien de besteldatum > 5 maart 2003 dan moet in de laatste kolom de opmerking 'te laat' komen, anders komt in de laatste kolom geen opmerking  
     - met Union: 
     ```sql
-    SELECT bestelnr, DATE_FORMAT(leverdatum, '%d-%m-%Y'), bedrag, DATE_FORMAT(besteldatum, '%d/%m/%Y'), 'te laat' AS opmerking 
+    SELECT bestelnr, DATE_FORMAT(leverdatum, '%d/%m/%Y'), bedrag, DATE_FORMAT(besteldatum, '%d/%m/%Y'), 'te laat' AS opmerking 
     FROM bestellingen 
     WHERE besteldatum > '2003-03-05' 
 
     UNION 
 
-    SELECT bestelnr, DATE_FORMAT(leverdatum, '%d-%m-%Y'), bedrag, DATE_FORMAT(besteldatum, '%d/%m/%Y'), '  ' AS opmerking 
+    SELECT bestelnr, DATE_FORMAT(leverdatum, '%d/%m/%Y'), bedrag, DATE_FORMAT(besteldatum, '%d/%m/%Y'), '  ' AS opmerking 
     FROM bestellingen 
     WHERE besteldatum <= '2003-03-05' 
     ORDER BY bestelnr 
     ```
     - met case: 
     ```sql
-    SELECT bestelnr, DATE_FORMAT(leverdatum, '%d-%m-%Y'), DATE_FORMAT(besteldatum, '%d-%m-%Y'), bedrag,  
+    SELECT bestelnr, DATE_FORMAT(leverdatum, '%d/%m/%Y'), DATE_FORMAT(besteldatum, '%d/%m/%Y'), bedrag,  
     case when besteldatum > '2003-03-05' then 'te laat'  
     Else '  ' 
     End AS opmerking 
