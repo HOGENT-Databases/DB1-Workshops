@@ -12,7 +12,7 @@
 5. Verhoog de prijs van alle planten met 5 procent.
 6. Verwijder kleur blauw. Werkt dit?
 7. Voeg als soort bloem toe.
-8. Pas de tabel planten aan. Vervang soort bol door soort bloem.
+8. Pas de tabel planten aan. Vervang de soort van alle planten die de Soort `bol` hebben naar de soort `bloem`.
 9. Verwijder alle planten.
 
 ### Oplossing

@@ -40,17 +40,37 @@
     INSERT INTO soorten(soort) VALUES('bloem') 
     ```
 
-8. Pas de tabel planten aan. Vervang soort bol door soort bloem 
-UPDATE planten  
-```sql
-SET soortID=(select max(soortid) from soorten where soort='bloem')  
-    WHERE soortID=(select soortid from soorten WHERE soort=bol') 
-```
+8. Pas de tabel planten aan. Vervang de soort van alle planten die de Soort `bol` hebben naar de soort `bloem`.
+- Opzoeken van de SoortID van `bol`, hierdoor weet je de SoortID van de soort `bol`:
+    ```sql
+    SELECT soortID FROM soorten WHERE soort='bol'
+    ```
+
+- Opzoeken van de SoortID van `bloem`, hierdoor weet je de SoortID van de soort`bloem`:
+    ```sql
+    SELECT soortID FROM soorten WHERE soort='bloem'
+    ```
+
+- Effectieve aanpassing, laten we stellen dat de soortID van `bloem` == 1 en `bol` == 3
+    ```sql
+    UPDATE planten 
+    SET soortID = 2  
+    WHERE soortID = 3
+    ```
+
+    > Alternatief:
+    >
+    > Het is mogelijk via subqueries, maar dit is leerstof voor Databanken II: 
+    ```sql
+    UPDATE planten 
+    SET soortID=(select soortid from soorten where soort='bloem')  
+        WHERE soortID=(select soortid from soorten WHERE soort='bol') 
+    ```
 
 9. Verwijder alle planten 
-```sql TRUNCATE TABLE lukt niet met foreign key gedefinieerd op kolom kleurID
-delete from planten
-``` 
+    ```sql TRUNCATE TABLE lukt niet met foreign key gedefinieerd op kolom kleurID
+    delete from planten
+    ``` 
 
 ## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
