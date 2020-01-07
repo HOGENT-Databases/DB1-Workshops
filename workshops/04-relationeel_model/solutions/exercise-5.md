@@ -10,6 +10,7 @@
 - Leerkracht(<ins>stamboekNr</ins>, voornaam, achternaam)
 - Klas(<ins>volgLetter, jaar, code</ins>, titularis)
     - IR: `titularis` verwijst naar het attribuuttype `stamBoekNr` in de verzameling `Leerkracht` en is **verplicht/uniek**
+    - IR: `code` verwijst naar het attribuuttype `code` in de verzameling `Richting` en is **verplicht**
 - Leerkracht_Vak(<ins>vakCode, stamboekNr</ins>)
     - IR: `stamboekNr` verwijst naar de verzameling `Leerkracht` en is **verplicht**
     - IR: `vakCode` verwijst naar de verzameling `Vak` en is **verplicht**
