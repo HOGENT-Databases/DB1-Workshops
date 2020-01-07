@@ -3,7 +3,7 @@
 ## Oplossing
 ### Opdracht 1
 Welke van volgende 2 R0-definities is correct? ​
-- A. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep,(opnamedag, soort opname, BV’s toegezegd, opmerking)*)*)​
+- A. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep,(opnamedag, soort opname, BV’s toegezegd, opmerking)\*)\*)​
 
 --- 
 
