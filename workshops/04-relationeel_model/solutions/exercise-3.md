@@ -2,7 +2,7 @@
 
 ## Oplossing
 - Persoon(<ins>rijksregisterNr</ins>, voornaam, achternaam, paspoortNr)
-    - IR: paspoortNr verwijst naar de verzameling `Paspoort` en is **verplicht**
+    - IR: paspoortNr verwijst naar de verzameling `Paspoort` en is **verplicht**,uniek
 - Paspoort(<ins>paspoortNr</ins>, geldigTot)
 
 ## Stappenplan
