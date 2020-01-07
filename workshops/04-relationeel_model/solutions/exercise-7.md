@@ -17,9 +17,8 @@
 - T(<ins>t1</ins>,t2)​
 - U(<ins>t1</ins>,u1)​
     - t1 VS wijst naar t1 in T; verplicht​
-- I(<ins>t1</ins>,i1, o1)​
+- I(<ins>t1</ins>,i1)​
     - t1 VS wijst naar t1 in T; verplicht​
-    - o1 VS wijst naar o1 in O; optioneel​
 - O(<ins>o1</ins>,o2, t1)​
     - t1 VS wijst naar t1 in I; verplicht
 
