@@ -5,7 +5,7 @@
 - Scheidrechter(<ins>aansluitingsnummer</ins>, naam, adres, stamnummer)​
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
 - Wedstrijd(<ins>datum, naam</ins>, aansluitingsnummer)​
-    - IR: `aansluitingsnummer` verwijst naar de verzameling `Scheidsrechter` en is **verplicht​**
+    - IR: `aansluitingsnummer` verwijst naar de verzameling `Scheidsrechter` en is **optioneel​**
 - Team(<ins>stamnummer, categorie</ins>, afgevaardigde, trainer)​
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
 - Speler-amateur(<ins>aansluitingsnr</ins>, naam, adres, kostenvergoeding)​
