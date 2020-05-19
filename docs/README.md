@@ -19,7 +19,7 @@ In deze repository zijn alle workshops van Databanken I opgenomen, volg de onder
 Voor het opstellen van de oplossingen werd het programma [draw.io](https://draw.io) gebruikt, er wordt aangeraden om de eerste workshops met pen en papier te tekenen. Nadien, is het *mogelijk* om over te stappen naar het programma.
 > Opmerking: Het is niet mogelijk om draw.io te gebruiken op het examen, elk diagram zal op papier bevraagd worden.
 
-Standaard werkt draw.io online, maar het is mogelijk om de desktop applicatie te downloaden om offline te kunnen werken. Je vind per operating system, de juiste binary/executable op de volgende link (onderaan de pagina): https://about.draw.io/integrations/ 
+Standaard werkt draw.io online, maar het is mogelijk om de desktop applicatie te downloaden om offline te kunnen werken. Je kan per operating system, de juiste binary/executable op de volgende link (onderaan de pagina): https://about.draw.io/integrations/ downloaden.
 
 ### Quickstart
 1. Ga naar https://www.draw.io/
