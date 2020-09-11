@@ -2,7 +2,7 @@
 
 
 ## EERD
-<img src="../exercises/images/exercise-5.svg" alt="Diagram Oefening 5">
+<img src="../../exercises/ddl/exercise-1.svg" alt="Diagram Oefening 5">
 
 
 ## Relationeel Model
@@ -34,7 +34,7 @@
         - IR: `Spelnaam` verwijst naar de verzameling `Spel` en is **verplicht**
         - IR: `KaartId` verwijst naar de verzameling `GangKaart` en is **verplicht**
 
-## Oplossingen 5 - Definiëren
+## Oplossingen 1 - Definiëren
 1. Maak een databank met naam `WorkshopDDL`, refresh nadien je schema in MySQL Workbench zodat de databank zichtbaar is. Voer nadien het statement `USE WorkshopDDL` uit om de databank als de standaard databank actief te zetten.
     - Kan ook bereikt worden door de databank te dubbelklikken in MySQL Workbench.
     ```sql
@@ -126,4 +126,4 @@
     DROP COLUMN Email;
     ```
 ## Oefeningen
-Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
+Klik [hier](../../exercises.md) om terug te gaan naar de oefeningen.

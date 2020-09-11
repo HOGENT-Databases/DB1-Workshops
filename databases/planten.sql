@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `examen_planten` 
-USE `examen_planten`;
+CREATE DATABASE  IF NOT EXISTS `Planten` 
+USE `Planten`;
 
 DROP TABLE IF EXISTS `bestellijnen`;
 CREATE TABLE `bestellijnen` (

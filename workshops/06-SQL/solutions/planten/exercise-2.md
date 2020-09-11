@@ -1,4 +1,4 @@
-# 06 - Workshop SQL
+# 06 - Workshop SQL : Planten
 
 ## Oplossingen 2 - Aggregeren
 
@@ -114,4 +114,4 @@
     ```
 
 ## Oefeningen
-Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
+Klik [hier](../../exercises.md) om terug te gaan naar de oefeningen.

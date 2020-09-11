@@ -1,4 +1,4 @@
-# 06 - Workshop SQL
+# 06 - Workshop SQL : Planten
 
 ## Oplossingen 1 - Raadplegen
 1. Toon een alfabetische adreslijst van alle leveranciers (naam, leverancierscode, adres en
@@ -112,4 +112,4 @@ namen van de leveranciers in alfabetische volgorde.
     ```
 
 ## Oefeningen
-Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
+Klik [hier](../../exercises.md) om terug te gaan naar de oefeningen.

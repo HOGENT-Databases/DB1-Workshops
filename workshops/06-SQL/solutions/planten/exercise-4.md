@@ -1,4 +1,4 @@
-# 06 - Workshop SQL
+# 06 - Workshop SQL : Planten
 
 ## Oplossingen 4 - Manipuleren
 1. Voeg als kleuren appelblauwzeegroen en zwart toe.
@@ -73,4 +73,4 @@
     ``` 
 
 ## Oefeningen
-Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
+Klik [hier](../../exercises.md) om terug te gaan naar de oefeningen.

@@ -1,7 +1,11 @@
-# 06 - Workshop SQL
+# 06 - Workshop SQL : Planten
 
 ## Diagram
-<img src="../exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
+<p align="center">
+    <img width="75%"  src="../../images/diagram-planten.jpg" alt="Diagram Planten.db">
+</p>
+
+> Meer informatie over de databank kan je [hier](structure.md) vinden.
 
 ## Oefening 4 - Manipuleren
 
@@ -16,4 +20,4 @@
 9. Verwijder alle planten.
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-4.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/planten/exercise-4.md)

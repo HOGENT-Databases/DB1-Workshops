@@ -1,7 +1,7 @@
 # 06 - Workshop SQL
 
 ## EERD
-<img src="../exercises/images/exercise-5.svg" alt="Diagram Oefening 5">
+<img src="exercise-1.svg" alt="Diagram Oefening 5">
 
 ## Relationeel Model
 - **Hoofdtabellen**
@@ -47,4 +47,4 @@
 > De volgorde van het aanmaken is van belang, zeker in het kader van `FOREIGN KEY CONSTRAINTS`. 
 ​
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-5.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](../../solutions/ddl/exercise-1.md)

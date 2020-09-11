@@ -1,10 +1,12 @@
-# 06 - Workshop SQL
-
-## Slides
-De slides voor deze workshop vind je [hier](https://hogent-databases.github.io/DB1-Slides/#1)
+# 06 - Workshop SQL : Planten
 
 ## Diagram
-<img src="../exercises/images/diagram-planten.jpg" alt="Diagram Planten.db">
+<p align="center">
+    <img width="75%"  src="../../images/diagram-planten.jpg" alt="Diagram Planten.db">
+</p>
+
+> Meer informatie over de databank kan je [hier](structure.md) vinden.
+
 
 ## Oefening 1 - Raadplegen
 
@@ -34,4 +36,4 @@ binnen de 14 dagen werden geleverd
 hoog zijn. Naast de hoogte moet de tekst cm worden weergegeven.
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-1.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/planten/exercise-1.md)

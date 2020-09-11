@@ -1,4 +1,4 @@
-# 06 - Workshop SQL
+# 06 - Workshop SQL : Planten
 
 ## Oplossingen 3 - Combineren
 1. Geef een overzicht (naam, soortnaam en hoogte) van alle waterplanten, gesorteerd op hoogte 
@@ -175,4 +175,4 @@
     ```
 
 ## Oefeningen
-Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
+Klik [hier](../../exercises.md) om terug te gaan naar de oefeningen.
