@@ -10,10 +10,5 @@
     "*.git.*": true,
     "*.vscode": true,
     "*.vscode.*": true,
-    "*databases": true,
-    "*databases.*": true,
-    "*docs": true,
-    "*docs.*": true,
-    "*workshops.*": true
   }
 }
