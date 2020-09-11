@@ -1,0 +1,19 @@
+{
+  "workbench.editorAssociations": [
+    {
+      "viewType": "hediet.vscode-drawio-text",
+      "filenamePattern": "*.svg"
+    }
+  ],
+  "files.exclude": {
+    "*.git": true,
+    "*.git.*": true,
+    "*.vscode": true,
+    "*.vscode.*": true,
+    "*databases": true,
+    "*databases.*": true,
+    "*docs": true,
+    "*docs.*": true,
+    "*workshops.*": true
+  }
+}
