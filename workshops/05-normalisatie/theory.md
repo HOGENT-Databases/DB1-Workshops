@@ -92,7 +92,7 @@ Stel : `A` → `B`
 
 
 # Stappenplan voor normalisatie
-Normaliseer niet relationele data vanuit documenten en dergelijke tot een relationeelmodel via volgende stappen:
+Normaliseer niet-relationele data vanuit documenten en dergelijke tot een relationeelmodel via volgende stappen:
 ##  0 NV en FA
 1. Lijst alle mogelijke gegevens op.
     - R0(
@@ -100,16 +100,18 @@ Normaliseer niet relationele data vanuit documenten en dergelijke tot een relati
         a<sub>4</sub>, a<sub>5</sub>, a<sub>6</sub>, a<sub>7</sub>, 
         a<sub>n</sub>
     )
+    > a<sub>n</sub> zijn gegevens op het document bv. naam, voornaam, adres, ...
 2. Wat zijn procesgegevens of niet-relevante gegevens, verwijder deze attibuten.
     - R0(
         a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>,
-        (a<sub>4</sub>, a<sub>5</sub>, a<sub>6</sub>)*,
+        a<sub>4</sub>, a<sub>5</sub>, a<sub>6</sub>,
         **~~a<sub>7</sub>~~**
+    > a<sub>7</sub> is bijvoorbeeld een proces gegeven, dat niet relevant is, bv. de leeftijd indien a<sub>6</sub> de geboortedatum is.
 )
 3. Welke gegevens herhalen zich?  Zet haakjes rond deze velden en direct daarna zet je een asterisk.
     - R0(
         a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>,
-        **(a<sub>4</sub>, a<sub>5</sub>, a<sub>6</sub>)***, a<sub>7</sub>
+        **(a<sub>4</sub>, a<sub>5</sub>, a<sub>6</sub>)***
     )
 4. Heeft het document een identificatie? Duid dit attribuut dan aan als primaire sleutel door deze te onderlijnen:
     - R0(
