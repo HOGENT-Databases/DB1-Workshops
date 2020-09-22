@@ -20,17 +20,17 @@ Voor het opstellen van de oplossingen werd het programma [draw.io](https://draw.
 
 Standaard werkt draw.io online, maar het is mogelijk om de desktop applicatie te downloaden om offline te kunnen werken. Je kan per operating system, de juiste binary/executable op de volgende link (onderaan de pagina): https://about.draw.io/integrations/ downloaden.
 
-### Quickstart
-1. Ga naar https://www.draw.io/
-2. Kies **"Save Diagrams To... Device"**
-3. **Create New Diagram**
-4. Kies **Basic** (de eerste keuze)
-5. Geef een naam voor het eerste diagram in
-    - Bijvoorbeeld Oefening 01-02 
-        - Workshop 01
-        - Oefening 02
-6. Klik **Create**
-7. Selecteer componenten uit het  **Entity Relation** menu.
+### Quickstart en Templates
+1. Download het templates bestand, via [deze link](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/templates/Databases.xml)
+2. Ga naar https://www.draw.io/
+3. Kies **"Save Diagrams To... Device"**
+4. **Create New Diagram**
+5. Kies **Basic** (de eerste keuze)
+6. Geef een naam voor het eerste diagram in
+7. Klik **Create**
+8. Verberg alle andere componenten (zoals hieronder in de gif)
+9. Ga naar File > **Open Library**
+10. Selecteer het templates bestand (Databases.xml)
 
 ![Introduction to Draw.io](./images/draw-io-intro.gif)
 
