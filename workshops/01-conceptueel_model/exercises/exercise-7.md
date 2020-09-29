@@ -6,7 +6,7 @@ Een koekjesfabrikant wil zijn voorraadbeheer automatiseren en heeft daarvoor inf
 In de databank wil de fabrikant gegevens opslaan over zijn `leveranciers`.​
 Hiervan worden de `naam`, de `stad` en de `leveringsvoorwaarden` bijgehouden. Er kunnen alleen 2 leveranciers zijn met dezelfde `naam` als die in **verschillende** `steden` gelegen zijn. ​
 
-Een leverancier levert `grondstoffen` aan. Ook leveranciers die nog maar alleen offertes hebben ingediend en nog geen grondstoffen effectief hebben geleverd, worden in het systeem opgenomen. De informatie van de offertes wordt niet opgeslagen.  Alle `grondstoffen` worden via geregistreerde `leveranciers` aangeleverd.​
+Een leverancier levert `grondstoffen` aan. Ook leveranciers die nog maar alleen offertes hebben ingediend en nog geen grondstoffen effectief hebben geleverd, worden in het systeem opgenomen. De informatie van de offertes wordt niet opgeslagen.  Binnen het bedrijf wordt de politiek gevolgd om voor elke grondstof een back-up leverancier te hebben. Alle `grondstoffen` worden via geregistreerde `leveranciers` aangeleverd.​
 
 Elke `grondstof` heeft een `unieke code`, een `naam`, `eenheidsprijs` en `aankoopeenheid` (liter, kilogram, ton, …).
 
