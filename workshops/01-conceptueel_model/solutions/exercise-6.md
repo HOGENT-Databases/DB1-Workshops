@@ -1,6 +1,6 @@
 ## Oefening 6 - Tennis
 Merk op dat:
-- Een `Team` verplicht 1 `Speler` heeft (vorige oplossing was dit niet zo).
+- Een `Team` verplicht 1 `Speler` heeft.
 ## Oplossing
 
 <img src="./exercise-6.svg">
