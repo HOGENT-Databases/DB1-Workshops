@@ -15,3 +15,4 @@ Alle concepten uit het **ERD** blijven behouden, namelijk **entiteittypes**, **a
 | [04 - Tijdschrift](exercises/exercise-4.md) | Combinatie oefening. | Standaard |
 | [05 - Rally](exercises/exercise-5.md) | Combinatie oefening. | Standaard |
 | [06 - Luchthaven : Priority](exercises/exercise-6.md) | Een zelfgelinkt subtype, combinatie oefening. | Complex |
+| [07 - Labo 'SampleMe'](exercises/exercise-7.md) | Afsluitende combinatie oefening. | Complex |
