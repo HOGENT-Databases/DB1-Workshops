@@ -1,6 +1,6 @@
 # 03 - Workshop EERD
 
-## Oefening 2 - Luchthaven : Priority
+## Oefening 6 - Luchthaven : Priority
 > Deze oefening werkt verder op de oefening 7 van de workshop [02 - Conceptueel Model](../../02-zwakke_entiteiten/exercises/exercise-7.md)
 
 ### Vorige keer eindigden we met het volgende schema
