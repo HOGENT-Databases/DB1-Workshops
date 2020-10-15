@@ -17,7 +17,7 @@ Daarnaast zijn technische mensen steeds onderverdeeld in 2 specifieke groepen:
 - Ontwerpers
     - Hiervan houden we het favoriete tekenprogramma bij.
 - Developers
-    - Hiervan houden de favoriete programmeertaal bij.
+    - Hiervan houden we de favoriete programmeertaal bij.
 - Het komt wel vaker voor dat technische ontwerpers ook programmeurs zijn en omgekeerd.
 
 ### Opdracht
