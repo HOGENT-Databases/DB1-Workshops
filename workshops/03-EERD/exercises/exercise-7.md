@@ -7,7 +7,7 @@
 
 Naast gewone bloedstalen, hebben we nog bloedstalen specifiek voor analyse op COVID-19 antistoffen. In dit geval houden we nog extra een anonieme tracingID bij. Indien het staal positief blijkt, kan de contact tracing dan opgestart worden. Mogelijks gaat het ook om een bloedstaal die kadert in een gerechtelijk onderzoek. In dit geval kennen we graag het politiedossiernummer en willen we weten of het een staal is die met prioriteit moet behandeld worden. Bloedstalen kunnen uiteraard zowel COVID-19 als gerechtelijk gerelateerd zijn.
 
-Elke staal heeft ook één of meerdere eigenschappen (bvb. triglyceriden, cholesterol, glucose, …) die worden bekeken. Van zo een eigenschap wordt een unieke code bijgehouden. Naast de code weten we ook graag de naam van de eigenschap en de effectieve waarde. Dit laatste kan uiteraard pas worden geingevuld na de analyse van het staal. 
+Elke staal heeft ook één of meerdere eigenschappen (bvb. triglyceriden, cholesterol, glucose, …) die worden bekeken. Van zo een eigenschap wordt een unieke code bijgehouden. Naast de code weten we ook graag de naam van de eigenschap en de effectieve waarde. Deze waarden zijn pas bekend na analyse van het staal.
 
 Stalen behoren steeds tot exact één patiënt. Een patiënt wordt in ons systeem gekenmerkt door een uniek patiënt_id. Verder kennen we de naam en het geslacht van de patiënt. 
 Een patiënt is ook verplicht aangesloten bij één mutualiteit. De mutualiteit wordt geïdentificeerd aan de hand van een  mutualiteit_id. Elke mutualiteit heeft ook een niet-unieke naam en adres.
