@@ -22,9 +22,9 @@
 - R<sub>12</sub>(<ins>medewerkerNr, projectNr</ins>, projectNaam, aantalUur)
 
 ### 2NV
-- R<sub>11</sub>(<ins>medewerkerNr</ins>, medewerkerNaam)
-- R<sub>12</sub>(<ins>medewerkerNr, projectNr</ins>, aantalUur)
-- R<sub>13</sub>(<ins>projectNr</ins>, projectNaam)
+- R<sub>21</sub>(<ins>medewerkerNr</ins>, medewerkerNaam)
+- R<sub>22</sub>(<ins>medewerkerNr, projectNr</ins>, aantalUur)
+- R<sub>23</sub>(<ins>projectNr</ins>, projectNaam)
 
 ### 3NV
 - Niet van toepassing, 3NV is gelijk aan 2NV
