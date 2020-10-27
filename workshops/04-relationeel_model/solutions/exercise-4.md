@@ -3,7 +3,7 @@
 ## Oplossing
 - Office(<ins>officeId</ins>, phoneNumber, size)
 - SalesPerson(<ins>salesPersonId</ins>, firstname, lastname, comissionPercentage, yearOfHire, officeId)
-    - IR: officeId verwijst naar de verzameling `Office` en is **verplicht**, uniek
+    - IR: officeId verwijst naar de verzameling `Office` en is **verplicht/uniek**
 - Customer(<ins>customerId</ins>, firstname, lastname, city, salesPersonId)
     - IR: salesPersonId verwijst naar de verzameling `SalesPerson` en is **optioneel**
 - Product_SalesPerson(<ins>productId, salespersonId</ins>, quantity)
@@ -61,7 +61,7 @@
 7. Integriteitregels bepalen van elke vreemde sleutel.​
     - Office(<ins>officeId</ins>, phoneNumber, size)
     - SalesPerson(<ins>salesPersonId</ins>, firstname, lastname, comissionPercentage, yearOfHire, officeId)
-        - IR: officeId verwijst naar de verzameling `Office` en is **verplicht** + uniek
+        - IR: officeId verwijst naar de verzameling `Office` en is **verplicht/uniek**
     - Customer(<ins>customerId</ins>, firstname, lastname, city, salesPersonId)
         - IR: salesPersonId verwijst naar de verzameling `SalesPerson` en is **optioneel**
     - Product_SalesPerson(<ins>productId, salespersonId</ins>, quantity)
