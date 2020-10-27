@@ -12,7 +12,7 @@ Elke staal heeft ook één of meerdere eigenschappen (bvb. triglyceriden, choles
 Stalen behoren steeds tot exact één patiënt. Een patiënt wordt in ons systeem gekenmerkt door een uniek patiënt_id. Verder kennen we de naam en het geslacht van de patiënt. 
 Een patiënt is ook verplicht aangesloten bij één mutualiteit. De mutualiteit wordt geïdentificeerd aan de hand van een  mutualiteit_id. Elke mutualiteit heeft ook een niet-unieke naam en adres.
 
-Een staal wordt steeds aangevraagd door één of meer artsen. Er is per staal wel telkens een hoofdarts. Het spreekt voor zich dat artsen bij ons meerdere stalen kunnen laten analyseren. Onze resultaten van de staalanalyse worden per email verstuurd naar de arts(en). Van een arts kennen we ook het riziv_nr, naam en zijn/haar specialisatie. Een arts kan tot meerdere (minstens één) hospitalen behoren. Van een hospitaal kennen het unieke HID, de naam van het hospitaal en het adres. Dezelfde arts kan meerdere keren in ons systeem worden bijgehouden: wel maar één keer per hospitaal. We houden geen hospitalen bij waarvan we de arts(en) niet kennen.
+Een staal wordt steeds aangevraagd door één of meer artsen. Er is per staal wel telkens een hoofdarts. Het spreekt voor zich dat artsen bij ons meerdere stalen kunnen laten analyseren. Onze resultaten van de staalanalyse worden per email verstuurd naar de arts(en). Van een arts kennen we ook het riziv_nr, naam en zijn/haar specialisatie. Een arts kan tot meerdere (minstens één) hospitalen behoren. Van een hospitaal kennen het unieke HID, de naam van het hospitaal en het adres. Een hospitaal heeft uiteraard meerdere artsen in dienst en we houden geen hospitalen bij waarvan we de arts(en) niet kennen.
 
 ### Opdracht
 1. Teken de **entiteittypes**
