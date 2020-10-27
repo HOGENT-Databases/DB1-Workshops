@@ -20,7 +20,7 @@
 - I(<ins>t1</ins>,i1)​
     - t1 VS wijst naar t1 in T; verplicht​
 - O(<ins>o1</ins>,o2, t1)​
-    - t1 VS wijst naar t1 in I; verplicht
+    - t1 VS wijst naar t1 in I; verplicht, uniek
 
 ## Schematisch Alternatief
 <img src="./exercise-7.svg">
