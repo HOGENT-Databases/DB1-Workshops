@@ -31,7 +31,7 @@
         - Vreemde sleutel of foreign key ligt reeds bij paspoort, hier hoeven we niets te doen, het is ook mogelijk dit in de andere richting op te lossen.
 7. Integriteitregels bepalen van elke vreemde sleutel.​
     - Persoon(<ins>rijksregisterNr</ins>, voornaam, achternaam, paspoortNr)
-        - IR: paspoortNr verwijst naar de verzameling `Paspoort` en is **verplicht**
+        - IR: paspoortNr verwijst naar de verzameling `Paspoort` en is **verplicht** + uniek
             - Verplicht door de minimumcardinaliteit.
 
 ## Schematisch Alternatief
