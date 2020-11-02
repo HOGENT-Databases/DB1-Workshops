@@ -78,7 +78,7 @@
             - de relatie tussen `arts` en `staal` is een veel-op-veel relatie. 
             - de `isHoofdarts` is specifiek voor een bepaald staal en een bepaalde arts.
             - het is foutief om de `isHoofdarts` op te nemen in het entiteitstype `Arts`.
-            > Opmerking het is ook mogelijke om een tweede relatie `isHoofdaanvrager` te maken tussen `Arts` en `Staal` waarbij de cardinalteiten `1..1` (exact door 1 arts) en `0..N` (een arts kan hoofdaanvrager zijn van geen of meerdere stalen) gelden.
+            > Opmerking het is ook mogelijk om een tweede relatie `isHoofdaanvrager` te maken tussen `Arts` en `Staal` waarbij de cardinalteiten `1..1` (exact door 1 arts) en `0..N` (een arts kan hoofdaanvrager zijn van geen of meerdere stalen) gelden.
     - `Arts` behoort tot `Hospitaal`
         - `1..N`
             - kan tot meerdere (minstens één)
