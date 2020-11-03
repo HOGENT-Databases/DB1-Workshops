@@ -23,7 +23,7 @@ Stel :  `A` → `B`
 ### Functionele afhankelijkheden
 - Correct:
     - `rijksregisterNr → naam, beroep`
-        > Het `rijksregisterNr` bepaald de `naam` en `beroep`
+        > Het `rijksregisterNr` bepaalt de `naam` en `beroep`
         - Indien we het `rijksregisterNr` weten, kunnen we eenduidig zeggen dat het gaat over een bepaald persoon met een bepaald `beroep`. Zo kunnen we zeggen dat **87022800130, Louise de leerkracht** is.
     - `(rijksregisterNr, naam) → beroep`
         > De combinatie van **rijksregisterNr en naam** bepalen het beroep
