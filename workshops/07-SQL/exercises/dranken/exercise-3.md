@@ -65,4 +65,4 @@
     > 5 records
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/dranken/exercise-3.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/dranken/exercise-3.md)

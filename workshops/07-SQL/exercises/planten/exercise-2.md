@@ -26,4 +26,4 @@
 15. Toon de lijst van de woonplaatsen waar 2 of meer leveranciers wonen. Sorteer alfabetisch. 
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/planten/exercise-2.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/planten/exercise-2.md)

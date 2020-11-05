@@ -50,4 +50,4 @@
     > 22 records: 17 met jaar niet opgegeven, 5 met adviesverkoopprijs niet opgegeven
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/dranken/exercise-1.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/dranken/exercise-1.md)

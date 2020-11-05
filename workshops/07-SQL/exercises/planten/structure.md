@@ -292,5 +292,5 @@ Klik [hier](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/mas
 > Copy paste de code en voer het in je local instance van MySQL uit.
 
 ## Overzicht
-Klik [hier](/workshops/06-SQL/exercises.md) om terug te gaan naar het overzicht.
+Klik [hier](/workshops/07-SQL/exercises.md) om terug te gaan naar het overzicht.
 

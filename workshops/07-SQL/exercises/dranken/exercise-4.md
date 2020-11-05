@@ -42,4 +42,4 @@
 6. Verwijder `soortnr` `4009` in de tabel `Soort`. Kan dit zomaar? Wat is hiervan het gevolg?
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/dranken/exercise-4.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/dranken/exercise-4.md)

@@ -36,4 +36,4 @@ binnen de 14 dagen werden geleverd
 hoog zijn. Naast de hoogte moet de tekst cm worden weergegeven.
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/06-SQL/solutions/planten/exercise-1.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/planten/exercise-1.md)
