@@ -23,7 +23,7 @@ Stel :  `A` → `B`
 ### Functionele afhankelijkheden
 - Correct:
     - `rijksregisterNr → naam, beroep`
-        > Het `rijksregisterNr` bepaald de `naam` en `beroep`
+        > Het `rijksregisterNr` bepaalt de `naam` en `beroep`
         - Indien we het `rijksregisterNr` weten, kunnen we eenduidig zeggen dat het gaat over een bepaald persoon met een bepaald `beroep`. Zo kunnen we zeggen dat **87022800130, Louise de leerkracht** is.
     - `(rijksregisterNr, naam) → beroep`
         > De combinatie van **rijksregisterNr en naam** bepalen het beroep
@@ -31,10 +31,10 @@ Stel :  `A` → `B`
 
 - Foutief:
     - `beroep → rijksregisterNr, naam`
-        > Het beroep bepaald het rijksregisterNr en de naam
+        > Het beroep bepaalt het rijksregisterNr en de naam
         - **Leerkracht** komt twee keer voor in de lijst, we kunnen dus niet zeggen dat indien we het `beroep` weten, we ook de `naam` of `rijksregisterNr` van de **leerkracht** in kwestie weten.
     - `naam → rijksregisterNr, beroep`
-        > De naam bepaald het rijksregisterNr en beroep
+        > De naam bepaalt het rijksregisterNr en beroep
         - **Emma** komt twee keer voor in de lijst, we kunnen dus niet zeggen dat indien we de `naam` weten, we ook het `beroep` of `rijksregisterNr` van **Emma** weten. 
     - `(beroep, naam) → rijksregisterNr`
         > De combinatie van **beroep en naam** bepalen het rijksregisterNr
