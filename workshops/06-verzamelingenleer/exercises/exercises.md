@@ -1,4 +1,5 @@
 # 06 - Workshop Verzamelingenleer
+In deze workshop leer je bewerkingen op verzamelingen toepassen. Indien je een refresher nodig hebt van de theorie, is deze [hier](https://hogent-databases.github.io/DB1-Slides/slides/verzamelingenleer/#1) te vinden.
 
 1. Stel A = {1, 3, 5} en B = {4, 5, 6}. 
 
@@ -8,7 +9,7 @@
     3. A \ B
     4. #A
 
-2. Stel A = {x ∈ N | x is even} en B = {x ∈ N | x is oneven}. 
+2. Stel A = {x ∈ ℕ | x is even} en B = {x ∈ ℕ | x is oneven}. 
 
     Bepaal:
     1. A ∪ B
@@ -21,9 +22,9 @@
     - C = {2, 4, 6, 8}
 
     Bepaal:
-    - B<sup>c</sup> ∩ (C \ A)
-    - 𝕌<sup>c</sup>
-    - (A ∩ B)<sup>c</sup> ∪ C.
+    1. B<sup>c</sup> ∩ (C \ A)
+    2. 𝕌<sup>c</sup>
+    3. (A ∩ B)<sup>c</sup> ∪ C.
 
 4. Stel:
     - A = {x ∈ R | 0 < x ≤ 2}
@@ -93,3 +94,5 @@
     1. #(A<sup>c</sup>)
     2. #(A ∩ B)
 
+### Oplossing
+Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercises.md)

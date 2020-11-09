@@ -13,7 +13,7 @@ In deze repository zijn alle workshops van Databanken I opgenomen, volg de onder
 | [03 - EERD](../workshops/03-EERD/exercises.md) | Leer een ERD uit te breiden met andere modelleringstechnieken. |
 | [04 - Relationeel Model](../workshops/04-relationeel_model/exercises.md) | Leer een conceptueel model over te zetten naar een relationeel model |
 | [05 - Normalisatie](../workshops/05-normalisatie/exercises.md) | Leer non-redundante data op te slaan. |
-| [06 - Verzamelingenleer](../workshops/06-verzamelingenleer/exercises/exercise-1.md) | Leer bewerkingen op verzamelingen toe te passen. |
+| [06 - Verzamelingenleer](../workshops/06-verzamelingenleer/exercises/exercises.md) | Leer bewerkingen op verzamelingen toe te passen. |
 | [07 - SQL](../workshops/07-SQL/exercises.md) | Leer data te raadplegen en manipuleren. |
 
 ## Draw.io
