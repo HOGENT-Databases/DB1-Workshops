@@ -1,7 +1,7 @@
 # 05 - Workshop Normalisatie
 
 ## Oefening 4 - Verhuurkantoor
-We willen een relationeel model opmaken voor een relationele databank waar informatie wordt opgeslagen over eigenaars en huurders van panden, de huurcontracten die worden afgesloten en de verschillende schadegevallen die reeds aangegeven zijn. Eigenaar, notaris en huurder zijn allemaal natuurlijke personen. Van deze natuurlijke personen is alleen het nationaal nummer(NN) en de naam verplicht. Alle overige gegevens moeten niet altijd ingevuld zijn
+We willen een relationeel model opmaken voor een relationele databank waar informatie wordt opgeslagen over eigenaars en huurders van panden, de huurcontracten die worden afgesloten en de verschillende schadegevallen die reeds aangegeven zijn. Eigenaar, notaris en huurder zijn allemaal natuurlijke personen. Van deze natuurlijke personen is alleen het nationaal nummer(NN) en de naam verplicht. Alle overige gegevens moeten niet altijd ingevuld zijn.
 
 ### Functionele Afhankelijkheden:​
 - postcode → woonplaats (= stad), opcentiemen
