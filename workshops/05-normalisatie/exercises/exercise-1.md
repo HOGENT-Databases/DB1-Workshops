@@ -50,9 +50,9 @@
         </tr>
         <tr valign="top">
             <td>500</td>
-            <td>Hugo</td>
+            <td>Els</td>
             <td>1000<br>
-                1500
+                1800
             </td>
             <td>Hadoop<br>
                 Java</td>
