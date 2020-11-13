@@ -88,7 +88,7 @@ In deze workshop leer je bewerkingen op verzamelingen toepassen. Indien je een r
 - #U = 30
 - #A = 9
 - #B = 13
-- #(A ∪ B) = 11
+- #(A ∪ B)<sup>c</sup> = 11
 
     Gevraagd:
     1. #(A<sup>c</sup>)
