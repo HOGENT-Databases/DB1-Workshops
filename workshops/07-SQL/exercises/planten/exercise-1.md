@@ -13,15 +13,15 @@
 1. Toon een alfabetische adreslijst van alle leveranciers (naam, leverancierscode, adres en
 woonplaats). Sorteer op woonplaats in dalende volgorde. Bij gelijke woonplaats komen de
 namen van de leveranciers in alfabetische volgorde.
-  > 11 records
+> 11 records
 2. Toon de unieke leverancierscode van de leveranciers waarbij bestellingen zijn geplaatst.
-  > 9 records
+> 9 records
 3. Geef een alfabetisch lijst van alle planten (naam) waarvan de naam eindigt op bloem.
-  > 12 records
+> 12 records
 4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Antwerpen, Heusden of Leuven.
-  > 0 records
+> 0 records
 5. Toon de naam, artikelcode en prijs van de planten waarvan de bloei begint in april.
-  > 10 records
+> 10 records
 6. Geef een overzicht van alle planten waarvan de bloeiperiode begin en/of bloeiperiode einde niet is ingevuld. Toon de naam van de planten en een aanduiding, gebruik hiervoor een case expressie en noem de kolom "bloeiperiode", de volgende aanduidingen zijn mogelijk:
     - Beginperiode niet opgegeven: indien enkel bl_b niet is ingevuld
     - Eindperiode niet opgegeven: indien enkel bl_e niet is ingevuld
