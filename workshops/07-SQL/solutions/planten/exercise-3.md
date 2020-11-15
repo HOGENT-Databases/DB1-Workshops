@@ -1,7 +1,8 @@
 # 06 - Workshop SQL : Planten
 
 ## Oplossingen 3 - Combineren
-1. Geef een overzicht (naam, soortnaam en hoogte) van alle waterplanten, gesorteerd op hoogte 
+1. Geef een overzicht (naam, soortnaam en hoogte) van alle waterplanten, gesorteerd op hoogte.
+    > 9 records 
     ```sql
     SELECT naam, soort, hoogte 
     FROM planten JOIN soorten ON planten.soortID = soorten.soortID  
@@ -9,7 +10,8 @@
     ORDER BY hoogte  
     ```
 
-2. Geef een overzicht van de planten gesorteerd op soort en vervolgens op naam die noch boom, noch heester zijn en waarvan de hoogte tussen de 100 en de 200 cm, de kleur rood of blauw is en de bloeiperiode begint voor augustus. 
+2. Geef een overzicht van de planten gesorteerd op soort en vervolgens op naam die noch boom, noch heester zijn en waarvan de hoogte tussen de 100 en de 200 cm, de kleur rood of blauw is en de bloeiperiode begint voor augustus.
+    > 4 records
     ```sql
     SELECT * 
     FROM planten  
@@ -21,6 +23,7 @@
     ```
 
 3. Welke is de laagste prijs per plantensoort van de planten die de volledige periode van mei tot en met juni bloeien. De bloei mag beginnnen voor mei en eindigen na juni.
+    > 5 records
     ```sql
     SELECT soort, MIN(prijs) 
     FROM planten JOIN soorten ON soorten.soortid = planten.soortid 
@@ -29,6 +32,7 @@
     ```
 
 4. Toon de verschillende plantsoorten waarvoor rode planten beschikbaar zijn.
+    > 6 records
     ```sql
     SELECT soort 
     FROM soorten 
@@ -38,16 +42,17 @@
     GROUP BY soort 
     ```
  
-5. Geef een overzicht per soort en per kleur van het aantal verschillende planten
+5. Geef een overzicht per soort en per kleur van het aantal verschillende planten.
+    > 49 records
     ```sql
     SELECT soort, kleur, COUNT(*) 
     FROM planten 
         JOIN kleuren ON kleuren.kleurid = planten.kleurid 
         JOIN soorten ON planten.soortid = soorten.soortid 
-    GROUP BY soort,kleur 
+    GROUP BY soort, kleur 
     ```
      - Opm: indien in resultaat ook aantal 0 bij soort/kleur combinaties waarbij er geen planten zijn… 
-
+    > 130 records
     ```sql
     SELECT soort, kleur, count(artCode) as 'aantal planten' 
     FROM soorten s cross join kleuren k  
@@ -55,7 +60,8 @@
     GROUP BY soort, kleur 
     ```
 
-6. Toon per leverancier (naam) het aantal artikelen die hij binnen de 18 dagen kan leveren.  
+6. Toon per leverancier (naam) het aantal artikelen die hij binnen de 18 dagen kan leveren.
+    >  10 records
     ```sql
     SELECT naam, COUNT(*) AS 'Aantal artikelen' 
     FROM leveranciers L 
@@ -64,7 +70,8 @@
     GROUP BY naam 
     ```
 
-7. Geef per leverdatum in het formaat dd/mm/yyyy en per bestelbon de naam van de leverancier, het totaal aantal artikelen besteld, en de som van het aantal maal de prijs per besteld artikel. 
+7. Geef per leverdatum in het formaat dd/mm/yyyy en per bestelbon de naam van de leverancier, het totaal aantal artikelen besteld, en de som van het aantal maal de prijs per besteld artikel.
+    > 15 records
     ```sql
     SELECT convert(leverdatum,char(10)), B.bestelnr, naam, SUM(aantal) AS 'totaal aantal', SUM(aantal*prijs) AS 'bedrag' 
     FROM bestellingen B  
@@ -72,7 +79,8 @@
         JOIN bestellijnen BL ON B.bestelnr = BL.bestelnr 
     GROUP BY leverdatum, B.bestelnr, naam 
     ```
-    - Eigenlijke oplossing via DATE_FORMAT: 
+    - Eigenlijke oplossing via DATE_FORMAT:
+    > 15 records 
     ```sql 
     SELECT DATE_FORMAT(leverdatum, '%d/%m/%Y'), B.bestelnr, naam, SUM(aantal) AS 'totaal aantal', SUM(aantal*prijs) AS 'bedrag' 
     FROM bestellingen B  
@@ -81,7 +89,8 @@
     GROUP BY leverdatum, B.bestelnr, naam 
     ```
 
-8. Selecteer de verschillende woonplaatsen van de leveranciers die een offerte gemaakt hebben voor 'vaste' planten 
+8. Selecteer de verschillende woonplaatsen van de leveranciers die een offerte gemaakt hebben voor 'vaste' planten.
+    > 2 records
     ```sql
     SELECT DISTINCT woonplaats 
     FROM planten P  
@@ -91,7 +100,8 @@
     WHERE soort = 'vast' 
     ```
 
-9. Geef per artikelcode de naam van de plant, laagste offerteprijs, de hoogste offerteprijs. Sorteer op plantnaam. 
+9. Geef per artikelcode de naam van de plant, laagste offerteprijs, de hoogste offerteprijs. Sorteer op plantnaam.
+    > 119 records
     ```sql
     SELECT P.artCode, naam, MIN(offerteprijs) AS 'min prijs', MAX(offerteprijs) AS 'max prijs' 
     FROM planten P 
@@ -100,7 +110,8 @@
     ORDER BY  naam 
     ```
 
-10. Geef een overzicht van alle bestellingen : bestelnr, leverdatum in het formaat dd/mm/yyyy, bedrag. Voeg een laatste kolom 'opmerking' toe. Indien de besteldatum > 5 maart 2003 dan moet in de laatste kolom de opmerking 'te laat' komen, anders komt in de laatste kolom geen opmerking  
+10. Geef een overzicht van alle bestellingen : bestelnr, leverdatum in het formaat dd/mm/yyyy, bedrag. Voeg een laatste kolom 'opmerking' toe. Indien de besteldatum > 5 maart 2003 dan moet in de laatste kolom de opmerking 'te laat' komen, anders komt in de laatste kolom geen opmerking.
+    > 15 records
     - met Union: 
     ```sql
     SELECT bestelnr, DATE_FORMAT(leverdatum, '%d/%m/%Y'), bedrag, DATE_FORMAT(besteldatum, '%d/%m/%Y'), 'te laat' AS opmerking 
@@ -114,7 +125,8 @@
     WHERE besteldatum <= '2003-03-05' 
     ORDER BY bestelnr 
     ```
-    - met case: 
+    - met case:
+    >  15 records
     ```sql
     SELECT bestelnr, DATE_FORMAT(leverdatum, '%d/%m/%Y'), DATE_FORMAT(besteldatum, '%d/%m/%Y'), bedrag,  
     case when besteldatum > '2003-03-05' then 'te laat'  
@@ -123,7 +135,8 @@
     From bestellingen 
     ```
 
-11. Geef per leverancier het aantal verschillende soorten planten waarvoor hij een offerte heeft gemaakt. Sorteer op dalende volgorde van aantal. 
+11. Geef per leverancier het aantal verschillende soorten planten waarvoor hij een offerte heeft gemaakt. Sorteer op dalende volgorde van aantal.
+    > 11 records
     ```sql
     SELECT L.naam, COUNT(DISTINCT soortid) as aantal 
     FROM leveranciers L  
@@ -132,7 +145,8 @@
     GROUP BY L.naam 
     ORDER BY aantal DESC 
     ```
-    - Indien aantal 0 ook in resultaat moet komen: 
+    - Indien aantal 0 ook in resultaat moet komen:
+    > 11 records
     ```sql
     SELECT l.naam, count(distinct s.soortId) as 'aantal verschillende soorten planten' 
     FROM leveranciers l left join offertes o on l.levCode = o.levCode  
@@ -142,7 +156,8 @@
     ORDER BY count(distinct s.soortId) DESC 
     ```
 
-12. Geef per leverancier de verschillende soorten planten waarvoor hij een offerte heeft ingediend 
+12. Geef per leverancier de verschillende soorten planten waarvoor hij een offerte heeft ingediend.
+    > 37 records
     ```sql
     SELECT DISTINCT L.naam, soort 
     FROM leveranciers L  
@@ -151,7 +166,8 @@
         JOIN soorten S ON S.soortID = P.soortID 
     ```
 
-13. Toon een lijst van alle vaste planten, gevolgd door de namen van de vaste planten die later op het jaar beginnen te bloeien. Toon de vaste planten die eerst beginnen bloeien bovenaan. 
+13. Toon een lijst van alle vaste planten, gevolgd door de namen van de vaste planten die later op het jaar beginnen te bloeien. Toon de vaste planten die eerst beginnen bloeien bovenaan.
+    > 299 records
     ```sql
     SELECT p1.naam, p1.bl_b, p2.naam, P2.bl_b 
     FROM planten p1 JOIN planten P2 ON P1.bl_b < p2.bl_b 
@@ -160,16 +176,18 @@
     WHERE S1.soort='vast' AND S2.soort='vast' 
     ORDER BY p1.bl_b 
     ```
-14. Hoeveel verschillen de gehanteerde bestelprijzen met de huidige offerteprijzen bij dezelfde leverancier. Toon telkens bestelnummer, artikelcode en het positieve of negatieve verschil. 
+14. Hoeveel verschillen de gehanteerde bestelprijzen met de huidige offerteprijzen bij dezelfde leverancier. Toon telkens bestelnummer, artikelcode en het positieve of negatieve verschil.
+    > 500 records
     ```sql
     SELECT b.bestelnr, o.artcodeLev, (prijs - offerteprijs) AS verschil 
     FROM bestellingen b 
         JOIN offertes o ON b.levcode = o.levcode 
         JOIN bestellijnen bl ON bl.bestelnr = b.bestelnr 
     ```
-15. Toon een lijst met bestelnummers, leverancierscode en besteldatum en zorg ervoor dat de de lijst ook de leveranciers bevat waarvoor nog geen bestelling geplaatst werd. 
+15. Toon een lijst met bestelnummers, leverancierscode en besteldatum en zorg ervoor dat de de lijst ook de leveranciers bevat waarvoor nog geen bestelling geplaatst werd.
+    > 17 records
     ```sql
-    SELECT bestelnr, b.levcode, naam,besteldatum 
+    SELECT bestelnr, b.levcode, naam, besteldatum 
     FROM leveranciers L 
         LEFT JOIN bestellingen B  ON L.levcode = B.levcode 
     ```
