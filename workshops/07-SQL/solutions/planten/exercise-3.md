@@ -44,14 +44,14 @@
  
 5. Geef een overzicht per soort en per kleur van het aantal verschillende planten.
     > 49 records
-    ```sql
+        ```sql
     SELECT soort, kleur, COUNT(*) 
     FROM planten 
         JOIN kleuren ON kleuren.kleurid = planten.kleurid 
         JOIN soorten ON planten.soortid = soorten.soortid 
     GROUP BY soort, kleur 
     ```
-     - Opm: indien in resultaat ook aantal 0 bij soort/kleur combinaties waarbij er geen planten zijn… 
+     - Opm: indien in resultaat ook aantal 0 bij soort/kleur combinaties waarbij er geen planten zijn ...
     > 130 records
     ```sql
     SELECT soort, kleur, count(artCode) as 'aantal planten' 
