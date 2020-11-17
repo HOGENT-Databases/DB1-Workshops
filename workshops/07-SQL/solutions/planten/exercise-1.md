@@ -92,7 +92,8 @@ namen van de leveranciers in alfabetische volgorde.
     FROM planten 
     WHERE naam LIKE '% %' 
     ```
-12. Toon de verschillende woonplaatsen (alfabetisch) van de leveranciers 
+12. Toon de verschillende woonplaatsen (alfabetisch) van de leveranciers.
+    > 4 records
     ```sql
     SELECT DISTINCT woonplaats 
     FROM leveranciers 
