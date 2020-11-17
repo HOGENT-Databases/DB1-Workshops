@@ -14,7 +14,7 @@
     SELECT  * 
     FROM    Klant;
     ```
-2. Welke artikelen zitten in het assortiment? Toon , jaar, inhoud en aantal voorraad.
+2. Welke artikelen zitten in het assortiment? Toon jaar, inhoud en aantal voorraad.
     > 60 records
     ```sql
     SELECT  ArtikelNr, Jaar, Inhoud, Voorraad
