@@ -91,12 +91,14 @@ Aangezien Normaalvorm X toch al in 2NV staat, kunnen we direct overgaan naar 3NV
 - VERZENDING_BESTELLING(<ins>aflbonnr, bestelbonnr, artnr</ins>, aant)
     - IR: `aflbonnr` verwijst naar de verzameling `Afleverbon` en is **verplicht**
     - IR: `bestelbonnr` verwijst naar de verzameling `Bestelbon` en is **verplicht**
-    - IR: `artnr` verwijst naar de verzameling `Artikel` en is **???**
+    - IR: `artnr` verwijst naar de verzameling `Artikel` en is **verplicht**
 - ARTIKEL(<ins>artnr</ins>, artomschr, verkoopprijs)    
 - WINKEL(<ins>winkelnr</ins>, winkelnaam)
 - WINKELBESTELLING(<ins>winkelnr, bestelbonnr</ins>)
     - IR: `winkelnr` verwijst naar de verzameling `Winkel` en is **verplicht**
 - DETAILWINKELBESTELLING(<ins>winkelnr, bestelbonnr, artnr</ins>, bestelAantal, aankoopprijs)
+    - IR: `winkelnr, bestelbonnr` verwijst naar de verzameling `Winkelbestelling` en is **verplicht**
+    - IR: `artnr` verwijst naar de verzameling `Artikel` en is **verplicht**
 
 ## Oefeningen
 Klik [hier](../exercises.md) om terug te gaan naar de oefeningen.
