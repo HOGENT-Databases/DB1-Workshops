@@ -25,12 +25,12 @@
 - Er zijn geen procesgegevens aanwezig.
 
 ### Model A
-- R<sub>X</sub>(<ins>regisseurNr</ins>, regisseurVNaam, regisseurFNaam, geboorteland, geboorteplaats, geboortedatum)
-
-### Model B
 - R<sub>X1</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)
 - R<sub>X2</sub>(<ins>filmverdelerNr, filmID</ins>, filmTitel, categorie,regisseurNr, regisseurVnaam, regisseurFnaam)
 - R<sub>X3</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>, oscarNaam,winnaarNr, winnaarVnaam, winnaarFnaam)
+
+### Model B
+- R<sub>X</sub>(<ins>regisseurNr</ins>, regisseurVNaam, regisseurFNaam, geboorteland, geboorteplaats, geboortedatum)
 
 ### Opdracht
 1. Welke van volgende 2 R0-definities is correct? ​
