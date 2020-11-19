@@ -47,14 +47,14 @@ We vertrekken vanaf 1NV
 - R<sub>26</sub>(<ins>filmID, oscarNr</ins>, winnaarNr, winnaarVnaam,​winnaarFnaam) 
 
 #### 3 NV
-R<sub>31</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats) ​
-R<sub>32</sub>(<ins>filmverdelerNr, filmID</ins>) ​
-R<sub>33</sub>(<ins>filmID</ins>, filmTitel, categorie, regisseurNr)​
-R<sub>34</sub>(<ins>regisseurNr</ins>, regisseurVnaam, regisseurFnaam)​
-R<sub>35</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>)​
-R<sub>36</sub>(<ins>oscarNr</ins>, oscarnaam) ​
-R<sub>37</sub>(<ins>filmID, oscarNr</ins>, winnaarNr) ​
-R<sub>38</sub>(<ins>winnaarNr</ins>, winnaarVnaam, winnaarFnaam)
+- R<sub>31</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)
+- R<sub>32</sub>(<ins>filmverdelerNr, filmID</ins>)
+- R<sub>33</sub>(<ins>filmID</ins>, filmTitel, categorie, regisseurNr)
+- R<sub>34</sub>(<ins>regisseurNr</ins>, regisseurVnaam, regisseurFnaam)
+- R<sub>35</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>)
+- R<sub>36</sub>(<ins>oscarNr</ins>, oscarnaam)
+- R<sub>37</sub>(<ins>filmID, oscarNr</ins>, winnaarNr)
+- R<sub>38</sub>(<ins>winnaarNr</ins>, winnaarVnaam, winnaarFnaam)
 
 #### Relationeel Model
 - Filmverdeler(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)​
