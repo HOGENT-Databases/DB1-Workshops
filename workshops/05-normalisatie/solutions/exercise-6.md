@@ -39,12 +39,12 @@ Normaliseer beide modellen (A en B) tot en met het relationele model
 #### Model A
 We vertrekken vanaf 1NV
 #### 2 NV
-R<sub>21</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)
-R<sub>22</sub>(<ins>filmverdelerNr, filmID</ins>)
-R<sub>23</sub>(<ins>filmID</ins>, filmTitel, categorie, regisseurNr,​ regisseurVnaam regisseurFnaam)
-R<sub>24</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>)
-R<sub>25</sub>(<ins>oscarNr</ins>, oscarnaam)
-R<sub>26</sub>(<ins>filmID, oscarNr</ins>, winnaarNr, winnaarVnaam,​winnaarFnaam) 
+- R<sub>21</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)
+- R<sub>22</sub>(<ins>filmverdelerNr, filmID</ins>)
+- R<sub>23</sub>(<ins>filmID</ins>, filmTitel, categorie, regisseurNr,​ regisseurVnaam regisseurFnaam)
+- R<sub>24</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>)
+- R<sub>25</sub>(<ins>oscarNr</ins>, oscarnaam)
+- R<sub>26</sub>(<ins>filmID, oscarNr</ins>, winnaarNr, winnaarVnaam,​winnaarFnaam) 
 
 #### 3 NV
 R<sub>31</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats) ​
