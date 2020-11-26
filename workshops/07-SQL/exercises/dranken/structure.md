@@ -1,13 +1,12 @@
 # Dranken
 Drankencentrale De Lege Fles maakt gebruik van de databank `dranken`
 
-## Diagram
-<img src="../../images/diagram-dranken.jpg" alt="Diagram dranken.db">
-
 ## Download
 Klik [hier](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/databases/dranken.sql) om het script voor de databank te downloaden.
 > Copy paste de code en voer het in je local instance van MySQL uit.
 
+## Diagram
+<img src="../../images/diagram-dranken.jpg" alt="Diagram dranken.db">
 
 ## Structuur dranken
 De databankbevat volgende tabellen:
