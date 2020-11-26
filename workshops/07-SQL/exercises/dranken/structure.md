@@ -1,5 +1,16 @@
+# Dranken
+Drankencentrale De Lege Fles maakt gebruik van de databank `dranken`
+
+## Diagram
+<img src="../../images/diagram-dranken.jpg" alt="Diagram dranken.db">
+
+## Download
+Klik [hier](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/databases/dranken.sql) om het script voor de databank te downloaden.
+> Copy paste de code en voer het in je local instance van MySQL uit.
+
+
 ## Structuur dranken
-Drankencentrale De Lege Fles maakt gebruik van de databank `dranken`, de databankbevat volgende tabellen:
+De databankbevat volgende tabellen:
     <table>
         <caption>Factuur</caption>
         <thead>
@@ -283,14 +294,6 @@ Drankencentrale De Lege Fles maakt gebruik van de databank `dranken`, de databan
             </tr>
         </tbody>
     </table>
-
-
-### Diagram
-<img src="../../images/diagram-dranken.jpg" alt="Diagram dranken.db">
-
-## Download
-Klik [hier](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/databases/dranken.sql) om het script voor de databank te downloaden.
-> Copy paste de code en voer het in je local instance van MySQL uit.
 
 ## Overzicht
 Klik [hier](/workshops/07-SQL/exercises.md) om terug te gaan naar het overzicht.
