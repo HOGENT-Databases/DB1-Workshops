@@ -12,6 +12,12 @@ Er zijn twee oefensets beschikbaar:
 - Een groothandel in alcoholische dranken maakt gebruik van de databank [dranken](exercises/dranken/structure.md).
 - Voor DDL begin je met het creeeren van een nieuwe databank.
 
+## Notebooks
+Voor sommige oefeningen zijn er notebooks voorzien om je op weg te helpen (een theoretischere uitleg).
+- [Aggregeren](https://nbviewer.jupyter.org/github/HOGENT-Databases/DB1-Slides/blob/master/notebooks/grouping.ipynb)
+- [Combineren](https://nbviewer.jupyter.org/github/HOGENT-Databases/DB1-Slides/blob/master/notebooks/joining.ipynb)
+
+
 | Oefening | Onderwerp | Oefening |
 | -------- | --------- | -------- |
 | 01 - Raadplegen      | Select, Where, Order By | [Planten](exercises/planten/exercise-1.md) \| [Dranken](exercises/dranken/exercise-1.md) |
