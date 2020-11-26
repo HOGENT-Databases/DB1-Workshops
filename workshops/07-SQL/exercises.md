@@ -4,7 +4,7 @@ Structured Query Language of kortweg SQL is een ANSI/ISO-standaardtaal voor een 
 
 ## Alvorens te beginnen
 1. Installeer MySQL en MySQL Workbench via de installatie instructies op Chamillo.
-2. Zorg ervoor dat de databanken `Planten` en `dranken` aanwezig zijn.
+2. Zorg ervoor dat de databanken [planten](exercises/planten/structure.md) en [dranken](exercises/dranken/structure.md) aanwezig zijn.
 
 ## Oefensets
 Er zijn twee oefensets beschikbaar: 
