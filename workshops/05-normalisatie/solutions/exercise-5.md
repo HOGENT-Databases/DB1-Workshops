@@ -62,10 +62,10 @@ Normaliseer tot en met de eerste normaalvorm. Klantnaam en klantadres zijn samen
 1NV naar 2NV  
 
 - R<sub>21</sub>(<ins>aflbonnr</ins>, afldatum, klantnr, klvn, klfn, klstr, klhuisnr, klpc,klwnplaats)
-- R<sub>22</sub>= R<sub>22</sub>
-- R<sub>23</sub>= R<sub>23</sub>
+- R<sub>22</sub>= R<sub>12</sub>
+- R<sub>23</sub>= R<sub>13</sub>
 - R<sub>24</sub>(<ins> aflbonnr, bestelbonnr, artnr</ins>)
-- R<sub>25</sub>= R<sub>25</sub>
+- R<sub>25</sub>= R<sub>15</sub>
 - R<sub>26</sub>(<ins>bestelbonnr, artnr</ins>, aant)
 
 2NV naar 3NV
