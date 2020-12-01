@@ -263,13 +263,13 @@
     ORDER BY p.productnaam;
     ```
 25. Van welke soort hebben we in oktober 2017 meer dan 10 flessen verkocht? Laat de soortnaam en het aantal flessen afdrukken op volgorde van dalend aantal flessen.
-    > 1 record: Riesling Auslese met 201 flessen
+    > 2 records: Cordoniu - 25 en Freixenet - 20
     ```sql
     SELECT s.naam, SUM(fr.aantal) AS 'Aantal flessen' 
     FROM soort s 
         JOIN artikel a ON s.soortnr=a.soortnr
             JOIN factuurregel fr ON a.artikelnr=fr.artikelnr
-                JOIN factuur f ON fr.factuurnr=f.factuurnr;
+                JOIN factuur f ON fr.factuurnr=f.factuurnr
     WHERE f.factuurdatum BETWEEN '2017-10-01' AND '2017-10-30'
     GROUP BY s.naam 
     HAVING SUM(fr.aantal)>10 
