@@ -132,7 +132,7 @@
 13. Toon de 3 artikelen van het type 'Cava' met de grootste voorraad (artikelnummer en voorraad Dalend gesorteerd).
     > 3 records met voorraad tussen 177 en 20 stuks
     ```sql
-    SELECT a.artikelnr, a.opvoorraad 
+    SELECT a.artikelnr, a.voorraad 
     FROM artikel a 
         JOIN soort s ON a.soortnr=s.soortnr
         JOIN productgroep p ON s.productgroepnr=p.productgroepnr
