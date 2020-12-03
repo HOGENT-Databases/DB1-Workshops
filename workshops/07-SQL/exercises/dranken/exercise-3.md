@@ -23,7 +23,7 @@
     > 13 records
 7. Welke artikelen werden verkocht onder de adviesverkoopprijs? Geef artikelnummer,soortnummer en productnaam.
     > 35 records
-8. Geef het artikelnummer en het soortnummer van deze artikelen die voorkomen op een factuurregel doch geen voorraad hebben.
+8. Geef het artikelnummer en het soortnummer van deze artikelen die voorkomen op een factuurregel doch geen voorraad hebben, of waarvan de voorraad niet geweten is.
     > 1 record: artikelnr 10854
 9. Geef een overzicht van namen van de klanten voor wie op 29 of 30 juni 2017 een factuur werd opgemaakt. Toon factuurnummer, factuurdatum en naam op volgorde van naam. 
     > 5 records,factuurnummer 173108 is de eerste
