@@ -66,12 +66,12 @@
 7. Welke artikelen werden verkocht onder de adviesverkoopprijs? Geef artikelnummer,soortnummer en productnaam.
     > 35 records
     ```sql
-    SELECT a.artikelnr, s.soortnr, p.productnaam
-    FROM artikel a  
-        JOIN factuurregel f ON a.artikelnr=f.artikelnr
-        JOIN soort s ON a.soortnr = s.soortnr
-            JOIN productgroep p ON s.productgroepnr = p. productgroepnr
-    WHERE a.adviesverkoopprijs > verkoopprijs/aantal;
+    SELECT a.artikelnr, a.soortnr, p.productnaam
+	FROM artikel AS a
+		JOIN factuurregel AS f ON a.artikelnr = f.artikelnr
+                JOIN soort AS s ON a.soortnr = s.soortnr
+                JOIN productgroep AS p ON s.productgroepnr = p.productgroepnr
+	WHERE a.adviesverkoopprijs > f.verkoopprijs;
     ```
 8. Geef het artikelnummer en het soortnummer van deze artikelen die voorkomen op een factuurregel maar geen voorraad hebben, of waarvan de voorraad niet geweten is.
     > 1 record: artikelnr 10854
