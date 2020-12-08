@@ -75,7 +75,7 @@
     -  soortnr 3030: zet `alcoholperc` op `12`
     ```sql
     UPDATE Soort SET kleur = 'bruin' WHERE soortnr = 3010;
-    UPDATE SoortSoort SET alcoholperc = 12 WHERE soortnr = 3030;
+    UPDATE Soort SET alcoholperc = 12 WHERE soortnr = 3030;
     ```
 
 6. Verwijder `soortnr` `4009` in de tabel `Soort`. Kan dit zomaar? Wat is hiervan het gevolg?
