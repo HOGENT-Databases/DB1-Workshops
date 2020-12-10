@@ -83,7 +83,7 @@
     DELETE FROM Soort
     WHERE soortnr = 4009;
     ```
-    > Het gevolg is dat de artikels met nummers `10817` en `10840` verwijzen naar een onbestaande soort. Er zijn geen facturen met artikelen van deze soort.
+    > Het gevolg is dat de artikels met nummers `10817` en `10840` verwijzen naar een onbestaande soort.
 
 
 ## Oefeningen
