@@ -15,6 +15,7 @@ Er zijn twee oefensets beschikbaar:
 ## Notebooks
 Voor sommige oefeningen zijn er notebooks voorzien om je op weg te helpen (een theoretischere uitleg).
 - [Aggregeren](https://nbviewer.jupyter.org/github/HOGENT-Databases/DB1-Slides/blob/master/notebooks/grouping.ipynb)
+  - [Interactieve Gifs](https://dataschool.com/how-to-teach-people-sql/how-sql-aggregations-work/)
 - [Combineren](https://nbviewer.jupyter.org/github/HOGENT-Databases/DB1-Slides/blob/master/notebooks/joining.ipynb)
 
 
