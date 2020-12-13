@@ -64,7 +64,7 @@
     WHERE p.productnaam IN ('Grappa', 'Cava', 'Gin', 'Sherry');
     ```
 7. Welke artikelen werden verkocht onder de adviesverkoopprijs? Geef artikelnummer,soortnummer en productnaam.
-    > 35 records
+    > 5 records
     ```sql
     SELECT a.artikelnr, a.soortnr, p.productnaam
 	FROM artikel AS a
