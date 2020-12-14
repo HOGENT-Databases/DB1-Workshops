@@ -25,4 +25,5 @@ Voor sommige oefeningen zijn er notebooks voorzien om je op weg te helpen (een t
 | 02 - Aggregeren      | Statistische functies   | [Planten](exercises/planten/exercise-2.md) \| [Dranken](exercises/dranken/exercise-2.md) |
 | 03 - Combineren      | Join functies           | [Planten](exercises/planten/exercise-3.md) \| [Dranken](exercises/dranken/exercise-3.md) |
 | 04 - Manipuleren     | C~~R~~UD                | [Planten](exercises/planten/exercise-4.md) \| [Dranken](exercises/dranken/exercise-4.md) |
-| 05 - Definiëren      | DDL                     | [Nieuwe Databank](exercises/ddl/exercise-1.md) |
+| 05 - Definiëren      | DDL                     | [Nieuwe Databank](exercises/ddl/exercise-1.md)                                           |
+| Cheatsheet           | Overzicht               | [Met dank aan @Victor DeWitte](https://github.com/VictorDewitte/SQL-cheatssheet)         |
