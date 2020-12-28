@@ -10,26 +10,26 @@
 ## Oplossingen 2 - Aggregeren
 
 1. Hoeveel klanten zijn er? Geef de kolom de hoofding 'Aantal klanten'. 
-    > 17 records
+    > Aantal klanten: 17
     ```sql
     SELECT COUNT(*) AS 'Aantal klanten'
     FROM klant;
     ```
 2. Hoeveel facturen werden verstuurd op 29 juni 2017? Geef de kolom een duidelijke hoofding.
-    > 3 records
+    > Aantal: 3
     ```sql
     SELECT COUNT(*) AS Aantal 
     FROM factuur 
     WHERE factuurdatum='2017-06-29 00:00:00';
     ```
 3. Hoeveel flessen zijn er op dit moment in voorraad? Geef de kolom een duidelijke hoofding.
-    > 1258 records
+    > Aantal: 1258
     ```sql
     SELECT SUM(voorraad) AS 'Aantal flessen'
     FROM artikel;
     ```
 4. Geef per plaats het aantal klanten. Druk plaatsnaam en aantal af op volgorde van oplopend aantal. Bij gelijk aantal sorteren op plaatsnaam. 
-    > 12 records, Aalst heeft één klant, Gent vier records
+    > Aantal: 12 - Aalst heeft één klant, Gent vier
     ```sql
     SELECT plaats, COUNT(*) AS Aantal 
     FROM klant 
@@ -37,7 +37,7 @@
     ORDER BY COUNT(*), plaats;
     ```
 5. Geef de unie’s met 4 of meer leden (klanten records Toon het aantal leden per unie. 
-    > 3 records records
+    > resultaat: 3
     ```sql
     SELECT unie, COUNT(klantnr)
     FROM klant 
@@ -45,7 +45,7 @@
     HAVING COUNT(klantnr) >= 4;
     ```
 6. Hoeveel klanten behoren tot geen enkele unie? 
-    > 3 records
+    > resultaat: 3
     ```sql
     SELECT COUNT(*)
     FROM klant

@@ -53,18 +53,30 @@ Normaliseer tot en met de eerste normaalvorm. Klantnaam en klantadres zijn samen
 
 ### Opdracht 3
 #### 3.1 Geef aan in welke normaalvorm elke uitdrukking staat en leg uit.
-- Normaalvorm X staat in 2NV want deze bevat nog transitieve afhankelijkheden.
+- Normaalvorm X staat in 1NV want deze bevat nog partiële afhankelijkheden (bestelbonnr, artnr --> aant).
 - Normaalvorm Y staat in 0NV want deze bevat nog herhalende groepen.
 
 #### 3.2 Normaliseer elke normaalvorm tot en met de derde normaalvorm. 
 ##### Normaalvorm X
-Aangezien Normaalvorm X toch al in 2NV staat, kunnen we direct overgaan naar 3NV vanuit 2NV:
+
+1NV naar 2NV  
+
+- R<sub>21</sub>(<ins>aflbonnr</ins>, afldatum, klantnr, klvn, klfn, klstr, klhuisnr, klpc,klwnplaats)
+- R<sub>22</sub>= R<sub>12</sub>
+- R<sub>23</sub>= R<sub>13</sub>
+- R<sub>24</sub>(<ins> aflbonnr, bestelbonnr, artnr</ins>)
+- R<sub>25</sub>= R<sub>15</sub>
+- R<sub>26</sub>(<ins>bestelbonnr, artnr</ins>, aant)
+
+2NV naar 3NV
+
 - R<sub>31</sub>(<ins>aflbonnr</ins>, afldatum, klantnr)
 - R<sub>32</sub>(<ins>klantnr</ins>, klvn, klfn, klstr, klhuisnr, klpc,klwnplaats)
 - R<sub>33</sub>= R<sub>22</sub>
 - R<sub>34</sub>= R<sub>23</sub>
 - R<sub>35</sub>= R<sub>24</sub>
 - R<sub>36</sub>= R<sub>25</sub>
+- R<sub>37</sub>= R<sub>26</sub>
 
 ##### Normaalvorm Y
 - 1NV

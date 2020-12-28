@@ -1,5 +1,15 @@
+# Planten
+Plantencentrum De Schop maakt gebruik van de databank `Planten`. De databankbevat o.a. gegevens over de planten, leveranciers en bestellingen die ze bij de leveranciers plaatsen.
+
+## Download
+Klik [hier](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/databases/planten.sql) om het script voor de databank te downloaden.
+> Copy paste de code en voer het in je local instance van MySQL uit.
+
+## Diagram
+<img src="../../images/diagram-planten.jpg" alt="Diagram Planten.db">
+
 ## Structuur Planten
-Plantencentrum De Schop maakt gebruik van de databank `Planten`. De databankbevat o.a. gegevens over de planten, leveranciers en bestellingen die ze bij de leveranciers plaatsen. De databankbevat volgende tabellen:
+ De databankbevat volgende tabellen:
     <table>
         <caption>Planten</caption>
         <thead>
@@ -283,13 +293,6 @@ Plantencentrum De Schop maakt gebruik van de databank `Planten`. De databankbeva
                 </tr>
             </tbody>
         </table>
-
-### Diagram
-<img src="../../images/diagram-planten.jpg" alt="Diagram Planten.db">
-
-## Download
-Klik [hier](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/databases/planten.sql) om het script voor de databank te downloaden.
-> Copy paste de code en voer het in je local instance van MySQL uit.
 
 ## Overzicht
 Klik [hier](/workshops/07-SQL/exercises.md) om terug te gaan naar het overzicht.

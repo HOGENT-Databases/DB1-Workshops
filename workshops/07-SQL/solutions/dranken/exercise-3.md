@@ -64,14 +64,14 @@
     WHERE p.productnaam IN ('Grappa', 'Cava', 'Gin', 'Sherry');
     ```
 7. Welke artikelen werden verkocht onder de adviesverkoopprijs? Geef artikelnummer,soortnummer en productnaam.
-    > 35 records
+    > 5 records
     ```sql
-    SELECT a.artikelnr, s.soortnr, p.productnaam
-    FROM artikel a  
-        JOIN factuurregel f ON a.artikelnr=f.artikelnr
-        JOIN soort s ON a.soortnr = s.soortnr
-            JOIN productgroep p ON s.productgroepnr = p. productgroepnr
-    WHERE a.adviesverkoopprijs > verkoopprijs/aantal;
+    SELECT a.artikelnr, a.soortnr, p.productnaam
+	FROM artikel AS a
+		JOIN factuurregel AS f ON a.artikelnr = f.artikelnr
+                JOIN soort AS s ON a.soortnr = s.soortnr
+                JOIN productgroep AS p ON s.productgroepnr = p.productgroepnr
+	WHERE a.adviesverkoopprijs > f.verkoopprijs;
     ```
 8. Geef het artikelnummer en het soortnummer van deze artikelen die voorkomen op een factuurregel maar geen voorraad hebben, of waarvan de voorraad niet geweten is.
     > 1 record: artikelnr 10854
@@ -132,7 +132,7 @@
 13. Toon de 3 artikelen van het type 'Cava' met de grootste voorraad (artikelnummer en voorraad Dalend gesorteerd).
     > 3 records met voorraad tussen 177 en 20 stuks
     ```sql
-    SELECT a.artikelnr, a.opvoorraad 
+    SELECT a.artikelnr, a.voorraad 
     FROM artikel a 
         JOIN soort s ON a.soortnr=s.soortnr
         JOIN productgroep p ON s.productgroepnr=p.productgroepnr
@@ -263,13 +263,13 @@
     ORDER BY p.productnaam;
     ```
 25. Van welke soort hebben we in oktober 2017 meer dan 10 flessen verkocht? Laat de soortnaam en het aantal flessen afdrukken op volgorde van dalend aantal flessen.
-    > 1 record: Riesling Auslese met 201 flessen
+    > 2 records: Cordoniu - 25 en Freixenet - 20
     ```sql
     SELECT s.naam, SUM(fr.aantal) AS 'Aantal flessen' 
     FROM soort s 
         JOIN artikel a ON s.soortnr=a.soortnr
             JOIN factuurregel fr ON a.artikelnr=fr.artikelnr
-                JOIN factuur f ON fr.factuurnr=f.factuurnr;
+                JOIN factuur f ON fr.factuurnr=f.factuurnr
     WHERE f.factuurdatum BETWEEN '2017-10-01' AND '2017-10-30'
     GROUP BY s.naam 
     HAVING SUM(fr.aantal)>10 
