@@ -1,7 +1,7 @@
 ## Oefening 9 - Sportclub
 
 ## Oplossing
-- Club(<ins>stamnummer</ins>, naam, kleuren, voorzitter, bloknummer)​
+- Club(<ins>stamnummer</ins>, naam, logo, voorzitter, bloknummer)​
 - Scheidrechter(<ins>aansluitingsnummer</ins>, naam, adres, stamnummer)​
     - IR: `stamnummer` verwijst naar de verzameling `Club` en is **verplicht​**
 - Wedstrijd(<ins>datum, naam</ins>, aansluitingsnummer)​
