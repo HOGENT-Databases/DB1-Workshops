@@ -2,7 +2,7 @@
 
 ## Oefening 2 - N op N
 
-> Opgelet, deze oefingen lijkt hetzelfde als de vorige oefening maar er is een groot verschil bij de cardinaliteiten, daarnaast is het attribuuttype `eenheidsprijs` een **relatieattributttype** geworden.
+> Opgelet, deze oefening lijkt hetzelfde als de vorige oefening maar er is een groot verschil bij de cardinaliteiten, daarnaast is het attribuuttype `eenheidsprijs` een **relatieattributttype** geworden.
 
 In het onderstaande Entity Relationship Diagram (ERD), is te zien dat een `Leverancier` meerdere `Grondstoffen` levert, een `Grondstof` wordt geleverd door geen of **meerdere** `Leverancier`.
 
