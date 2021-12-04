@@ -177,7 +177,7 @@
     ORDER BY p1.bl_b 
     ```
 14. Hoeveel verschillen de gehanteerde bestelprijzen met de huidige offerteprijzen bij dezelfde leverancier. Toon telkens bestelnummer, artikelcode en het positieve of negatieve verschil.
-    > 500 records
+    > 300 records
     ```sql
     SELECT b.bestelnr, o.artcodeLev, (prijs - offerteprijs) AS verschil 
     FROM bestellingen b 
