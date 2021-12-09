@@ -32,7 +32,7 @@
 
 6. Verwijder kleur blauw. Werkt dit? 
     ```sql
-    DELETE kleuren WHERE naam='blauw' 
+    DELETE kleuren WHERE kleur = 'blauw' 
     ```
 
 7. Voeg als soort bloem toe.  
