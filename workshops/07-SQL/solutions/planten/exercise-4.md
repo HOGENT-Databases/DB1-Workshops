@@ -51,10 +51,10 @@
     SELECT soortID FROM soorten WHERE soort='bloem'
     ```
 
-- Effectieve aanpassing, laten we stellen dat de soortID van `bloem` == 1 en `bol` == 3
+- Effectieve aanpassing, laten we stellen dat de soortID van `bloem` = 1 en `bol` = 3
     ```sql
     UPDATE planten 
-    SET soortID = 2  
+    SET soortID = 1 
     WHERE soortID = 3
     ```
 
