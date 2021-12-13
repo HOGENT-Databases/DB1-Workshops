@@ -15,14 +15,14 @@
     INSERT INTO soorten(soort) VALUES('vet'),('naald') 
     ```
 
-3. Voeg een spar toe aan de tabel planten. (artcode : 362, hoogte 3000, prijs : 12.5, soortID : 2, andere gegevens onbekend) 
+3. Voeg een spar toe aan de tabel planten. (artcode : 163, hoogte 3000, prijs : 12.5, soortID : 2, andere gegevens onbekend) 
     ```sql
-    INSERT INTO planten(artcode, naam,hoogte,prijs, soortID) VALUES(362,'spar',3000,12.5,2)  (in values mag je geen selects gebruiken) 
+    INSERT INTO planten(artcode, naam,hoogte,prijs, soortID) VALUES(163,'spar',3000,12.5,2)  (in values mag je geen selects gebruiken) 
     ```
 
-4. Voeg een sierui toe aan de tabel planten (artcode : 162, hoogte : 75, bl_e :8; bl_b : 6,prijs :3 , soort : bol, kleur : blauw) 
+4. Voeg een sierui toe aan de tabel planten (artcode : 165, hoogte : 75, bl_e :8; bl_b : 6,prijs :3 , soort : bol, kleur : blauw) 
     ```sql
-    INSERT INTO planten(artcode, naam,hoogte,prijs, bl_b, bl_e, soortID, kleurID)  VALUES(162,'sierui',75,3,6,8, 1,2) 
+    INSERT INTO planten(artcode, naam,hoogte,prijs, bl_b, bl_e, soortID, kleurID)  VALUES(165,'sierui',75,3,6,8, 1,2) 
     ```
 
 5. Verhoog de prijs van alle planten met 5 procent 
