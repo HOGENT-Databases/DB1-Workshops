@@ -44,21 +44,21 @@
  
 5. Geef een overzicht per soort en per kleur van het aantal verschillende planten.
     > 49 records
-        ```sql
+    ```sql
     SELECT soort, kleur, COUNT(*) 
     FROM planten 
         JOIN kleuren ON kleuren.kleurid = planten.kleurid 
         JOIN soorten ON planten.soortid = soorten.soortid 
     GROUP BY soort, kleur 
     ```
-     - Opm: indien in resultaat ook aantal 0 bij soort/kleur combinaties waarbij er geen planten zijn ...
-    > 130 records
-    ```sql
-    SELECT soort, kleur, count(artCode) as 'aantal planten' 
-    FROM soorten s cross join kleuren k  
-        LEFT JOIN planten p on p.kleurId = k.kleurId and p.soortID = s.soortID 
-    GROUP BY soort, kleur 
-    ```
+    - Opm: indien in resultaat ook aantal 0 bij soort/kleur combinaties waarbij er geen planten zijn ...
+        > 130 records
+        ```sql
+        SELECT soort, kleur, count(artCode) as 'aantal planten' 
+        FROM soorten s cross join kleuren k  
+            LEFT JOIN planten p on p.kleurId = k.kleurId and p.soortID = s.soortID 
+        GROUP BY soort, kleur 
+        ```
 
 6. Toon per leverancier (naam) het aantal artikelen die hij binnen de 18 dagen kan leveren.
     >  10 records
