@@ -37,3 +37,4 @@ Standaard werkt draw.io online, maar het is mogelijk om de desktop applicatie te
 
 ## Bijdragen en feedback
 Voel je vrij om `issues` te openen, `bugs`/`typo's` te verbeteren of **feedback** te geven. Als je meer wilt weten over `Pull Requests`, `Forks` en waarom we ze in deze repository gebruiken, dan kan [dit Medium Artikel](https://zellwk.com/blog/submit-pull-request) je enig inzicht verschaffen.
+Extra informatie hoe je dit kan gebruiken a.d.h.v de git-commandline en github kan je [hier](https://jarednielsen.com/learn-git-fork-pull-request/) vinden.
