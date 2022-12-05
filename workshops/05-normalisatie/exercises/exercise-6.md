@@ -18,9 +18,9 @@
 ### Bijkomende informatie
 - regisseurNaam, winnaarNaam: bestaat uit voornaam en familienaam. 
 - Voor elke regisseur is zijn geboorteplaats gekend. 
-- De informatie over de gekregen oscarswordt altijd bijgehouden.
+- De informatie over de gekregen oscars wordt altijd bijgehouden.
 - De regisseur van een film is niet altijd gekend.
-- Een winnaar van een oscarkan een regisseur zijn, een acteur, ... (een Persoon met een bepaald beroep).
+- Een winnaar van een oscar kan een regisseur zijn, een acteur, ... (een Persoon met een bepaald beroep).
 - Per film en oscar is de winnaar altijd ingevuld.
 - Er zijn geen procesgegevens aanwezig.
 
