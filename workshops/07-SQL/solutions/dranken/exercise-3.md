@@ -221,7 +221,7 @@
     ```sql
     SELECT a.naam
     ,f.factuurnr
-    ,SUM(fr.verkoopprijs) AS Totaalbedrag
+    ,SUM(fr.Aantal*fr.verkoopprijs) AS Totaalbedrag
     FROM factuur f 
         JOIN factuurregel fr ON f.factuurnr=fr.factuurnr 
         JOIN klant a ON f.klantnr=a.klantnr 
