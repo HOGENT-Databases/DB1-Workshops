@@ -21,7 +21,7 @@
     CREATE TABLE Producent 
     (
         producentnr INTEGER NOT NULL, 
-        naam VARCHAR(25), 
+        naam VARCHAR(25) NOT NULL, 
         plaats VARCHAR(25), 
         land VARCHAR(16), 
         PRIMARY KEY (producentnr)
