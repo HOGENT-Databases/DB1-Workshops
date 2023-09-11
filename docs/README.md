@@ -1,8 +1,8 @@
-# Databanken I - Workshops
+# Databases - Workshops
 
 ## Introductie
 
-In deze repository zijn alle workshops van Databanken I opgenomen, volg de onderstaande links om een workshop te starten.
+In deze repository zijn alle workshops van Databases opgenomen, volg de onderstaande links om een workshop te starten.
 
 ## Workshops
 
