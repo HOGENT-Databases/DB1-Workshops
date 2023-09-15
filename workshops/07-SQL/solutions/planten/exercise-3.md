@@ -170,8 +170,18 @@
     > 299 records
     ```sql
     SELECT p1.naam, p1.bl_b, p2.naam, P2.bl_b 
-    FROM planten p1 JOIN planten P2 ON P1.bl_b < p2.bl_b 
-        JOIN soorten S1 ON p1.soortid =S1.soortid 
+    FROM planten p1 
+        JOIN soorten ON p1.soortid = soorten.soortid 
+        JOIN planten p2 ON p1.bl_b < p2.bl_b and p2.soortid = p1.soortid -- Planten uit p2 moeten later bloeien & ook van de vaste soort zijn.
+    WHERE soorten.soort='vast' 
+    ORDER BY p1.bl_b 
+    ```
+
+    Alternatieve, kortere oplossing (met een extra JOIN-conditie):
+    ```sql
+    SELECT p1.naam, p1.bl_b, p2.naam, p2.bl_b 
+    FROM planten p1 JOIN planten p2 ON p1.bl_b < p2.bl_b 
+        
         JOIN soorten S2 ON p2.soortid = S2.soortid 
     WHERE S1.soort='vast' AND S2.soort='vast' 
     ORDER BY p1.bl_b 
