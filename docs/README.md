@@ -21,6 +21,8 @@ Voor het opstellen van de oplossingen werd het programma [draw.io](https://draw.
 
 Standaard werkt draw.io online, maar het is mogelijk om de desktop applicatie te downloaden om offline te kunnen werken. Je kan per operating system, de juiste binary/executable op de volgende link (onderaan de pagina): https://about.draw.io/integrations/ downloaden.
 
+Als je gebruik maakt van [Visual Studio Code](https://code.visualstudio.com/), kan je ook de [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extensie installeren om met Draw.io werken binnen VS Code.
+
 ### Quickstart en Templates
 1. Download het templates bestand, via [deze link](https://raw.githubusercontent.com/HOGENT-Databases/DB1-Workshops/master/templates/Databases.xml)
 2. Ga naar https://www.draw.io/
