@@ -9,7 +9,7 @@ In deze repository zijn alle workshops van Databases opgenomen, volg de ondersta
 | Workshop | Onderwerp |
 | ----- | ---- |
 | [01 - Conceptueel Model](../workshops/01-conceptueel_model/exercises.md) | Leer de basis principes van een conceptueel gegevensmodel. |
-| [02 - Zwakke Entiteiten](../workshops/02-zwakke_entiteiten/exercises.md) | Leer zwakke enteiten te modelleren in een ERD. |
+| [02 - Zwakke Entiteiten](../workshops/02-zwakke_entiteiten/exercises.md) | Leer zwakke entiteiten te modelleren in een ERD. |
 | [03 - EERD](../workshops/03-EERD/exercises.md) | Leer een ERD uit te breiden met andere modelleringstechnieken. |
 | [04 - Relationeel Model](../workshops/04-relationeel_model/exercises.md) | Leer een conceptueel model over te zetten naar een relationeel model |
 | [05 - Normalisatie](../workshops/05-normalisatie/exercises.md) | Leer non-redundante data op te slaan. |
