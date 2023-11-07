@@ -1,6 +1,6 @@
 # 02 - Workshop Zwakke Entiteiten
 
-Een **zwak entiteittype** of **weak entity** kan zichzelf niet kan identificeren, het steunt op de **kandidaatsleutel** van een ander **entiteittype** waarmee het een **relatie** heeft. Daarnaast is een **zwak entiteittype** **bestaansafhankelijk** van 1 of meerdere **entiteittypes**. 
+Een **zwak entiteittype** of **weak entity** kan zichzelf niet alleen identificeren, het steunt op de **kandidaatsleutel** van een ander **entiteittype** waarmee het een **relatie** heeft. Daarnaast is een **zwak entiteittype** **bestaansafhankelijk** van 1 of meerdere **entiteittypes**. 
 
 | Oefening | Onderwerp | Moeilijkheidsgraad |
 | ----- | ---- | ---- |
