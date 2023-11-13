@@ -4,8 +4,8 @@
 - Stad (<ins>postcode</ins>, stadsnaam, burgemeester)​
 - Campus (<ins>postcode, naam</ins>, verantwoordelijke, telefoon) ​
     - IR: `postcode` verwijst naar de verzameling `Stad` en is **verplicht​**
-- Theorielokaal(<ins>Lokaalnummer</ins>, gebouw, adres, aantal_plaatsen)​
-- Praktijklokaal(<ins>Lokaalnummer</ins>, gebouw, adres, aantal_pc’s, extra_infrastructuur, theorielokaal_lokaalnummer)​
+- Theorielokaal(<ins>Lokaalnummer</ins>, gebouw, straat, huisnr, postcode, aantal_plaatsen)​
+- Praktijklokaal(<ins>Lokaalnummer</ins>, gebouw, straat, huisnr, postcode, aantal_pc’s, extra_infrastructuur, theorielokaal_lokaalnummer)​
     - IR: `theorielokaal_lokaalnummer` verwijst naar de verzameling `Theorielokaal` en is **optioneel, uniek**
 - Theorielokaal_campus(<ins>lokaalnummer, postcode, naam</ins>)​
     - IR: `lokaalnummer` verwijst naar de verzameling `Theorielokaal` en is **verplicht​**

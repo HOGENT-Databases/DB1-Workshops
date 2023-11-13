@@ -6,7 +6,7 @@
 <table>
     <thead>
         <tr>
-            <th>MedewerkerNr</th>
+            <th>MedewerkersNr</th>
             <th>MedewerkersNaam</th>
             <th>ProjectNr</th>
             <th>ProjectNaam</th>
@@ -64,7 +64,7 @@
 </table>
 
 ### Opdracht
-Normaliseer tot een relationeelmodel, bepaal:
+Normaliseer tot een relationeel model, bepaal:
 - 0NV + functionele afhankelijkheden
 - 1NV
 - 2NV
