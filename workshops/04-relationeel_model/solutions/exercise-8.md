@@ -1,7 +1,7 @@
 ## Oefening 8 - Boeken
 
 ## Oplossing
-- Klant(<ins>klantNr</ins>, voornaam, achternaam, geboorteDatum, naamAfhaler, leverAdres, isAfhaalklant, isLeverklant)​
+- Klant(<ins>klantNr</ins>, voornaam, achternaam, geboorteDatum, voornaamAfhaler, achternaamAfhaler, leverAdresStraat, leverAdresNummer, leverAdresGemeente, isAfhaalklant, isLeverklant)​
 - Bestelling (<ins>datum, tijdstip, klantNr</ins>, product)​
     - IR: `klantNr` verwijst naar de verzameling `Klant` en is **verplicht​**
     - IR: `product` verwijst naar de verzameling `Product` en is **verplicht​**
