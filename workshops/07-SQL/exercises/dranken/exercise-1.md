@@ -11,7 +11,7 @@
 
 1. Geef alle gegevens van de klanten. 
     > 17 records
-2. Welke artikelen zitten in het assortiment? Toon jaar, inhoud en aantal voorraad.
+2. Welke artikelen zitten in het assortiment? Toon artikelnummer, jaar, inhoud en aantal in voorraad.
     > 60 records
 3. Welke soorten worden aangeboden? Toon naam, kleur en alcoholpercentage van de soorten met een alcoholpercentage kleiner dan 15. 
     > 46 records

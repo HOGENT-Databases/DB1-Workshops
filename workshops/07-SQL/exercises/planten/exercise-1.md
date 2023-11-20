@@ -16,7 +16,7 @@ namen van de leveranciers in alfabetische volgorde.
  > 11 records
 2. Toon de unieke leverancierscode van de leveranciers waarbij bestellingen zijn geplaatst.
  > 9 records
-3. Geef een alfabetisch lijst van alle planten (naam) waarvan de naam eindigt op bloem.
+3. Geef een alfabetisch lijst van alle planten (naam) waarvan de naam eindigt op 'bloem'.
  > 12 records
 4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Antwerpen, Heusden of Leuven.
  > 0 records
@@ -27,7 +27,7 @@ namen van de leveranciers in alfabetische volgorde.
     - Eindperiode niet opgegeven: indien enkel bl_e niet is ingevuld
     - Periodes niet opgegeven: indien beide niet ingevuld
  > 15 records
-7. Geef de namen van de planten waarin het woordje boom voorkomt of waarvan de naam bestaat uit 5 posities.
+7. Geef de namen van de planten waarin het woordje 'boom' voorkomt of waarvan de naam bestaat uit 5 posities.
  > 12 records
 8. Toon naam en woonplaats van de leveranciers die niet in Lisse wonen.
  > 7 records
@@ -43,7 +43,13 @@ namen van de leveranciers in alfabetische volgorde.
  > 6 records
 14. Geef een alfabetisch overzicht van de plantnamen die uit maximaal 5 letters bestaan.
  > 15 records
-15. Toon de naam en de hoogte van de planten die tussen de 10 en de 50 cm of de 100 en 150 cm hoog zijn. Naast de hoogte moet de tekst cm worden weergegeven.
+15.  Toon de naam en de hoogte van de planten die tussen de 10 en de 50 cm of de 100 en 150 cm hoog zijn. Naast de hoogte moet de tekst 'cm' worden weergegeven zoals in het voorbeeld hieronder.
+
+>| naam        | planthoogte |
+>|-------------|-------------|
+>| Rododendron | 125cm       |
+>| Zonnebloem  | 150cm       |
+>...
  > 57 records
 
 ### Oplossing

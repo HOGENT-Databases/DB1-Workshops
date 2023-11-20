@@ -10,7 +10,7 @@ Structured Query Language of kortweg SQL is een ANSI/ISO-standaardtaal voor een 
 Er zijn twee oefensets beschikbaar: 
 - Plantencentrum De Schop maakt gebruik van de databank [planten](exercises/planten/structure.md).
 - Een groothandel in alcoholische dranken maakt gebruik van de databank [dranken](exercises/dranken/structure.md).
-- Voor DDL begin je met het creeeren van een nieuwe databank.
+- Voor DDL begin je met het creëren van een nieuwe databank.
 
 ## Notebooks
 Voor sommige oefeningen zijn er notebooks voorzien om je op weg te helpen (een theoretischere uitleg).
