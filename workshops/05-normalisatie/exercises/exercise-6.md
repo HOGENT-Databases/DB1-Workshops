@@ -1,6 +1,6 @@
 # 05 - Workshop Normalisatie
 
-## Oefening 6 - Productiehuizen
+## Oefening Productiehuizen
 
 ### Voorbeelddocument:
 
@@ -104,6 +104,20 @@
 </tbody>
 </table>
 
+### Opdracht
+1. Welke van volgende 2 R0-definities is correct? ​
+    - A. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep,(opnamedag, soort opname, BV’s toegezegd, opmerking)\*)\*)​
+    - B. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep)\*, (opnamedag, soort opname, BV’s toegezegd, opmerking)\*)​
+2. Geef de 1ste normaalvorm van de door jou ​aangekruiste R<sub>0</sub> uit de vorige vraag.
+3. Geef aan of volgende functionele afhankelijkheden (FA) kunnen afgeleid worden uit bovenstaand document of niet. Als je aangeeft van niet, geef dan aan waarop je je baseert om dit te zeggen.
+    - Naam productiehuis → CEO​
+    - Soort opname → opmerking
+    - Naam productiehuis, naam programma, opnamedag → BV’s toegezegd
+    - Voornaam BV toegezegd → familienaam BV toegezegd
+    - Naam productiehuis, naam programma, opnamedag → soort opname
+
+## Oefening Films
+
 ### Functionele Afhankelijkheden
 - regisseurNr → regisseurNaam, geboorteland, geboortedatum,geboorteplaats
 - geboorteplaats  → geboorteland
@@ -130,21 +144,13 @@
 - R<sub>X3</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>, oscarNaam,winnaarNr, winnaarVnaam, winnaarFnaam)
 
 ### Model B
+
 - R<sub>X</sub>(<ins>regisseurNr</ins>, regisseurVNaam, regisseurFNaam, geboorteland, geboorteplaats, geboortedatum)
 
 ### Opdracht
-1. Welke van volgende 2 R0-definities is correct? ​
-    - A. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep,(opnamedag, soort opname, BV’s toegezegd, opmerking)\*)\*)​
-    - B. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep)\*, (opnamedag, soort opname, BV’s toegezegd, opmerking)\*)​
-2. Geef de 1ste normaalvorm van de door jou ​aangekruiste R<sub>0</sub> uit de vorige vraag.
-3. Geef aan of volgende functionele afhankelijkheden (FA) kunnen afgeleid worden uit bovenstaand document of niet. Als je aangeeft van niet, geef dan aan waarop je je baseert om dit te zeggen.
-    - Naam productiehuis → CEO​
-    - Soort opname → opmerking
-    - Naam productiehuis, naam programma, opnamedag → BV’s toegezegd
-    - Voornaam BV toegezegd → familienaam BV toegezegd
-    - Naam productiehuis, naam programma, opnamedag → soort opname
-4. Normaliseer beide modellen (A en B) tot en met het relationele model
-5. Integreer tot 1 relationeel model.
+
+1. Normaliseer beide modellen (A en B) tot en met het relationele model
+2. Integreer tot 1 relationeel model.
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](../solutions/exercise-6.md)
+Een mogelijke oplossing voor deze oefeningen vind je [hier](../solutions/exercise-6.md)

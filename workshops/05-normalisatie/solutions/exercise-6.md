@@ -1,6 +1,6 @@
-# Oefening 6 - Productiehuizen
+# 05 - Oplossingen Workshop Normalisatie
 
-## Oplossing
+## Oplossing Productiehuizen
 ### Opdracht 1
 Welke van volgende 2 R0-definities is correct? ​
 - A. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep,(opnamedag, soort opname, BV’s toegezegd, opmerking)\*)\*)​
@@ -33,7 +33,9 @@ Geef aan of volgende functionele afhankelijkheden (FA) kunnen afgeleid worden ui
 
 --- 
 
-### Opdracht 4
+## Oplossing Films
+
+### Opdracht 1
 Normaliseer beide modellen (A en B) tot en met het relationele model
 
 #### Model A
@@ -86,7 +88,8 @@ We vertrekken vanaf 2NV
 
 --- 
 
-### Opdracht 6 
+### Opdracht 2 
+
 Integreer tot 1 relationeel model
 - Filmverdeler(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)​
 - Persoon(<ins>persoonID</ins>, voornaam, famNaam, geboorteplaats, geboortedatum) ​
