@@ -2,110 +2,98 @@
 
 ## Oefening Productiehuizen
 
-### Voorbeelddocument:
+### Voorbeelddocument
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-fymr" colspan="2">Productiehuis:<span style="font-weight:bold"> DeMensjes</span></th>
-    <th class="tg-fymr" colspan="2">CEO: Karel De Mens</th>
-    <th class="tg-fymr">Type: Middelgroot</th>
-    <th class="tg-fymr">Zetel: Zaventem</th>
+    <th colspan="2">Productiehuis:<span style="font-weight:bold"> DeMensjes</span></th>
+    <th colspan="2">CEO: Karel De Mens</th>
+    <th>Type: Middelgroot</th>
+    <th>Zetel: Zaventem</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"><b>Naam programma</b></td>
-    <td class="tg-0pky"><b>Doelgroep</b></td>
-    <td class="tg-0pky"><b>Opnamedag</b></td>
-    <td class="tg-0pky"><b>Soort opname</b></td>
-    <td class="tg-0pky"><b>BV als gast</b></td>
-    <td class="tg-0pky"><b>Opmerking</b></td>
+    <td><b>Naam programma</b></td>
+    <td><b>Doelgroep</b></td>
+    <td><b>Opnamedag</b></td>
+    <td><b>Soort opname</b></td>
+    <td><b>BV als gast</b></td>
+    <td><b>Opmerking</b></td>
   </tr>
   <tr>
-    <td class="tg-0pky">De Geniale Wereld</td>
-    <td class="tg-0pky">Alle leeftijden</td>
-    <td class="tg-0pky">24 juni 2023</td>
-    <td class="tg-0pky">Preselectie</td>
-    <td class="tg-0pky">Ignace De Groote</td>
-    <td class="tg-0pky">Presentator beschikbaar tot 14u00<br></td>
+    <td>De Geniale Wereld</td>
+    <td>Alle leeftijden</td>
+    <td>24 juni 2023</td>
+    <td>Preselectie</td>
+    <td>Ignace De Groote</td>
+    <td>Presentator beschikbaar tot 14u00</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">5 juli 2023</td>
-    <td class="tg-0pky">1ste ronde</td>
-    <td class="tg-0pky">Jan De Bekende</td>
-    <td class="tg-0pky">Finale start om 20u00</td>
+    <td></td>
+    <td></td>
+    <td>5 juli 2023</td>
+    <td>1<sup>ste</sup> ronde</td>
+    <td>Jan De Bekende</td>
+    <td>Finale start om 20u00</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Ver weg van thuis!</td>
-    <td class="tg-0pky">16+</td>
-    <td class="tg-0pky">25 april 2023</td>
-    <td class="tg-0pky">Buitenopname</td>
-    <td class="tg-0pky">Micha Marah<br></td>
-    <td class="tg-0pky">Gaat niet door bij regen</td>
+    <td>Ver weg van thuis!</td>
+    <td>16+</td>
+    <td>25 april 2023</td>
+    <td>Buitenopname</td>
+    <td>Micha Marah</td>
+    <td>Gaat niet door bij regen</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">28 april 2023</td>
-    <td class="tg-0pky">Buitenopname</td>
-    <td class="tg-0pky">Micha Marah</td>
-    <td class="tg-0pky">Reservedag voor 25 april</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td></td>
+    <td></td>
+    <td>28 april 2023</td>
+    <td>Buitenopname</td>
+    <td>Micha Marah</td>
+    <td>Reservedag voor 25 april</td>
   </tr>
   <tr>
-    <td class="tg-fymr" colspan="2">Productiehuis: Ruiten Troef</td>
-    <td class="tg-fymr" colspan="2">CEO: Bart De Coene</td>
-    <td class="tg-fymr">Type: Klein</td>
-    <td class="tg-fymr">Zetel: Mechelen</td>
+    <td colspan="6"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><b>Naam programma</b></td>
-    <td class="tg-0pky"><b>Doelgroep</b></td>
-    <td class="tg-0pky"><b>Opnamedag</b></td>
-    <td class="tg-0pky"><b>Soort opname</b></td>
-    <td class="tg-0pky"><b>BV als gast</b></td>
-    <td class="tg-0pky"><b>Opmerking<b></td>
+    <th colspan="2">Productiehuis:<spanstyle="font-weight:bold"> Ruiten Troef</span></th>
+    <th colspan="2">CEO: Bart De Coene</th>
+    <th>Type: Klein</th>
+    <th>Zetel: Mechelen</th>
   </tr>
   <tr>
-    <td class="tg-0pky">De Columboot</td>
-    <td class="tg-0pky">12+</td>
-    <td class="tg-0pky">5 juli 2023</td>
-    <td class="tg-0pky">Buitenopname</td>
-    <td class="tg-0pky">Elise Janssens</td>
-    <td class="tg-0pky">Gaat altijd door</td>
+    <td><b>Naam programma</b></td>
+    <td><b>Doelgroep</b></td>
+    <td><b>Opnamedag</b></td>
+    <td><b>Soort opname</b></td>
+    <td><b>BV als gast</b></td>
+    <td><b>Opmerking</td>
   </tr>
   <tr>
-    <td class="tg-0pky">De CampusQuiz</td>
-    <td class="tg-0pky">Alle leeftijden</td>
-    <td class="tg-0pky">8 augustus 2023</td>
-    <td class="tg-0pky">Live</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">Gebarentolk nodig<br></td>
+    <td>De Columboot</td>
+    <td>12+</td>
+    <td>5 juli 2023</td>
+    <td>Buitenopname</td>
+    <td>Elise Janssens</td>
+    <td>Gaat altijd door</td>
+  </tr>
+  <tr>
+    <td>De CampusQuiz</td>
+    <td>Alle leeftijden</td>
+    <td>8 augustus 2023</td>
+    <td>Live</td>
+    <td></td>
+    <td>Gebarentolk nodig</td>
   </tr>
 </tbody>
 </table>
 
 ### Opdracht
-1. Welke van volgende 2 R0-definities is correct? ​
+
+1. Welke van volgende 2 R<sub>0</sub>-definities is correct? ​
     - A. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep,(opnamedag, soort opname, BV’s toegezegd, opmerking)\*)\*)​
     - B. R<sub>0</sub>(<ins>productiehuis</ins>, CEO, type, zetel,(programmanaam, doelgroep)\*, (opnamedag, soort opname, BV’s toegezegd, opmerking)\*)​
 2. Geef de 1ste normaalvorm van de door jou ​aangekruiste R<sub>0</sub> uit de vorige vraag.
@@ -119,6 +107,7 @@
 ## Oefening Films
 
 ### Functionele Afhankelijkheden
+
 - regisseurNr → regisseurNaam, geboorteland, geboortedatum,geboorteplaats
 - geboorteplaats  → geboorteland
 - filmverdelerNr → filmVerdelerNaam, plaats
@@ -130,8 +119,9 @@
 - winnaarNr → winnaarNaam
 
 ### Bijkomende informatie
-- regisseurNaam, winnaarNaam: bestaat uit voornaam en familienaam. 
-- Voor elke regisseur is zijn geboorteplaats gekend. 
+
+- regisseurNaam, winnaarNaam: bestaat uit voornaam en familienaam.
+- Voor elke regisseur is zijn geboorteplaats gekend.
 - De informatie over de gekregen oscars wordt altijd bijgehouden.
 - De regisseur van een film is niet altijd gekend.
 - Een winnaar van een oscar kan een regisseur zijn, een acteur, ... (een Persoon met een bepaald beroep).
@@ -139,6 +129,7 @@
 - Er zijn geen procesgegevens aanwezig.
 
 ### Model A
+
 - R<sub>X1</sub>(<ins>filmverdelerNr</ins>, filmverdelerNaam, plaats)
 - R<sub>X2</sub>(<ins>filmverdelerNr, filmID</ins>, filmTitel, categorie,regisseurNr, regisseurVnaam, regisseurFnaam)
 - R<sub>X3</sub>(<ins>filmverdelerNr, filmID, oscarNr</ins>, oscarNaam,winnaarNr, winnaarVnaam, winnaarFnaam)
@@ -153,4 +144,5 @@
 2. Integreer tot 1 relationeel model.
 
 ### Oplossing
+
 Een mogelijke oplossing voor deze oefeningen vind je [hier](../solutions/exercise-6.md)
