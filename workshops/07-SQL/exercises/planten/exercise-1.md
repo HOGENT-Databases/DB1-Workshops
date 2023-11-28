@@ -17,7 +17,7 @@ namen van de leveranciers in alfabetische volgorde.
 2. Toon de unieke leverancierscode van de leveranciers waarbij bestellingen zijn geplaatst.
  > 9 records
 3. Geef een alfabetisch lijst van alle planten (naam) waarvan de naam eindigt op 'bloem'.
- > 12 records
+ > 9 records
 4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Antwerpen, Heusden of Leuven.
  > 0 records
 5. Toon de naam, artikelcode en prijs van de planten waarvan de bloei begint in april.
