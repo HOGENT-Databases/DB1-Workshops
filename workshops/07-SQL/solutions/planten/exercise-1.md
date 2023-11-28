@@ -19,7 +19,7 @@ namen van de leveranciers in alfabetische volgorde.
 3. Geef een alfabetische lijst van alle planten (naam) waarvan de naam eindigt op bloem.
     > 12 records
     ```sql
-    SELECT naam 
+    SELECT DISTINCT naam 
     FROM planten WHERE naam LIKE '%bloem' 
     ORDER BY naam 
     ```
