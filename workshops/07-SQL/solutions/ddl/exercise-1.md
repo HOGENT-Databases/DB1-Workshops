@@ -78,7 +78,7 @@
         Kleur           VARCHAR(10),
         Huidigvak	    VARCHAR(20),
         IsAanDeBeurt    BOOLEAN,
-        Spelnaam        VARCHAR(5),
+        Spelnaam        VARCHAR(20),
         CONSTRAINT PK_Speler PRIMARY KEY(Id),
         CONSTRAINT FK_Speler_Spel FOREIGN KEY(Spelnaam) REFERENCES Spel(Naam),
         CONSTRAINT CH_Speler_Kleuren CHECK (Kleur IN ('rood','zwart'))

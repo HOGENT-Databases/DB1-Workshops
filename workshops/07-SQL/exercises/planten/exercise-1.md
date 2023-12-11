@@ -16,7 +16,7 @@ namen van de leveranciers in alfabetische volgorde.
  > 11 records
 2. Toon de unieke leverancierscode van de leveranciers waarbij bestellingen zijn geplaatst.
  > 9 records
-3. Geef een alfabetisch lijst van alle planten (naam) waarvan de naam eindigt op 'bloem'.
+3. Geef een alfabetische lijst van alle planten (naam) waarvan de naam eindigt op 'bloem'.
  > 9 records
 4. Geef een overzicht (alle gegevens) van alle leveranciers die wonen te Antwerpen, Heusden of Leuven.
  > 0 records
