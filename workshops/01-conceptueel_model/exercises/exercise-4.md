@@ -19,7 +19,7 @@ Graag hadden we de volgende lijst afgedrukt:
 2. Breid het ERD schema uit zodat de bovenstaande lijst kan afgedrukt worden.
 3. Teken het nieuwe **entiteittype**
 4. Lijst alle **attribuuttypes** per **entiteittype** op
-    - Er kunnen **attibuuttypes** toegevoegd/verwijderd worden.
+    - Er kunnen **attribuuttypes** toegevoegd/verwijderd worden.
 5. Teken de relaties
 6. Bepaalde de **minimum** en **maximum** **cardinaliteit**
 
