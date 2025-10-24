@@ -11,7 +11,7 @@
     - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
 - Klant/Verkoper(<ins>klantNr, medewerkerNr</ins>, omzet)​
     - IR: `klantNr` verwijst naar de verzameling `Klant` en is **verplicht**
-    - IR: `medewerkerNr` verwijst naar de verzameling `Medewerker` en is **verplicht**
+    - IR: `medewerkerNr` verwijst naar de verzameling `Verkoper` en is **verplicht**
 - Firmawagen(<ins>nummerplaat</ins>, merk, verkoper)
     - IR: `verkoper` verwijst naar de verzameling `Verkoper` en is **verplicht, uniek**
 
