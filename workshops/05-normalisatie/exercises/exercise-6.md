@@ -111,7 +111,7 @@
 - geboorteplaats  → geboorteland
 - filmverdelerNr → filmVerdelerNaam, plaats
 - filmverdelerNr, filmID → filmTitel, categorie, regisseurNr,regisseurNaam
-- filmverdelerNr, filmID, oscarNr → oscarNaam, winnaarNr
+- filmverdelerNr, filmID, oscarNr → oscarNaam, winnaarNr, winnaarNaam
 - filmID → filmTitel, categorie, regisseurNr, regisseurNaam
 - filmID, oscarNr → oscarNaam, winnaarNr, winnaarNaam
 - oscarNr → oscarNaam
