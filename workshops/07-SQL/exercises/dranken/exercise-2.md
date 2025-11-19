@@ -35,10 +35,10 @@ Toon het aantal leden per unie.
 9. Geef het aantal unieke postcodes per provincie.   
 Sorteer oplopend op aantal.
     >  A	2  
-    > OVL	6  
     > WVL	4
-10. Geef het aantal soorten per kleur, waarbij de kleur NOT NULL is. 
-    > Sorteer oplopend op aantal.  
+    > OVL	6  
+10. Geef het aantal soorten per kleur, waarbij de kleur NOT NULL is.  
+Sorteer oplopend op aantal.  
     > kleur	soort_per_kleur  
     > Blauw	1  
     > Groen	1  
@@ -64,8 +64,8 @@ Geef enkel groepen met 3 of meer soorten.
     > 32	3  
     > 34	5  
     > 50	32
-13. Geef het minimum en maximum alcoholpercentage per kleur.  
-    > 20	9  
+13. Geef het minimum en maximum alcoholpercentage per kleur als de kleur ingevuld is.    
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
     > Kleur	MinAlc	MaxAlc  
     > Blauw	40	40  
     > Groen	40	40  
@@ -75,7 +75,8 @@ Geef enkel groepen met 3 of meer soorten.
     > Wit	6	13  
     > Roze	6	9
 14. Geef de gemiddelde adviesverkoopprijs per jaar. Sorteer oplopend op jaar.  
-Geef enkel de waarden waarbij het jaar niet leeg is.
+Geef enkel de waarden waarbij het jaar niet leeg is.  
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
     > Jaar	GemAdviesPrijs  
     > 2002	32.00000000  
     > 2003	31.25000000  
@@ -83,14 +84,16 @@ Geef enkel de waarden waarbij het jaar niet leeg is.
     > 2006	192.75000000  
     > 2007	39.23333333  
     >  ...
-16. Geef de totale voorraad per soortnummer  
+15. Geef de totale voorraad per soortnummer    
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
     > SoortNr	TotaleVoorraad  
     > 1002	7  
     > 1003	5  
     > 1101	25  
     > 1200	11  
     > ...
-17. Geef het aantal artikelen per jaar waarbij het jaar niet null is. Sorteer oplopend op Jaar. 
+16. Geef het aantal artikelen per jaar waarbij het jaar niet null is. Sorteer oplopend op jaar.   
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
     > Jaar AantalArtikelen  
     > 2002	1  
     > 2003	1  
@@ -99,7 +102,8 @@ Geef enkel de waarden waarbij het jaar niet leeg is.
     > 2007	4  
     > 2008	4  
     > 2009	2
-18. Geef die soorten waarbij de gemiddelde voorraad > 50
+17. Geef die soorten waarbij de gemiddelde voorraad > 50   
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
     > SoortNr	GemVoorraad  
     > 1205	78.0000  
     > 1212	70.0000  
