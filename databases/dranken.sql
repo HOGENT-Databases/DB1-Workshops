@@ -1,7 +1,8 @@
-CREATE DATABASE IF NOT EXISTS Dranken;
+DROP DATABASE IF EXISTS Dranken;
+CREATE DATABASE Dranken;
+
 USE Dranken;
 
-DROP TABLE IF EXISTS Unie;
 CREATE TABLE Unie (
   ToelatingsNr INTEGER NOT NULL, 
   Naam VARCHAR(25), 
@@ -18,7 +19,6 @@ VALUES
 ,(32, 'Antwaarp Wijn', '2016', 'B. De Vilder')
 ;
 
-DROP TABLE IF EXISTS Klant;
 CREATE TABLE Klant (
   KlantNr INTEGER NOT NULL, 
   Naam VARCHAR(45), 
@@ -52,7 +52,6 @@ VALUES
 ,(1090, 'Wijnhandel Puerta del Sol', 'Bootlaan 1', '2100', 'Deurne', 'A', null)
 ;
 
-DROP TABLE IF EXISTS ProductGroep;
 CREATE TABLE ProductGroep (
   ProductGroepNr TINYINT NOT NULL, 
   ProductNaam VARCHAR(20), 
@@ -74,7 +73,6 @@ VALUES
 ,(51, 'Rose')
 ;
 
-DROP TABLE IF EXISTS Soort;
 CREATE TABLE Soort (
   SoortNr INTEGER NOT NULL, 
   ProductGroepNr TINYINT , 
@@ -151,7 +149,6 @@ VALUES
 ,(4009, 20, 'Four Roses', NULL, 40)
 ;
 
-DROP TABLE IF EXISTS Artikel;
 CREATE TABLE Artikel (
   ArtikelNr INTEGER NOT NULL, 
   SoortNr INTEGER,
@@ -227,9 +224,6 @@ VALUES
 ,(10859, 2136, 2016, .75, 7.99, 20)
 ;
 
-
-
-DROP TABLE IF EXISTS Factuur;
 CREATE TABLE Factuur (
   FactuurNr INTEGER NOT NULL, 
   KlantNr INTEGER,
@@ -268,7 +262,6 @@ VALUES
 ,(173125, 1030, '2017-10-26 00:00:00')
 ;
 
-DROP TABLE IF EXISTS FactuurRegel;
 CREATE TABLE FactuurRegel (
   FactuurNr INTEGER NOT NULL, 
   ArtikelNr INTEGER NOT NULL,
