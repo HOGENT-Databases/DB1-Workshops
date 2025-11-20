@@ -109,6 +109,11 @@ Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
     > 1212	70.0000  
     > 2140	65.0000  
     > 3101	177.0000
+18. Geef de provincies met 3 of meer klanten die aangesloten zijn bij een unie.   
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
+    > Provincie 	Aantal klanten  
+    >  OVL			9  
+    > WVL			3  
 
 ### Oplossing
 Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/dranken/exercise-2.md)

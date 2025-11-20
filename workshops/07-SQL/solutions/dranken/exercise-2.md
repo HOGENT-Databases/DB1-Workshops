@@ -36,13 +36,14 @@
     GROUP BY plaats 
     ORDER BY COUNT(*), plaats;
     ```
-5. Geef de unie’s met 4 of meer leden (klanten records Toon het aantal leden per unie. 
+5. Geef de unie’s met 4 of meer leden (klanten records)  
+Toon het aantal leden per unie. 
     > resultaat: 3
     ```sql
-    SELECT unie, COUNT(klantnr)
+    SELECT unie, COUNT(*)
     FROM klant 
     GROUP BY unie
-    HAVING COUNT(klantnr) >= 4;
+    HAVING COUNT(*) >= 4;
     ```
 6. Hoeveel klanten behoren tot geen enkele unie? 
     > resultaat: 3
@@ -56,17 +57,17 @@
     > WVL	4  
     > A	    3
     ```sql
-    SELECT Provincie, COUNT(KlantNr)
+    SELECT Provincie, COUNT(*)
     FROM klant
     GROUP BY Provincie;
     ```
 8. Geef het aantal klanten per plaats, maar geef enkel plaatsen met meer dan 3 klanten   
     > Gent	4
     ```sql
-    SELECT Plaats, COUNT(KlantNr)
+    SELECT Plaats, COUNT(*)
     FROM klant
     GROUP BY Plaats
-    HAVING COUNT(KlantNr) > 3;
+    HAVING COUNT(*) > 3;
     ```
 9. Geef het aantal unieke postcodes per provincie.   
 Sorteer oplopend op aantal.
@@ -90,11 +91,11 @@ Sorteer oplopend op aantal.
     > Wit	13  
     > Rood	21
     ```sql
-    SELECT Kleur, COUNT(SoortNr)
+    SELECT Kleur, COUNT(*)
     FROM soort
     WHERE Kleur IS NOT NULL
     GROUP BY Kleur
-    ORDER BY COUNT(SoortNr);
+    ORDER BY COUNT(*);
     ```
 11. Geef het gemiddelde alcoholpercentage per kleur.  
 Sorteer alfabetisch op kleur.  
@@ -121,10 +122,10 @@ Geef enkel groepen met 3 of meer soorten.
     > 34	5  
     > 50	32
     ```sql
-    SELECT ProductGroepNr, COUNT(SoortNr)
+    SELECT ProductGroepNr, COUNT(*)
     FROM soort
     GROUP BY ProductGroepNr
-    HAVING COUNT(SoortNr) >= 3;
+    HAVING COUNT(*) >= 3;
     ```
 13. Geef het minimum en maximum alcoholpercentage per kleur.
 Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
@@ -183,7 +184,7 @@ Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).    > Jaar Aanta
     > 2008	4  
     > 2009	2
     ```sql
-    SELECT Jaar, COUNT(ArtikelNr) AS AantalArtikelen
+    SELECT Jaar, COUNT(*) AS AantalArtikelen
     FROM artikel
     WHERE Jaar IS NOT NULL
     GROUP BY Jaar
@@ -200,6 +201,19 @@ Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).    > Jaar Aanta
     FROM artikel
     GROUP BY SoortNr
     HAVING AVG(Voorraad)>50;
+    ```
+
+18. Geef de provincies met 3 of meer klanten die aangesloten zijn bij een unie.   
+Geef de kolommen een duidelijke hoofding (zie voorbeelduitvoer).
+    > Provincie 	Aantal klanten  
+    >  OVL			9  
+    > WVL			3  
+    ```sql
+    SELECT Provincie, COUNT(*) AS 'Aantal klanten'
+    FROM klant
+    WHERE Unie IS NOT NULL
+    GROUP BY Provincie
+    HAVING COUNT(*) >= 3;
     ```
 
 ## Oefeningen
