@@ -5,8 +5,7 @@
     <img width="75%"  src="../../images/diagram-dranken.jpg" alt="Diagram Dranken.db">
 </p>
 
-> Meer informatie over de databank kan je [hier](structure.md) vinden.
-
+> Meer informatie over de databank kan je [hier](../../exercises/dranken/structure.md) vinden.
 ## Oplossingen 3 - Combineren
 
 1. Tot welke unie behoort Wijnhuis Tinto? Geef de naam van de unie en het oprichtingsjaar.
