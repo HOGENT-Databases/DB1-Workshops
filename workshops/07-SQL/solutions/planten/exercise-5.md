@@ -1,6 +1,6 @@
 # 06 - Workshop SQL : Planten
 
-## Oplossingen 4 - Manipuleren
+## Oplossingen 5 - Manipuleren
 1. Voeg als kleuren appelblauwzeegroen en zwart toe.
     ```sql
     INSERT INTO kleuren(kleur) VALUES('appelblauwzeegroen') 

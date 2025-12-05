@@ -7,7 +7,7 @@
 
 > Meer informatie over de databank kan je [hier](structure.md) vinden.
 
-## Oplossingen 4 - Manipuleren
+## Oplossingen 5 - Manipuleren
 
 1. Maak een nieuwe tabel Producent aan.
 

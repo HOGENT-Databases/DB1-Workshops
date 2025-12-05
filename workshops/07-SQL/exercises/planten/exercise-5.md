@@ -7,7 +7,7 @@
 
 > Meer informatie over de databank kan je [hier](structure.md) vinden.
 
-## Oefening 4 - Manipuleren
+## Oefening 5 - Manipuleren
 
 1. Voeg als kleuren appelblauwzeegroen en zwart toe.
 2. Voeg als soorten vet en naald toe.
@@ -20,4 +20,4 @@
 9. Verwijder alle planten.
 
 ### Oplossing
-Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/planten/exercise-4.md)
+Een mogelijke oplossing voor deze oefening vind je [hier](/workshops/07-SQL/solutions/planten/exercise-5.md)
