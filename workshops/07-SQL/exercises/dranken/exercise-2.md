@@ -16,7 +16,7 @@ Geef de kolom een duidelijke hoofding.
     > 3 records
 3. Hoeveel flessen zijn er op dit moment in voorraad?  
 Geef de kolom een duidelijke hoofding.
-    > 1258 records
+    > 1258 flessen
 4. Geef per plaats het aantal klanten.   
 Druk plaatsnaam en aantal af op volgorde van oplopend aantal.   
 Bij gelijk aantal sorteren op plaatsnaam. 
