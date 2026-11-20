@@ -189,12 +189,12 @@
 14. Hoeveel verschillen de gehanteerde bestelprijzen met de huidige offerteprijzen bij dezelfde leverancier. Toon telkens bestelnummer, artikelcode en het positieve of negatieve verschil.
     > 92 records
     ```sql
-    SELECT b.bestelnr, o.artcodeLev, (prijs - offerteprijs) AS verschil 
-    FROM offertes 0
-        JOIN leveranciers l ON b.levcode = o.levcode
-        JOIN bestellingen b ON l.levcode = b.levcode 
+    SELECT b.bestelnr, bl.artcodeLev, (bl.prijs - o.offerteprijs) AS verschil
+    FROM offertes o
+        JOIN leveranciers l ON o.levcode = l.levcode
+        JOIN bestellingen b ON l.levcode = b.levcode
         JOIN bestellijnen bl ON bl.bestelnr = b.bestelnr
-        WHERE bl.artcodeLev = o.artcodeLev;
+    WHERE bl.artcodeLev = o.artcodeLev;
     ```
 15. Toon een lijst met bestelnummers, leverancierscode en besteldatum en zorg ervoor dat de de lijst ook de leveranciers bevat waarvoor nog geen bestelling geplaatst werd.
     > 17 records
